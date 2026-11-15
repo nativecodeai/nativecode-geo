@@ -1,0 +1,30 @@
+name: Opacity probe
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        default: "https://www.nativecode.ai/"
+      selector:
+        default: ".ds-card .ds-eyebrow"
+      width:
+        default: "1440"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: agentic-dom
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npx tsx src/probe-opacity.ts "$URL" "$SEL" "$W"
+        env:
+          URL: ${{ inputs.url }}
+          SEL: ${{ inputs.selector }}
+          W: ${{ inputs.width }}
