@@ -19,7 +19,8 @@ async function visible(page: Page, sel: string) {
   const d = await browser.newPage({ viewport: { width: 1440, height: 900 } });
   const errs: string[] = [];
   d.on("pageerror", (e) => errs.push(e.message));
-  await d.goto(base + path, { waitUntil: "networkidle" });
+  await d.goto(base + path, { waitUntil: "load" });
+  await d.waitForTimeout(1500);
   const tabs = await d.$$eval(".mm-tab", (els) => els.map((e) => e.textContent?.trim()));
   check(tabs.length === 4, `desktop tabs: ${tabs.join(" | ")}`);
   check(await d.$("#ncmm-css") !== null, "css script injected");
@@ -53,7 +54,8 @@ async function visible(page: Page, sel: string) {
 
   // Mobile
   const m = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
-  await m.goto(base + path, { waitUntil: "networkidle" });
+  await m.goto(base + path, { waitUntil: "load" });
+  await m.waitForTimeout(1500);
   check(!(await visible(m, "#mm-wrap")), "mobile drawer closed on load");
   await m.screenshot({ path: `${out}/mobile-closed.png` });
   await m.tap(".ds-nav-menu");
