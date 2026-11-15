@@ -7,6 +7,9 @@ on:
         default: "https://nativecodeai.webflow.io"
       path:
         default: "/"
+      shot:
+        description: "If set, only take full-page screenshots of this URL"
+        default: ""
 
 jobs:
   check:
@@ -23,8 +26,9 @@ jobs:
           node-version: 22
       - run: npm ci
       - run: npx playwright install --with-deps chromium
-      - run: npx tsx src/menu-check.ts "$BASE" "$P"
+      - run: if [ -n "$SHOT" ]; then npx tsx src/shot.ts "$SHOT"; else npx tsx src/menu-check.ts "$BASE" "$P"; fi
         env:
+          SHOT: ${{ inputs.shot }}
           BASE: ${{ inputs.base }}
           P: ${{ inputs.path }}
       - uses: actions/upload-artifact@v4
