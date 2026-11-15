@@ -11,9 +11,11 @@ import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { StdioClientTransport } from "@modelcontextprotocol/sdk/client/stdio.js";
 import { StreamableHTTPClientTransport } from "@modelcontextprotocol/sdk/client/streamableHttp.js";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
-import { SampleAuditDataSource } from "../src/data/sample-source.js";
+import { SampleAuditDataSource } from "../src/probes/data/sample-source.js";
+import { AuditClient } from "../src/live/audit-client.js";
 import { createServer } from "../src/server.js";
 import { httpServer } from "../src/http.js";
+import { mockAuditFetch } from "./mock-audit-api.js";
 
 type Json = Record<string, any>;
 
@@ -23,11 +25,11 @@ async function call(client: Client, name: string, args: Json = {}) {
   return { isError: Boolean(res.isError), text, data: res.isError ? undefined : (JSON.parse(text) as Json) };
 }
 
-describe("in-memory transport", () => {
+describe("citation probe preview tools", () => {
   let client: Client;
 
   before(async () => {
-    const server = createServer(new SampleAuditDataSource());
+    const server = createServer({ auditClient: new AuditClient({ fetchImpl: mockAuditFetch().fetch }), probeSource: new SampleAuditDataSource() });
     const [clientT, serverT] = InMemoryTransport.createLinkedPair();
     client = new Client({ name: "test", version: "1.0.0" });
     await Promise.all([server.connect(serverT), client.connect(clientT)]);
@@ -35,17 +37,23 @@ describe("in-memory transport", () => {
 
   after(() => client.close());
 
-  test("lists all tools, resources, templates, and prompts", async () => {
-    const tools = (await client.listTools()).tools.map((t) => t.name).sort();
-    assert.deepEqual(tools, ["compare_brands", "get_ai_visibility", "get_citation_sources", "get_share_of_model_voice", "list_tracked_brands"]);
+  test("lists live and preview tools, resources, templates, and prompts", async () => {
+    const tools = (await client.listTools()).tools;
+    assert.deepEqual(tools.map((t) => t.name).sort(), [
+      "audit_site", "compare_brands", "compare_sites", "get_ai_search_readiness", "get_ai_visibility",
+      "get_citation_sources", "get_fix_plan", "get_saved_report", "get_share_of_model_voice", "list_tracked_brands",
+    ]);
+    for (const t of tools.filter((t) => ["get_ai_visibility", "compare_brands", "get_citation_sources", "get_share_of_model_voice", "list_tracked_brands"].includes(t.name))) {
+      assert.match(t.description ?? "", /^PREVIEW, sample data/, `${t.name} must be labeled as preview`);
+    }
     const resources = (await client.listResources()).resources.map((r) => r.uri);
-    assert.ok(resources.includes("nativecode://brands"));
     assert.ok(resources.includes("nativecode://methodology"));
-    assert.ok(resources.includes("nativecode://brands/larkmail/report"));
-    const templates = (await client.listResourceTemplates()).resourceTemplates.map((t) => t.uriTemplate);
-    assert.deepEqual(templates, ["nativecode://brands/{brand}/report"]);
+    assert.ok(resources.includes("nativecode://probes/brands"));
+    assert.ok(resources.includes("nativecode://probes/brands/larkmail/report"));
+    const templates = (await client.listResourceTemplates()).resourceTemplates.map((t) => t.uriTemplate).sort();
+    assert.deepEqual(templates, ["nativecode://audit/{domain}", "nativecode://probes/brands/{brand}/report"]);
     const prompts = (await client.listPrompts()).prompts.map((p) => p.name).sort();
-    assert.deepEqual(prompts, ["audit_brand_visibility", "competitive_gap_analysis"]);
+    assert.deepEqual(prompts, ["ai_search_audit", "audit_brand_visibility", "competitive_gap_analysis"]);
   });
 
   test("list_tracked_brands returns both categories and flags sample data", async () => {
@@ -130,11 +138,11 @@ describe("in-memory transport", () => {
   });
 
   test("brand report resource renders Markdown", async () => {
-    const res = await client.readResource({ uri: "nativecode://brands/inboxium/report" });
+    const res = await client.readResource({ uri: "nativecode://probes/brands/inboxium/report" });
     const text = (res.contents[0] as { text: string }).text;
     assert.match(text, /# AI Visibility Report: Inboxium/);
     assert.match(text, /\| Perplexity \|/);
-    assert.match(text, /Sample data/);
+    assert.match(text, /Preview: citation probes are not live/);
   });
 
   test("prompts render with arguments", async () => {
@@ -176,7 +184,9 @@ describe("streamable HTTP transport", () => {
   test("health endpoint responds", async () => {
     const res = await fetch(new URL("/health", baseUrl));
     assert.equal(res.status, 200);
-    assert.equal((await res.json()).ok, true);
+    const body = await res.json();
+    assert.equal(body.ok, true);
+    assert.equal(body.audit_api, "https://app.nativecode.ai");
   });
 
   test("remote client can call tools", async () => {

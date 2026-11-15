@@ -11,13 +11,13 @@
  */
 import { createServer as createHttpServer, type IncomingMessage, type ServerResponse } from "node:http";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
-import { createDataSource } from "./data/index.js";
+import { configFromEnv } from "./config.js";
 import { createServer, SERVER_NAME, SERVER_VERSION } from "./server.js";
 
 const PORT = Number(process.env.PORT ?? 3000);
 const AUTH_TOKEN = process.env.MCP_AUTH_TOKEN;
 const MAX_BODY_BYTES = 1_000_000;
-const source = createDataSource();
+const options = configFromEnv();
 
 function sendJson(res: ServerResponse, status: number, body: unknown) {
   res.writeHead(status, { "Content-Type": "application/json" });
@@ -39,7 +39,7 @@ export const httpServer = createHttpServer(async (req, res) => {
   const url = new URL(req.url ?? "/", "http://localhost");
 
   if (url.pathname === "/health") {
-    return sendJson(res, 200, { ok: true, server: SERVER_NAME, version: SERVER_VERSION, data: source.name, sample: source.isSample });
+    return sendJson(res, 200, { ok: true, server: SERVER_NAME, version: SERVER_VERSION, audit_api: options.auditClient.baseUrl, probes: options.probeSource ? "preview (sample data)" : "off" });
   }
   if (url.pathname !== "/mcp") return sendJson(res, 404, { error: "Not found. MCP endpoint is POST /mcp." });
 
@@ -53,7 +53,7 @@ export const httpServer = createHttpServer(async (req, res) => {
 
   try {
     const body = await readJson(req);
-    const server = createServer(source);
+    const server = createServer(options);
     const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
     res.on("close", () => {
       void transport.close();
@@ -72,6 +72,6 @@ export const httpServer = createHttpServer(async (req, res) => {
 // Start only when run directly (tests import httpServer and listen themselves).
 if (import.meta.url === `file://${process.argv[1]}`) {
   httpServer.listen(PORT, () => {
-    console.error(`nativecode-audit MCP server on http://localhost:${PORT}/mcp (data: ${source.name})`);
+    console.error(`nativecode-audit MCP server on http://localhost:${PORT}/mcp (audit: ${options.auditClient.baseUrl})`);
   });
 }

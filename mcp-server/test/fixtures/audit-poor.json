@@ -1,0 +1,633 @@
+{
+  "report": {
+    "version": 2,
+    "domain": "127.0.0.1",
+    "generatedAt": "2026-11-15T02:10:46.244Z",
+    "inputs": {
+      "domain": "127.0.0.1",
+      "industry": "General",
+      "businessModel": "leadgen",
+      "monthlyOrganicSessions": 5000,
+      "averageOrderValue": 250,
+      "conversionRate": 3,
+      "averageCpc": 2.5,
+      "brandedShare": 0.35,
+      "competitor": null,
+      "provided": {
+        "monthlyOrganicSessions": false,
+        "averageOrderValue": false,
+        "conversionRate": false,
+        "averageCpc": false,
+        "competitor": false,
+        "industry": false
+      }
+    },
+    "overallScore": 11,
+    "tier": "Needs Foundation",
+    "seo": {
+      "score": 17,
+      "measured": 8,
+      "total": 10,
+      "factors": [
+        {
+          "id": "indexability",
+          "label": "Indexability",
+          "status": "measured",
+          "score": 60,
+          "finding": "The homepage is indexable, but the canonical or language signals are missing.",
+          "evidence": "HTTP 200; canonical missing; meta robots not set"
+        },
+        {
+          "id": "pagespeed",
+          "label": "Page Speed Readiness",
+          "status": "unavailable",
+          "score": null,
+          "finding": "PageSpeed Insights did not return a reading for this run.",
+          "reason": "api-unavailable"
+        },
+        {
+          "id": "metadata",
+          "label": "Metadata Quality",
+          "status": "measured",
+          "score": 25,
+          "finding": "Core page metadata is missing or truncated on the homepage.",
+          "evidence": "title 4 chars; description 0 chars; open graph missing"
+        },
+        {
+          "id": "internal-linking",
+          "label": "Internal Linking",
+          "status": "measured",
+          "score": 0,
+          "finding": "The homepage links out thinly, so authority is not reaching deeper pages.",
+          "evidence": "2 internal links, 0 with descriptive anchor text, 2 to deeper pages"
+        },
+        {
+          "id": "content-depth",
+          "label": "Content Depth",
+          "status": "measured",
+          "score": 0,
+          "finding": "Pages are thin. There is not enough substance for a search or answer engine to work with.",
+          "evidence": "90 words and 0 headings per page across 1 page(s)"
+        },
+        {
+          "id": "schema-seo",
+          "label": "Schema Presence",
+          "status": "measured",
+          "score": 0,
+          "finding": "No structured data was found on the pages sampled. Rich results and machine understanding are both off the table.",
+          "evidence": "0 JSON-LD blocks"
+        },
+        {
+          "id": "mobile-ux",
+          "label": "Mobile UX",
+          "status": "measured",
+          "score": 0,
+          "finding": "The page is missing the basics of a mobile-ready document.",
+          "evidence": "viewport missing; 0/1 images carry alt text"
+        },
+        {
+          "id": "crawlability",
+          "label": "Technical Crawlability",
+          "status": "measured",
+          "score": 50,
+          "finding": "The crawl path has gaps: the site is not served over HTTPS; there is no sitemap.xml; robots.txt does not point at a sitemap.",
+          "evidence": "robots.txt present; sitemap.xml missing; sitemap declared in robots.txt: no"
+        },
+        {
+          "id": "architecture",
+          "label": "Site Architecture",
+          "status": "measured",
+          "score": 0,
+          "finding": "The site's shape is hard to read. There is little hub structure for engines to follow.",
+          "evidence": "0 URLs in the sitemap, median depth n/a; 2 top-level sections linked from the homepage"
+        },
+        {
+          "id": "keyword-footprint",
+          "label": "Keyword Footprint",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring ranked keyword coverage needs third-party rank data, which this tier does not call.",
+          "reason": "needs-rank-data"
+        }
+      ]
+    },
+    "aeo": {
+      "score": 4,
+      "measured": 10,
+      "total": 10,
+      "factors": [
+        {
+          "id": "direct-answers",
+          "label": "Direct-Answer Formatting",
+          "status": "measured",
+          "score": 10,
+          "finding": "No question-shaped headings were found, so there is nothing for an engine to lift a direct answer from.",
+          "evidence": "0 of 0 question headings are followed by a 40-320 character answer block"
+        },
+        {
+          "id": "faq",
+          "label": "FAQ Sections",
+          "status": "measured",
+          "score": 0,
+          "finding": "There is no FAQ structure an engine can parse.",
+          "evidence": "FAQPage schema absent; 0 question headings; 0 FAQ URL(s) in the sitemap"
+        },
+        {
+          "id": "definitions",
+          "label": "Definitions & Glossary",
+          "status": "measured",
+          "score": 0,
+          "finding": "Nothing on the site defines its own terms, so the engine has to source definitions elsewhere.",
+          "evidence": "0 definition heading(s), 0 definition list(s), 0 glossary URL(s)"
+        },
+        {
+          "id": "comparison",
+          "label": "Comparison Content",
+          "status": "measured",
+          "score": 0,
+          "finding": "There is no comparison content, which is most of what buyers ask an AI assistant for.",
+          "evidence": "0 comparison heading(s), 0 comparison URL(s), 0 table(s)"
+        },
+        {
+          "id": "howto",
+          "label": "How-To Content",
+          "status": "measured",
+          "score": 0,
+          "finding": "No procedural content was found. How-to queries are a large share of AI prompts.",
+          "evidence": "HowTo schema absent; 0 how-to heading(s); 0 ordered list(s)"
+        },
+        {
+          "id": "entity-clarity",
+          "label": "Entity Clarity",
+          "status": "measured",
+          "score": 0,
+          "finding": "An engine cannot tell with confidence who this brand is, which suppresses citation.",
+          "evidence": "Organization schema absent; 0 sameAs link(s); about page not linked from the homepage"
+        },
+        {
+          "id": "author-signals",
+          "label": "Author / Editor Signals",
+          "status": "measured",
+          "score": 0,
+          "finding": "Content is unattributed. Engines weight authorship heavily when deciding what to quote.",
+          "evidence": "0 Person node(s), 0 authored item(s), 0 author link(s), 0 content date(s)"
+        },
+        {
+          "id": "citations",
+          "label": "Source Citations",
+          "status": "measured",
+          "score": 0,
+          "finding": "Claims are made without sources. Unsourced pages are rarely the ones an engine quotes.",
+          "evidence": "0 outbound link(s), 0 to primary or authoritative domains"
+        },
+        {
+          "id": "content-structure",
+          "label": "Content Structure",
+          "status": "measured",
+          "score": 25,
+          "finding": "The document outline is broken, which makes reliable extraction difficult.",
+          "evidence": "0 h1; 0 headings; no skipped levels; 0 list/table element(s)"
+        },
+        {
+          "id": "question-coverage",
+          "label": "Question-Query Coverage",
+          "status": "measured",
+          "score": 0,
+          "finding": "The site barely addresses question-shaped queries, which is how people prompt AI.",
+          "evidence": "0 question heading(s); 0 question-shaped URL(s) in the sitemap"
+        }
+      ]
+    },
+    "geo": {
+      "score": 9,
+      "measured": 7,
+      "total": 10,
+      "factors": [
+        {
+          "id": "ai-crawler-access",
+          "label": "AI Crawler Accessibility",
+          "status": "measured",
+          "score": 48,
+          "finding": "robots.txt blocks 3 of 4 AI search crawlers: OAI-SearchBot, Claude-SearchBot, PerplexityBot. Each one is an engine that cannot cite this site, however good the page is.",
+          "evidence": "3 of 8 retrieval crawlers blocked. 3 training crawler(s) blocked (GPTBot, ClaudeBot, CCBot): that is a business decision and is not scored here."
+        },
+        {
+          "id": "llms-txt",
+          "label": "llms.txt Readiness",
+          "status": "measured",
+          "score": 0,
+          "finding": "No llms.txt was found. Adoption is still early and engines do not require it, but it is a cheap, direct way to tell them which pages to read.",
+          "evidence": "GET /llms.txt did not return a document"
+        },
+        {
+          "id": "structured-data-geo",
+          "label": "Structured Data Coverage",
+          "status": "measured",
+          "score": 0,
+          "finding": "There is not enough structured data for an engine to resolve what this site is about.",
+          "evidence": "0 distinct type(s); 0 node(s) with @id; 0 sameAs link(s)"
+        },
+        {
+          "id": "eeat",
+          "label": "E-E-A-T Signals",
+          "status": "measured",
+          "score": 0,
+          "finding": "Trust signals are largely absent. Engines have little reason to treat this site as authoritative.",
+          "evidence": "author markup no; about no; contact no; content dates no"
+        },
+        {
+          "id": "brand-entity",
+          "label": "Brand Entity Strength",
+          "status": "measured",
+          "score": 0,
+          "finding": "The brand is not reconciled to any knowledge base, so engines treat it as an unknown string.",
+          "evidence": "0 sameAs link(s), 0 to a knowledge base or major profile"
+        },
+        {
+          "id": "citation-likelihood",
+          "label": "Citation Likelihood",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring whether engines actually cite this site needs live prompt testing, which this tier does not run.",
+          "reason": "needs-ai-probes"
+        },
+        {
+          "id": "freshness",
+          "label": "Content Freshness",
+          "status": "measured",
+          "score": 15,
+          "finding": "Nothing on the site declares when it was published or last updated, so engines cannot tell whether it is current.",
+          "evidence": "no dateModified, datePublished or lastmod values found"
+        },
+        {
+          "id": "query-coverage-geo",
+          "label": "AI Query Coverage",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring coverage of the prompts people actually use needs live prompt testing, which this tier does not run.",
+          "reason": "needs-ai-probes"
+        },
+        {
+          "id": "competitor-displacement",
+          "label": "Competitor Displacement Opportunity",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring displaceable positions needs third-party rank and citation data, which this tier does not call.",
+          "reason": "needs-rank-data"
+        },
+        {
+          "id": "citable-blocks",
+          "label": "AI-Citable Content Blocks",
+          "status": "measured",
+          "score": 0,
+          "finding": "Content runs in long blocks with nothing an engine can lift cleanly.",
+          "evidence": "0 of 1 paragraphs are quotable length; 0 table(s), 0 list(s), 0 definition list(s)"
+        }
+      ]
+    },
+    "valueCaptureScore": null,
+    "trafficValue": {
+      "monthlyMediaValue": 9438,
+      "annualMediaValue": 113250,
+      "monthlyRevenueValue": 37500,
+      "annualRevenueValue": 450000,
+      "monthlyTrafficValue": 46938,
+      "estimatedAnnualOrganicValue": 563250,
+      "estimatedMissedOpportunity": 466653
+    },
+    "estimatedAnnualOpportunity": 466653,
+    "recommendations": [
+      {
+        "id": "comparison",
+        "title": "Build 'best / vs / alternative' comparison pages",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Revenue",
+        "effort": "Medium",
+        "why": "Comparison queries are high-intent and disproportionately surfaced in AI answers.",
+        "fix": "Create objective comparison pages targeting your category's buying queries.",
+        "factorScore": 0
+      },
+      {
+        "id": "internal-linking",
+        "title": "Route authority to priority pages with internal links",
+        "priority": "Critical",
+        "category": "SEO",
+        "impact": "Visibility",
+        "effort": "Medium",
+        "why": "A flat link graph starves your most important pages of authority.",
+        "fix": "Add contextual links from high-authority pages into priority hubs and money pages.",
+        "factorScore": 0
+      },
+      {
+        "id": "content-depth",
+        "title": "Close topical depth gaps on core commercial topics",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Visibility",
+        "effort": "High",
+        "why": "Thin coverage loses to competitors on both classic search and AI answers.",
+        "fix": "Build topical hubs around high-value services and expand coverage to match search intent.",
+        "factorScore": 0
+      },
+      {
+        "id": "schema-seo",
+        "title": "Deploy structured data across core templates",
+        "priority": "Critical",
+        "category": "Technical",
+        "impact": "AI Citation Readiness",
+        "effort": "Medium",
+        "why": "Schema makes your content machine-readable for both Google rich results and AI engines.",
+        "fix": "Add Organization, Product/Service, Article and Breadcrumb JSON-LD to the right templates.",
+        "factorScore": 0
+      },
+      {
+        "id": "architecture",
+        "title": "Restructure into clear topical hubs",
+        "priority": "Critical",
+        "category": "SEO",
+        "impact": "Visibility",
+        "effort": "High",
+        "why": "A coherent architecture compounds — every new page reinforces the foundation.",
+        "fix": "Define hub-and-spoke taxonomy with clean URLs and consistent internal pathways.",
+        "factorScore": 0
+      },
+      {
+        "id": "faq",
+        "title": "Add FAQ sections with FAQPage schema",
+        "priority": "Critical",
+        "category": "AEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "FAQs map directly to the question-shaped queries AI engines answer.",
+        "fix": "Add genuine, intent-driven FAQs to core pages and mark them up with FAQPage.",
+        "factorScore": 0
+      },
+      {
+        "id": "definitions",
+        "title": "Publish definitions with DefinedTerm signals",
+        "priority": "Critical",
+        "category": "AEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Medium",
+        "why": "Engines need clean definitions to understand the entities in your space.",
+        "fix": "Create glossary/definition blocks for core terms and mark them with DefinedTerm.",
+        "factorScore": 0
+      },
+      {
+        "id": "howto",
+        "title": "Structure how-to content into clear steps",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Visibility",
+        "effort": "Medium",
+        "why": "Step-structured procedures are easy for engines to extract and cite.",
+        "fix": "Convert procedural content into numbered steps with optional HowTo markup.",
+        "factorScore": 0
+      },
+      {
+        "id": "entity-clarity",
+        "title": "Sharpen entity signals across the site",
+        "priority": "Critical",
+        "category": "AEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Medium",
+        "why": "If engines can't tell who you are, they won't cite you with confidence.",
+        "fix": "Standardize naming, about pages and on-page entity references site-wide.",
+        "factorScore": 0
+      },
+      {
+        "id": "author-signals",
+        "title": "Add author bios, credentials and review signals",
+        "priority": "Critical",
+        "category": "Authority",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "Authorship and expertise are core trust inputs for both Google and AI engines.",
+        "fix": "Attach credentialed author bios and reviewer signals to substantive content.",
+        "factorScore": 0
+      },
+      {
+        "id": "citations",
+        "title": "Cite primary sources in substantive content",
+        "priority": "Critical",
+        "category": "Authority",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "Well-sourced content is more trustworthy to cite than unsupported claims.",
+        "fix": "Reference primary data and authoritative sources where you make claims.",
+        "factorScore": 0
+      },
+      {
+        "id": "question-coverage",
+        "title": "Cover conversational question queries",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Visibility",
+        "effort": "Medium",
+        "why": "AI search is question-led; head-term-only content misses the real demand.",
+        "fix": "Map and answer how/why/what/vs questions around your core topics.",
+        "factorScore": 0
+      },
+      {
+        "id": "llms-txt",
+        "title": "Publish and maintain llms.txt",
+        "priority": "Critical",
+        "category": "GEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "llms.txt guides AI engines to your most important, citable content.",
+        "fix": "Create an llms.txt indexing key pages and keep it current as content ships.",
+        "factorScore": 0
+      },
+      {
+        "id": "structured-data-geo",
+        "title": "Expand structured-data coverage for AI",
+        "priority": "Critical",
+        "category": "GEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Medium",
+        "why": "Richer structured data improves machine understanding and citation odds.",
+        "fix": "Add interlinked entity schema (Organization, sameAs, Article, FAQ) across templates.",
+        "factorScore": 0
+      },
+      {
+        "id": "eeat",
+        "title": "Strengthen E-E-A-T signals",
+        "priority": "Critical",
+        "category": "Authority",
+        "impact": "AI Citation Readiness",
+        "effort": "Medium",
+        "why": "Experience, expertise and trust are decisive inputs for AI source selection.",
+        "fix": "Surface real experience, credentials, reviews and trust markers on key content.",
+        "factorScore": 0
+      },
+      {
+        "id": "brand-entity",
+        "title": "Build brand entity in the knowledge graph",
+        "priority": "Critical",
+        "category": "Authority",
+        "impact": "Visibility",
+        "effort": "High",
+        "why": "Recognized entities are cited; unknown brands are skipped.",
+        "fix": "Establish Wikidata presence, consistent profiles and sameAs links to anchor the entity.",
+        "factorScore": 0
+      },
+      {
+        "id": "citable-blocks",
+        "title": "Standardize AI-citable content blocks",
+        "priority": "Critical",
+        "category": "GEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Medium",
+        "why": "Consistent, quotable blocks make every page a citation candidate.",
+        "fix": "Template a reusable answer-block pattern and roll it across priority content.",
+        "factorScore": 0
+      },
+      {
+        "id": "mobile-ux",
+        "title": "Tighten the mobile experience",
+        "priority": "Critical",
+        "category": "Technical",
+        "impact": "Conversion",
+        "effort": "Low",
+        "why": "Mobile-first indexing means mobile UX is the experience that gets evaluated.",
+        "fix": "Fix tap targets, viewport and layout friction on key mobile templates.",
+        "factorScore": 0
+      },
+      {
+        "id": "direct-answers",
+        "title": "Add direct-answer blocks to money pages",
+        "priority": "Critical",
+        "category": "AEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "Answer engines lift concise, self-contained answers — bury them and you're invisible.",
+        "fix": "Place a 40–60 word direct answer near the top of each key page, then expand below.",
+        "factorScore": 10
+      },
+      {
+        "id": "freshness",
+        "title": "Establish a visible freshness cadence",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Visibility",
+        "effort": "Low",
+        "why": "AI engines favor current sources and drop stale ones from answers.",
+        "fix": "Set an update cadence and surface 'last updated' dates on evergreen pages.",
+        "factorScore": 15
+      },
+      {
+        "id": "metadata",
+        "title": "Rewrite titles and descriptions for intent and CTR",
+        "priority": "Critical",
+        "category": "SEO",
+        "impact": "Visibility",
+        "effort": "Low",
+        "why": "Metadata is the cheapest lever for click-through and intent alignment.",
+        "fix": "De-duplicate titles, align to primary intent, and write descriptions that earn the click.",
+        "factorScore": 25
+      },
+      {
+        "id": "content-structure",
+        "title": "Improve heading hierarchy and extractability",
+        "priority": "Critical",
+        "category": "AEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "Clean structure with lists and tables is far easier for engines to quote.",
+        "fix": "Enforce logical H-tags and convert dense prose into lists and comparison tables.",
+        "factorScore": 25
+      },
+      {
+        "id": "ai-crawler-access",
+        "title": "Confirm and allow AI crawler access",
+        "priority": "High",
+        "category": "GEO",
+        "impact": "Crawlability",
+        "effort": "Low",
+        "why": "Blocking AI crawlers guarantees zero AI citations — it's the first gate.",
+        "fix": "Explicitly allow GPTBot, PerplexityBot, ClaudeBot and Google-Extended in robots.txt.",
+        "factorScore": 48
+      },
+      {
+        "id": "crawlability",
+        "title": "Improve crawl efficiency and directives",
+        "priority": "High",
+        "category": "Technical",
+        "impact": "Crawlability",
+        "effort": "Low",
+        "why": "Wasted crawl budget means slower discovery of your important content.",
+        "fix": "Clean robots.txt, fix crawl traps, and keep XML sitemaps lean and current.",
+        "factorScore": 50
+      },
+      {
+        "id": "indexability",
+        "title": "Resolve index coverage and free up crawl budget",
+        "priority": "Medium",
+        "category": "Technical",
+        "impact": "Crawlability",
+        "effort": "Medium",
+        "why": "Pages that can't be indexed can't rank or be cited — this caps every other effort.",
+        "fix": "Audit noindex/robots rules and canonical logic; ensure priority templates are indexable and in the sitemap.",
+        "factorScore": 60
+      }
+    ],
+    "topFixes": [
+      {
+        "id": "comparison",
+        "title": "Build 'best / vs / alternative' comparison pages",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Revenue",
+        "effort": "Medium",
+        "why": "Comparison queries are high-intent and disproportionately surfaced in AI answers.",
+        "fix": "Create objective comparison pages targeting your category's buying queries.",
+        "factorScore": 0
+      },
+      {
+        "id": "faq",
+        "title": "Add FAQ sections with FAQPage schema",
+        "priority": "Critical",
+        "category": "AEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "FAQs map directly to the question-shaped queries AI engines answer.",
+        "fix": "Add genuine, intent-driven FAQs to core pages and mark them up with FAQPage.",
+        "factorScore": 0
+      },
+      {
+        "id": "author-signals",
+        "title": "Add author bios, credentials and review signals",
+        "priority": "Critical",
+        "category": "Authority",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "Authorship and expertise are core trust inputs for both Google and AI engines.",
+        "fix": "Attach credentialed author bios and reviewer signals to substantive content.",
+        "factorScore": 0
+      }
+    ],
+    "summary": "127.0.0.1 scores 11/100, which places it at Needs Foundation. In short, the site needs foundational work before it can compete in modern or AI-powered search. Its strongest area is technical SEO (17/100); the fastest gains are in answer engine readiness (4/100).",
+    "crawl": {
+      "finalUrl": "http://127.0.0.1:8082",
+      "httpStatus": 200,
+      "https": false,
+      "robotsTxt": true,
+      "llmsTxt": false,
+      "sitemapXml": false,
+      "pagesSampled": 1,
+      "pageSpeedApi": false,
+      "fetchedAt": "2026-11-15T02:10:46.243Z",
+      "notes": [
+        "The site answered over HTTP. HTTPS either failed or is not served.",
+        "Sampled 1 page(s); fewer than planned were reachable.",
+        "PageSpeed Insights did not answer; speed was not scored."
+      ]
+    },
+    "coverage": {
+      "measured": 25,
+      "total": 30
+    }
+  }
+}

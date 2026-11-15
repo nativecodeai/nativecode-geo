@@ -1,5 +1,5 @@
 /**
- * Live data source for the NativeCode Audit REST API.
+ * Data source for a citation-probe store exposed over REST.
  *
  * Expected endpoints (adjust paths or field mapping here if the real API differs):
  *   GET {baseUrl}/brands                       -> Brand[]
@@ -27,7 +27,7 @@ export interface ApiSourceOptions {
 }
 
 export class ApiAuditDataSource implements AuditDataSource {
-  readonly name = "NativeCode Audit API";
+  readonly name = "NativeCode citation probe API";
   readonly isSample = false;
   private readonly opts: Required<Omit<ApiSourceOptions, "apiKey">> & { apiKey?: string };
   private cache = new Map<string, { at: number; value: unknown }>();

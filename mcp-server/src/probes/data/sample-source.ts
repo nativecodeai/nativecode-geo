@@ -276,7 +276,7 @@ function generateObservations(seed = 20261102): Observation[] {
 // ---------------------------------------------------------------------------
 
 export class SampleAuditDataSource implements AuditDataSource {
-  readonly name = "NativeCode Audit sample dataset (fictional brands)";
+  readonly name = "Citation probe sample dataset (fictional brands)";
   readonly isSample = true;
   private readonly observations: Observation[];
 

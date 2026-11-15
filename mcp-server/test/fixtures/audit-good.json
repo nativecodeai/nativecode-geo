@@ -1,0 +1,423 @@
+{
+  "report": {
+    "version": 2,
+    "domain": "127.0.0.1",
+    "generatedAt": "2026-11-15T02:10:46.227Z",
+    "inputs": {
+      "domain": "127.0.0.1",
+      "industry": "General",
+      "businessModel": "ecommerce",
+      "monthlyOrganicSessions": 5000,
+      "averageOrderValue": 90,
+      "conversionRate": 2.2,
+      "averageCpc": 2.5,
+      "brandedShare": 0.35,
+      "competitor": null,
+      "provided": {
+        "monthlyOrganicSessions": false,
+        "averageOrderValue": false,
+        "conversionRate": false,
+        "averageCpc": false,
+        "competitor": false,
+        "industry": false
+      }
+    },
+    "overallScore": 83,
+    "tier": "AI-Ready Growth Engine",
+    "seo": {
+      "score": 80,
+      "measured": 8,
+      "total": 10,
+      "factors": [
+        {
+          "id": "indexability",
+          "label": "Indexability",
+          "status": "measured",
+          "score": 100,
+          "finding": "The homepage is cleanly indexable: a 200 response with a canonical and a declared language.",
+          "evidence": "HTTP 200; canonical present; meta robots not set"
+        },
+        {
+          "id": "pagespeed",
+          "label": "Page Speed Readiness",
+          "status": "unavailable",
+          "score": null,
+          "finding": "PageSpeed Insights did not return a reading for this run.",
+          "reason": "api-unavailable"
+        },
+        {
+          "id": "metadata",
+          "label": "Metadata Quality",
+          "status": "measured",
+          "score": 85,
+          "finding": "Well-formed title, description and social metadata.",
+          "evidence": "title 50 chars; description 173 chars; open graph present"
+        },
+        {
+          "id": "internal-linking",
+          "label": "Internal Linking",
+          "status": "measured",
+          "score": 80,
+          "finding": "Healthy link volume with descriptive anchors reaching deeper pages.",
+          "evidence": "15 internal links, 15 with descriptive anchor text, 15 to deeper pages"
+        },
+        {
+          "id": "content-depth",
+          "label": "Content Depth",
+          "status": "measured",
+          "score": 16,
+          "finding": "Pages are thin. There is not enough substance for a search or answer engine to work with.",
+          "evidence": "214 words and 5 headings per page across 3 page(s)"
+        },
+        {
+          "id": "schema-seo",
+          "label": "Schema Presence",
+          "status": "measured",
+          "score": 100,
+          "finding": "Broad, valid structured data across the pages sampled.",
+          "evidence": "types found: Organization, WebSite, BreadcrumbList, Article, Person, FAQPage, Question, Answer"
+        },
+        {
+          "id": "mobile-ux",
+          "label": "Mobile UX",
+          "status": "measured",
+          "score": 100,
+          "finding": "Properly configured for mobile rendering.",
+          "evidence": "viewport responsive; 2/2 images carry alt text"
+        },
+        {
+          "id": "crawlability",
+          "label": "Technical Crawlability",
+          "status": "measured",
+          "score": 80,
+          "finding": "The crawl path has gaps: the site is not served over HTTPS.",
+          "evidence": "robots.txt present; sitemap.xml valid; sitemap declared in robots.txt: yes"
+        },
+        {
+          "id": "architecture",
+          "label": "Site Architecture",
+          "status": "measured",
+          "score": 80,
+          "finding": "Logical, shallow architecture with clear top-level sections.",
+          "evidence": "16 URLs in the sitemap, median depth 2; 6 top-level sections linked from the homepage"
+        },
+        {
+          "id": "keyword-footprint",
+          "label": "Keyword Footprint",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring ranked keyword coverage needs third-party rank data, which this tier does not call.",
+          "reason": "needs-rank-data"
+        }
+      ]
+    },
+    "aeo": {
+      "score": 76,
+      "measured": 10,
+      "total": 10,
+      "factors": [
+        {
+          "id": "direct-answers",
+          "label": "Direct-Answer Formatting",
+          "status": "measured",
+          "score": 100,
+          "finding": "Questions are answered immediately, in blocks an engine can lift whole.",
+          "evidence": "12 of 12 question headings are followed by a 40-320 character answer block"
+        },
+        {
+          "id": "faq",
+          "label": "FAQ Sections",
+          "status": "measured",
+          "score": 100,
+          "finding": "FAQ content is present and marked up for direct extraction.",
+          "evidence": "FAQPage schema present; 12 question headings; 1 FAQ URL(s) in the sitemap"
+        },
+        {
+          "id": "definitions",
+          "label": "Definitions & Glossary",
+          "status": "measured",
+          "score": 44,
+          "finding": "Nothing on the site defines its own terms, so the engine has to source definitions elsewhere.",
+          "evidence": "2 definition heading(s), 1 definition list(s), 2 glossary URL(s)"
+        },
+        {
+          "id": "comparison",
+          "label": "Comparison Content",
+          "status": "measured",
+          "score": 33,
+          "finding": "There is no comparison content, which is most of what buyers ask an AI assistant for.",
+          "evidence": "1 comparison heading(s), 2 comparison URL(s), 2 table(s)"
+        },
+        {
+          "id": "howto",
+          "label": "How-To Content",
+          "status": "measured",
+          "score": 85,
+          "finding": "Procedural content is present and structured as steps.",
+          "evidence": "HowTo schema present; 2 how-to heading(s); 2 ordered list(s)"
+        },
+        {
+          "id": "entity-clarity",
+          "label": "Entity Clarity",
+          "status": "measured",
+          "score": 100,
+          "finding": "The brand is clearly described as an entity, with external corroboration.",
+          "evidence": "Organization schema present; 4 sameAs link(s); about page linked from the homepage"
+        },
+        {
+          "id": "author-signals",
+          "label": "Author / Editor Signals",
+          "status": "measured",
+          "score": 100,
+          "finding": "Content is attributed, dated and traceable to named people.",
+          "evidence": "2 Person node(s), 2 authored item(s), 1 author link(s), 4 content date(s)"
+        },
+        {
+          "id": "citations",
+          "label": "Source Citations",
+          "status": "measured",
+          "score": 37,
+          "finding": "Claims are made without sources. Unsourced pages are rarely the ones an engine quotes.",
+          "evidence": "4 outbound link(s), 2 to primary or authoritative domains"
+        },
+        {
+          "id": "content-structure",
+          "label": "Content Structure",
+          "status": "measured",
+          "score": 100,
+          "finding": "Clean heading hierarchy with lists and tables carrying structured content.",
+          "evidence": "1 h1; 6 headings; no skipped levels; 3 list/table element(s)"
+        },
+        {
+          "id": "question-coverage",
+          "label": "Question-Query Coverage",
+          "status": "measured",
+          "score": 58,
+          "finding": "Some question coverage; the long tail of real questions is mostly unaddressed.",
+          "evidence": "12 question heading(s); 3 question-shaped URL(s) in the sitemap"
+        }
+      ]
+    },
+    "geo": {
+      "score": 93,
+      "measured": 7,
+      "total": 10,
+      "factors": [
+        {
+          "id": "ai-crawler-access",
+          "label": "AI Crawler Accessibility",
+          "status": "measured",
+          "score": 100,
+          "finding": "Every AI search and retrieval crawler is allowed. Nothing in robots.txt stands between this site and an AI answer.",
+          "evidence": "0 of 8 retrieval crawlers blocked. 2 training crawler(s) blocked (GPTBot, CCBot): that is a business decision and is not scored here."
+        },
+        {
+          "id": "llms-txt",
+          "label": "llms.txt Readiness",
+          "status": "measured",
+          "score": 100,
+          "finding": "A well-formed llms.txt pointing engines at the pages that matter.",
+          "evidence": "llms.txt found: structured with headings, 7 link(s)"
+        },
+        {
+          "id": "structured-data-geo",
+          "label": "Structured Data Coverage",
+          "status": "measured",
+          "score": 100,
+          "finding": "Broad, interlinked structured data that resolves cleanly to entities.",
+          "evidence": "10 distinct type(s); 4 node(s) with @id; 4 sameAs link(s)"
+        },
+        {
+          "id": "eeat",
+          "label": "E-E-A-T Signals",
+          "status": "measured",
+          "score": 100,
+          "finding": "Clear authorship, organisational transparency and sourcing.",
+          "evidence": "author markup yes; about yes; contact yes; content dates yes"
+        },
+        {
+          "id": "brand-entity",
+          "label": "Brand Entity Strength",
+          "status": "measured",
+          "score": 90,
+          "finding": "The brand resolves to a recognised entity with external corroboration.",
+          "evidence": "4 sameAs link(s), 4 to a knowledge base or major profile"
+        },
+        {
+          "id": "citation-likelihood",
+          "label": "Citation Likelihood",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring whether engines actually cite this site needs live prompt testing, which this tier does not run.",
+          "reason": "needs-ai-probes"
+        },
+        {
+          "id": "freshness",
+          "label": "Content Freshness",
+          "status": "measured",
+          "score": 100,
+          "finding": "Content is current and consistently dated.",
+          "evidence": "most recent update 2026-11-04; 100% of sitemap entries carry a lastmod"
+        },
+        {
+          "id": "query-coverage-geo",
+          "label": "AI Query Coverage",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring coverage of the prompts people actually use needs live prompt testing, which this tier does not run.",
+          "reason": "needs-ai-probes"
+        },
+        {
+          "id": "competitor-displacement",
+          "label": "Competitor Displacement Opportunity",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring displaceable positions needs third-party rank and citation data, which this tier does not call.",
+          "reason": "needs-rank-data"
+        },
+        {
+          "id": "citable-blocks",
+          "label": "AI-Citable Content Blocks",
+          "status": "measured",
+          "score": 61,
+          "finding": "Some content is quotable; most of it still has to be summarised to be used.",
+          "evidence": "14 of 17 paragraphs are quotable length; 2 table(s), 1 list(s), 1 definition list(s)"
+        }
+      ]
+    },
+    "valueCaptureScore": null,
+    "trafficValue": {
+      "monthlyMediaValue": 9438,
+      "annualMediaValue": 113250,
+      "monthlyRevenueValue": 9900,
+      "annualRevenueValue": 118800,
+      "monthlyTrafficValue": 19338,
+      "estimatedAnnualOrganicValue": 232050,
+      "estimatedMissedOpportunity": 83654
+    },
+    "estimatedAnnualOpportunity": 83654,
+    "recommendations": [
+      {
+        "id": "content-depth",
+        "title": "Close topical depth gaps on core commercial topics",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Visibility",
+        "effort": "High",
+        "why": "Thin coverage loses to competitors on both classic search and AI answers.",
+        "fix": "Build topical hubs around high-value services and expand coverage to match search intent.",
+        "factorScore": 16
+      },
+      {
+        "id": "comparison",
+        "title": "Build 'best / vs / alternative' comparison pages",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Revenue",
+        "effort": "Medium",
+        "why": "Comparison queries are high-intent and disproportionately surfaced in AI answers.",
+        "fix": "Create objective comparison pages targeting your category's buying queries.",
+        "factorScore": 33
+      },
+      {
+        "id": "citations",
+        "title": "Cite primary sources in substantive content",
+        "priority": "High",
+        "category": "Authority",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "Well-sourced content is more trustworthy to cite than unsupported claims.",
+        "fix": "Reference primary data and authoritative sources where you make claims.",
+        "factorScore": 37
+      },
+      {
+        "id": "definitions",
+        "title": "Publish definitions with DefinedTerm signals",
+        "priority": "High",
+        "category": "AEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Medium",
+        "why": "Engines need clean definitions to understand the entities in your space.",
+        "fix": "Create glossary/definition blocks for core terms and mark them with DefinedTerm.",
+        "factorScore": 44
+      },
+      {
+        "id": "question-coverage",
+        "title": "Cover conversational question queries",
+        "priority": "Medium",
+        "category": "Content",
+        "impact": "Visibility",
+        "effort": "Medium",
+        "why": "AI search is question-led; head-term-only content misses the real demand.",
+        "fix": "Map and answer how/why/what/vs questions around your core topics.",
+        "factorScore": 58
+      },
+      {
+        "id": "citable-blocks",
+        "title": "Standardize AI-citable content blocks",
+        "priority": "Medium",
+        "category": "GEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Medium",
+        "why": "Consistent, quotable blocks make every page a citation candidate.",
+        "fix": "Template a reusable answer-block pattern and roll it across priority content.",
+        "factorScore": 61
+      }
+    ],
+    "topFixes": [
+      {
+        "id": "comparison",
+        "title": "Build 'best / vs / alternative' comparison pages",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Revenue",
+        "effort": "Medium",
+        "why": "Comparison queries are high-intent and disproportionately surfaced in AI answers.",
+        "fix": "Create objective comparison pages targeting your category's buying queries.",
+        "factorScore": 33
+      },
+      {
+        "id": "citations",
+        "title": "Cite primary sources in substantive content",
+        "priority": "High",
+        "category": "Authority",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "Well-sourced content is more trustworthy to cite than unsupported claims.",
+        "fix": "Reference primary data and authoritative sources where you make claims.",
+        "factorScore": 37
+      },
+      {
+        "id": "definitions",
+        "title": "Publish definitions with DefinedTerm signals",
+        "priority": "High",
+        "category": "AEO",
+        "impact": "AI Citation Readiness",
+        "effort": "Medium",
+        "why": "Engines need clean definitions to understand the entities in your space.",
+        "fix": "Create glossary/definition blocks for core terms and mark them with DefinedTerm.",
+        "factorScore": 44
+      }
+    ],
+    "summary": "127.0.0.1 scores 83/100, which places it at AI-Ready Growth Engine. In short, the site is well positioned across search and AI discovery, with room to extend its lead. Its strongest area is AI search visibility (93/100); the fastest gains are in answer engine readiness (76/100).",
+    "crawl": {
+      "finalUrl": "http://127.0.0.1:8081",
+      "httpStatus": 200,
+      "https": false,
+      "robotsTxt": true,
+      "llmsTxt": true,
+      "sitemapXml": true,
+      "pagesSampled": 3,
+      "pageSpeedApi": false,
+      "fetchedAt": "2026-11-15T02:10:46.216Z",
+      "notes": [
+        "The site answered over HTTP. HTTPS either failed or is not served.",
+        "PageSpeed Insights did not answer; speed was not scored."
+      ]
+    },
+    "coverage": {
+      "measured": 25,
+      "total": 30
+    }
+  }
+}

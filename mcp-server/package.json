@@ -1,6 +1,6 @@
 {
   "name": "nativecode-audit-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Model Context Protocol server that exposes NativeCode Audit AI-visibility data (citation frequency, share of voice, sentiment, Share of Model Voice) to LLMs and agents.",
   "type": "module",
   "main": "dist/index.js",

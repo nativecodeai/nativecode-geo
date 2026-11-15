@@ -1,5 +1,8 @@
 /**
- * AuditService: the business logic behind every MCP tool and resource.
+ * ProbeService: business logic for the citation-probe preview tools.
+ * Citation probes (real prompts run against ChatGPT, Gemini, Claude, Perplexity
+ * and Google AI Overviews) are the next NativeCode Audit module. Until they
+ * ship, these tools run on a deterministic sample dataset of fictional brands.
  * It resolves fuzzy user input (brand names, query text), pulls observations
  * from the data source, and shapes results for LLM consumption.
  * Kept separate from MCP wiring so it can be unit tested and reused (REST, CLI).
@@ -17,7 +20,7 @@ import {
 import { computeVisibility, groupBy, mean, pct, round, slope, type VisibilityMetrics } from "./metrics.js";
 
 /** Errors caused by bad input. Shown to the model so it can correct itself. */
-export class AuditInputError extends Error {}
+export class ProbeInputError extends Error {}
 
 export interface DataSourceInfo {
   name: string;
@@ -34,7 +37,7 @@ export interface Period {
 const DEFAULT_WEEKS = 12;
 const TREND_WINDOW = 4;
 
-export class AuditService {
+export class ProbeService {
   constructor(private readonly source: AuditDataSource) {}
 
   get dataSourceInfo(): DataSourceInfo {
@@ -42,7 +45,7 @@ export class AuditService {
       name: this.source.name,
       sample: this.source.isSample,
       ...(this.source.isSample
-        ? { note: "Sample data with fictional brands for demonstration. Connect the NativeCode Audit API for real results." }
+        ? { note: "Preview: citation probes are not live yet. This is a sample dataset of fictional brands that shows the data model and outputs. Set NATIVECODE_PROBES_API_URL to use a real probe store." }
         : {}),
     };
   }
@@ -68,7 +71,7 @@ export class AuditService {
     if (match) return match;
     const partial = brands.filter((b) => normalize(b.name).includes(needle) || needle.includes(normalize(b.name)));
     if (partial.length === 1) return partial[0];
-    throw new AuditInputError(
+    throw new ProbeInputError(
       `Brand "${input}" is not tracked. Tracked brands: ${brands.map((b) => `${b.name} (${b.category})`).join(", ")}.`,
     );
   }
@@ -89,7 +92,7 @@ export class AuditService {
       if (!best || score > best.score) best = { q, score };
     }
     if (best && best.score >= 0.3) return best.q;
-    throw new AuditInputError(
+    throw new ProbeInputError(
       `No tracked query matches "${input}" in ${category}. Tracked queries: ${queries.map((q) => `"${q.text}"`).join(", ")}.`,
     );
   }
@@ -130,12 +133,12 @@ export class AuditService {
   }
 
   async compareBrands(brandInputs: string[], queryInput?: string, platform?: Platform, weeks = DEFAULT_WEEKS) {
-    if (brandInputs.length < 2) throw new AuditInputError("Provide at least two brands to compare.");
+    if (brandInputs.length < 2) throw new ProbeInputError("Provide at least two brands to compare.");
     const brands = await Promise.all(brandInputs.map((b) => this.resolveBrand(b)));
     const unique = [...new Map(brands.map((b) => [b.id, b])).values()];
     const categories = new Set(unique.map((b) => b.category));
     if (categories.size > 1) {
-      throw new AuditInputError(
+      throw new ProbeInputError(
         `Brands must be in the same category to compare share of voice. Got: ${unique.map((b) => `${b.name} (${b.category})`).join(", ")}.`,
       );
     }
