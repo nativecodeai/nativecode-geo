@@ -62,7 +62,9 @@ async function visible(page: Page, sel: string) {
   check(await visible(m, "#mm-services"), "Services open by default");
   check((await m.textContent(".ds-nav-menu"))?.trim() === "Close", "Menu label becomes Close");
   await m.screenshot({ path: `${out}/mobile-open.png` });
-  await m.tap('.mm-acc[data-mm="resources"]');
+  await m.$eval('.mm-acc[data-mm="resources"]', (el) => (el as HTMLElement).click());
+  const geo = await m.evaluate(() => ({ nav: document.querySelector(".ds-nav")!.getBoundingClientRect().top, wrap: document.getElementById("mm-wrap")!.getBoundingClientRect().top, scrollY: window.scrollY }));
+  console.log("mobile geometry", JSON.stringify(geo));
   await m.waitForTimeout(250);
   check(await visible(m, "#mm-resources") && !(await visible(m, "#mm-services")), "accordion switches to Resources");
   await m.screenshot({ path: `${out}/mobile-resources.png` });
