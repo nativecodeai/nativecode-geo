@@ -37,6 +37,8 @@ Loads each template in headless Chromium, pulls the full accessibility tree over
 
 **In plain language.** AI agents that browse the web, like Claude's computer use, navigate a site through its accessibility tree or by clicking what they see. This tool audits nativecode.ai the way an agent experiences it, finds what would trip one up, and explains the fix for each issue in Webflow terms.
 
+**What changed on the live site.** Fixes from the audit were made in Webflow and published: form labels tied to their inputs with autocomplete hints, a heading level corrected, and a `<main>` landmark added around page content on 14 templates. Average agent-readiness across the audited templates went from 73 to 97. Before the `<main>` change went live, [`layout-diff.yml`](.github/workflows/layout-diff.yml) compared staging against production on 16 pages at desktop and mobile widths and found no layout or color changes.
+
 ## Run everything locally
 
 ```bash
