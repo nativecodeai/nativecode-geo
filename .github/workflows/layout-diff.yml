@@ -11,6 +11,9 @@ on:
       b:
         description: "Candidate host"
         default: "https://nativecodeai.webflow.io"
+      paths:
+        description: "Space-separated paths to check instead of the default list"
+        default: ""
 
 jobs:
   diff:
@@ -28,8 +31,15 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - name: Diff
         run: |
-          printf '%s\n' "https://x/jobs/client-strategy-lead-paid-media-seo" "https://x/services/technical-seo" >> nativecode-urls.txt
-          npx tsx src/layout-diff.ts --a "${{ inputs.a }}" --b "${{ inputs.b }}" --urls nativecode-urls.txt --out out/layout-diff.json
+          if [ -n "${PATHS}" ]; then
+            for p in ${PATHS}; do echo "https://x${p}"; done > urls.txt
+          else
+            cp nativecode-urls.txt urls.txt
+            printf '%s\n' "https://x/jobs/client-strategy-lead-paid-media-seo" "https://x/services/technical-seo" >> urls.txt
+          fi
+          npx tsx src/layout-diff.ts --a "${{ inputs.a }}" --b "${{ inputs.b }}" --urls urls.txt --out out/layout-diff.json
+        env:
+          PATHS: ${{ inputs.paths }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
