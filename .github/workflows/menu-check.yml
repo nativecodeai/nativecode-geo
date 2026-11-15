@@ -1,0 +1,32 @@
+name: Menu check
+
+on:
+  workflow_dispatch:
+    inputs:
+      base:
+        default: "https://nativecodeai.webflow.io"
+      path:
+        default: "/"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: agentic-dom
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npx tsx src/menu-check.ts "$BASE" "$P"
+        env:
+          BASE: ${{ inputs.base }}
+          P: ${{ inputs.path }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: menu-shots
+          path: agentic-dom/menu-shots
