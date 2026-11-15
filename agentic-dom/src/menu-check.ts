@@ -63,7 +63,7 @@ async function visible(page: Page, sel: string) {
   check((await m.textContent(".ds-nav-menu"))?.trim() === "Close", "Menu label becomes Close");
   await m.screenshot({ path: `${out}/mobile-open.png` });
   await m.$eval('.mm-acc[data-mm="resources"]', (el) => (el as HTMLElement).click());
-  const geo = await m.evaluate(() => ({ nav: document.querySelector(".ds-nav")!.getBoundingClientRect().top, wrap: document.getElementById("mm-wrap")!.getBoundingClientRect().top, scrollY: window.scrollY }));
+  const geo = await m.evaluate(() => ({ nav: document.querySelector(".ds-nav")!.getBoundingClientRect().top, wrap: document.getElementById("mm-wrap")!.getBoundingClientRect().top, scrollY: window.scrollY, kids: [...document.querySelectorAll("#mm-resources, #mm-resources > *, #mm-resources .mm-inner > *")].map((e) => `${e.className}:${getComputedStyle(e).display}:${Math.round(e.getBoundingClientRect().height)}:pb${getComputedStyle(e).paddingBottom}:mb${getComputedStyle(e).marginBottom}`) }));
   console.log("mobile geometry", JSON.stringify(geo));
   await m.waitForTimeout(250);
   check(await visible(m, "#mm-resources") && !(await visible(m, "#mm-services")), "accordion switches to Resources");
