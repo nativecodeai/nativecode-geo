@@ -35,6 +35,7 @@ export interface PageAudit {
   interactive: { total: number; unnamed: number };
   findings: Finding[];
   axe: { id: string; impact: string; help: string; nodes: number; helpUrl: string }[];
+  contrast?: { target: string; html: string; fg: string; bg: string; ratio: number; expected: number; fontSize: string; fontWeight: string }[];
   ariaSnapshot: string;
 }
 
@@ -141,6 +142,20 @@ export async function auditPage(browser: Browser, url: string, opts: { viewport?
     // ---- axe-core WCAG 2.2 A/AA
     const axeRes = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"]).analyze();
     const axe = axeRes.violations.map((v) => ({ id: v.id, impact: v.impact ?? "minor", help: v.help, nodes: v.nodes.length, helpUrl: v.helpUrl }));
+    // Keep the color pairs behind each contrast failure so fixes can be planned at the token level.
+    const contrast = (axeRes.violations.find((v) => v.id === "color-contrast")?.nodes ?? []).map((n) => {
+      const data = (n.any[0]?.data ?? {}) as Record<string, unknown>;
+      return {
+        target: String(n.target?.[0] ?? ""),
+        html: n.html.slice(0, 160),
+        fg: String(data.fgColor ?? ""),
+        bg: String(data.bgColor ?? ""),
+        ratio: Number(data.contrastRatio ?? 0),
+        expected: Number(String(data.expectedContrastRatio ?? "4.5").replace(":1", "")),
+        fontSize: String(data.fontSize ?? ""),
+        fontWeight: String(data.fontWeight ?? ""),
+      };
+    });
 
     const penalty = findings.reduce((s, f) => s + WEIGHT[f.severity], 0) + axe.reduce((s, v) => s + (AXE_WEIGHT[v.impact] ?? 1), 0);
     return {
@@ -152,6 +167,7 @@ export async function auditPage(browser: Browser, url: string, opts: { viewport?
       interactive: { total: interactive.length, unnamed: unnamed.length },
       findings: findings.sort((a, b) => WEIGHT[b.severity] - WEIGHT[a.severity]),
       axe,
+      contrast,
       ariaSnapshot: await page.locator("body").ariaSnapshot().catch(() => ""),
     };
   } finally {
