@@ -257,7 +257,7 @@ function domChecks() {
     .map((el) => `${sel(el)} ${Math.round(el.getBoundingClientRect().width)}x${Math.round(el.getBoundingClientRect().height)}`);
 
   const focusableHidden = [...document.querySelectorAll("[aria-hidden=true] a[href], [aria-hidden=true] button, [aria-hidden=true] input, [aria-hidden=true] [tabindex]:not([tabindex='-1'])")]
-    .filter((el) => !(el as HTMLElement).closest("[inert]"))
+    .filter((el) => !(el as HTMLElement).closest("[inert]") && el.getAttribute("tabindex") !== "-1")
     .map(sel);
 
   const firstFocusable = document.querySelector<HTMLElement>("a[href], button, input, [tabindex]:not([tabindex='-1'])");

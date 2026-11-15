@@ -27,6 +27,8 @@ export interface SiteConfig {
   exclude: string[];
   /** CSS selectors removed before conversion (site chrome, forms, widgets). */
   stripSelectors: string[];
+  /** Regexes (multiline) whose matches are removed from the converted Markdown, e.g. logo strips. */
+  dropPatterns?: string[];
   /** Selector for the main content when the page has no <main>. */
   contentSelector?: string;
 }

@@ -38,7 +38,7 @@ const ALWAYS_STRIP = [
   ".w-dyn-empty",
 ];
 
-export function extract(html: string, pageUrl: string, stripSelectors: string[] = [], contentSelector?: string): Extracted {
+export function extract(html: string, pageUrl: string, stripSelectors: string[] = [], contentSelector?: string, dropPatterns: string[] = []): Extracted {
   const $ = cheerio.load(html);
   const title = clean($("title").first().text());
   const description = clean($('meta[name="description"]').attr("content") ?? $('meta[property="og:description"]').attr("content") ?? "");
@@ -72,6 +72,8 @@ export function extract(html: string, pageUrl: string, stripSelectors: string[] 
 
   const h1 = clean(root.find("h1").first().text());
   let markdown = toMarkdown(root.html() ?? "");
+  for (const p of dropPatterns) markdown = markdown.replace(new RegExp(p, "gm"), "");
+  markdown = markdown.replace(/\n{3,}/g, "\n\n").trim();
 
   const missingFaq = faq.filter((q) => !markdown.toLowerCase().includes(q.question.toLowerCase().slice(0, 40)));
   if (missingFaq.length) {
@@ -99,6 +101,7 @@ function toMarkdown(html: string): string {
     .turndown(html)
     .replace(/ /g, " ")
     .replace(/^(\s*)([-*]|\d+\.)\s{2,}/gm, "$1$2 ")
+    .replace(/\)\[/g, ") [")
     .replace(/[ \t]+\n/g, "\n")
     .replace(/\n{3,}/g, "\n\n")
     .replace(/^(#{1,6} .*)\n(?!\n)/gm, "$1\n\n")

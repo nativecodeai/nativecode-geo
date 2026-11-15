@@ -67,7 +67,7 @@ export async function build(opts: BuildOptions): Promise<BuildResult> {
           skipped.push({ url: entry.url, reason: `HTTP ${res.status}` });
           continue;
         }
-        const x = extract(await res.text(), entry.url, config.stripSelectors, config.contentSelector);
+        const x = extract(await res.text(), entry.url, config.stripSelectors, config.contentSelector, config.dropPatterns);
         if (x.noindex) {
           skipped.push({ url: entry.url, reason: "noindex" });
           continue;
@@ -164,6 +164,6 @@ function pageMarkdown(p: PageDoc, generatedAt: string): string {
     `converted_at: ${generatedAt}`,
     "---",
   ].filter(Boolean);
-  const body = p.markdown.startsWith("# ") ? p.markdown : `# ${p.h1 || p.title}\n\n${p.markdown}`;
+  const body = /^# /m.test(p.markdown) ? p.markdown : `# ${p.h1 || p.title}\n\n${p.markdown}`;
   return `${fm.join("\n")}\n\n${body}\n`;
 }

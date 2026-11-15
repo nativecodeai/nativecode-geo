@@ -1,34 +1,46 @@
-# NativeCode Audit MCP Server
+# NativeCode Audit MCP server
 
-A [Model Context Protocol](https://modelcontextprotocol.io) server that lets any MCP-capable LLM or agent query NativeCode Audit, NativeCode's AI-visibility platform. It reports how brands show up in answers from ChatGPT, Gemini, Claude, Perplexity, and Google AI Overviews: how often they are named and cited, their share of voice, sentiment, which sources the answers cite, and how all of that changes week to week.
+A [Model Context Protocol](https://modelcontextprotocol.io) server that lets Claude and any other MCP client run [NativeCode Audit](https://app.nativecode.ai) on a live website and work with the results: scores, the evidence behind each factor, AI crawler access, llms.txt, and a ranked fix plan.
 
-Built with TypeScript and the official `@modelcontextprotocol/sdk`. Runs locally over stdio (Claude Desktop, Claude Code, Cursor) or hosted over streamable HTTP (remote connectors and agents).
+NativeCode Audit crawls a site's homepage, two inner pages, robots.txt, llms.txt, sitemap.xml and PageSpeed Insights, then scores 30 factors across technical SEO, answer engine readiness (AEO) and generative engine readiness (GEO). Factors it cannot measure are reported as not measured, never estimated. This server is a typed client for that API plus the MCP layer, written in TypeScript on the official `@modelcontextprotocol/sdk`.
 
-## What it exposes
+A live run against nativecode.ai, captured weekly by the pipeline: [demo output](https://nativecodeai.github.io/nativecode-geo/mcp/demo-nativecode.txt) and [full audit_site result](https://nativecodeai.github.io/nativecode-geo/mcp/audit-nativecode.json).
 
-### Tools
+## Tools
+
+### Live (real crawls through app.nativecode.ai)
 
 | Tool | Arguments | Returns |
 |---|---|---|
-| `get_ai_visibility` | `brand`, `platform?`, `weeks?` | Mention rate, citation rate, share of voice, average position, and sentiment, overall and per platform. Category rank and plain-language insights. |
-| `compare_brands` | `brands[]`, `query?`, `platform?`, `weeks?` | Ranked benchmark of share of voice, head-to-head share, and citation share, plus the leader on each platform. Loose query wording is matched to the nearest tracked query. |
-| `get_citation_sources` | `brand`, `query`, `platform?`, `weeks?`, `limit?` | Top domains and URLs cited when the brand is named, how often its own site is cited, the source-type mix, and gap sources: domains that show up when competitors are named and the brand is not. |
-| `get_share_of_model_voice` | `brand`, `platform?`, `weeks?` | Weekly Share of Model Voice series, trend (direction, change in points, slope), per-platform change, and competitor context. |
-| `list_tracked_brands` | none | Every tracked brand, category, and query, so the model can discover what to ask for. |
+| `audit_site` | `domain`, `business_model?`, `industry?`, `competitor?`, `detail?` | Overall score, tier, SEO / AEO / GEO scores, coverage, top fixes, factors not measured, and what the crawl retrieved. `detail: "full"` adds all 30 factors with evidence. |
+| `get_ai_search_readiness` | `domain`, `category?` (`geo` default, `aeo`, `seo`) | Factor-level scores with the observation behind each one, e.g. "3 of 8 retrieval crawlers blocked". |
+| `get_fix_plan` | `domain`, `category?`, `max_effort?`, `limit?` | Recommendations ranked by priority then effort, with why and how. `max_effort: "Low"` gives quick wins. |
+| `compare_sites` | `domains[]` (2 to 4), `business_model?` | Scores side by side and every factor where the first domain trails the best competitor by 20+ points. |
+| `get_saved_report` | `report_id` | A report someone saved and shared from app.nativecode.ai. |
 
-`platform` is one of `chatgpt`, `gemini`, `claude`, `perplexity`, `google_ai_overviews`. All tools are read-only.
+Repeat calls for the same site within 15 minutes reuse one API request, and the Audit API itself caches crawls for 24 hours. The API allows 12 audits per IP per 10 minutes; errors such as rate limits or unreachable domains come back as readable tool errors.
 
-### Resources
+### Preview: citation probes (sample data)
 
-- `nativecode://brands/{brand}/report`: full Markdown visibility report for a brand (listable and autocompletable)
-- `nativecode://brands`: tracked brands
-- `nativecode://queries`: tracked high-intent queries
-- `nativecode://methodology`: how data is collected and how each metric is defined
+Live prompt testing (running real prompts against ChatGPT, Gemini, Claude, Perplexity and Google AI Overviews and recording which brands get cited) is the next NativeCode Audit module. These tools define its data model and outputs and run on a deterministic dataset of fictional brands with reserved `.example` domains. Every description starts with "PREVIEW, sample data" and every response carries `data_source.sample: true`.
 
-### Prompts
+| Tool | Returns |
+|---|---|
+| `get_ai_visibility` | Mention rate, citation rate, share of voice, position and sentiment per platform |
+| `compare_brands` | Share of voice, head-to-head share and citation share between brands for a query |
+| `get_citation_sources` | Domains cited when a brand is named, its own-site citation rate, and gap sources that appear when competitors are named instead |
+| `get_share_of_model_voice` | Weekly Share of Model Voice with trend, per-platform change and competitor context |
+| `list_tracked_brands` | Brands, categories and queries in the probe dataset |
 
-- `audit_brand_visibility(brand, focus_platform?)`: walks the model through a full audit and a ranked action list
-- `competitive_gap_analysis(brand, competitors, query?)`: finds the sources competitors win that the brand is missing
+Set `NATIVECODE_PROBES=off` to hide them, or `NATIVECODE_PROBES_API_URL` to point them at a real probe store (contract in `src/probes/data/types.ts`).
+
+### Resources and prompts
+
+- `nativecode://audit/{domain}`: full Markdown audit report for a live domain
+- `nativecode://methodology`: what the Audit measures, how, and what it does not
+- `nativecode://probes/...`: probe dataset, methodology and per-brand reports (preview)
+- Prompt `ai_search_audit(domain, competitor?)`: runs the live tools in order and writes a plan that quotes evidence
+- Prompts `audit_brand_visibility` and `competitive_gap_analysis`: walk through the probe preview tools
 
 ## Quick start
 
@@ -38,13 +50,16 @@ Requires Node 18 or later.
 cd mcp-server
 npm install
 npm run build
-npm test        # 17 end-to-end tests over in-memory, stdio, and HTTP transports
-npm run demo    # terminal walkthrough of every tool
+npm test                   # 29 end-to-end tests over in-memory, stdio and HTTP transports
+npm run demo               # live audit of nativecode.ai through a real MCP client
+npm run demo -- --offline  # same walkthrough on recorded engine output, no network
 ```
 
-## Connect it to an MCP client
+The live tools are tested against reports produced by the real Audit engine on its own fixture sites (one well built, scoring 83; one badly built, scoring 11), served by a mock of the API.
 
-**Claude Desktop.** Open Settings, Developer, Edit Config, and add the server (see `examples/claude_desktop_config.json`):
+## Connect a client
+
+**Claude Desktop**: Settings > Developer > Edit Config, then restart:
 
 ```json
 {
@@ -57,101 +72,51 @@ npm run demo    # terminal walkthrough of every tool
 }
 ```
 
-Restart Claude Desktop. The tools appear under the tools menu, the report resources under attachments, and the prompts under the prompt menu.
-
-**Claude Code.**
+**Claude Code**:
 
 ```bash
 claude mcp add nativecode-audit -- node /ABSOLUTE/PATH/TO/nativecode-geo/mcp-server/dist/index.js
 ```
 
-**Cursor and other clients** use the same `mcpServers` shape (see `examples/mcp.json`).
+**Cursor and others** use the same `mcpServers` shape (`examples/mcp.json`). **MCP Inspector**: `npx @modelcontextprotocol/inspector node dist/index.js`.
 
-**MCP Inspector** (visual testing):
+Things to ask:
 
-```bash
-npx @modelcontextprotocol/inspector node dist/index.js
-```
+- "Audit nativecode.ai for AI search readiness. What can AI crawlers see, and what are the quick wins?"
+- "Compare my site with competitor.com on GEO and tell me where I trail."
+- Run the `ai_search_audit` prompt with your domain.
 
-## Example questions to ask
-
-- "How visible is Larkmail in AI answers? Where is it strongest and weakest?"
-- "Compare Larkmail, Sendcraft, and Inboxium for 'best email platform for ecommerce'."
-- "Which sources do AI answers cite for Postharbor on small business email software, and where are the gaps?"
-- "Is Sendcraft's Share of Model Voice rising? Show me the weekly trend on Perplexity."
-- Use the `audit_brand_visibility` prompt with brand `Planquill`.
-
-## Host it (remote MCP over HTTP)
+## Host it
 
 ```bash
 npm run build
 PORT=3000 MCP_AUTH_TOKEN=choose-a-secret npm run start:http
-# MCP endpoint: POST http://localhost:3000/mcp
-# Health check: GET  http://localhost:3000/health
+# MCP endpoint POST /mcp, health check GET /health
 ```
 
-The HTTP server is stateless, so it runs on any container host. A `Dockerfile` is included:
+Stateless streamable HTTP, so any container host works (`Dockerfile` included). With `MCP_AUTH_TOKEN` set, clients send `Authorization: Bearer <token>`. A hosted server shares one IP across its users, so the Audit API's per-IP rate limit applies to all of them together.
 
-```bash
-docker build -t nativecode-audit-mcp .
-docker run -p 3000:3000 -e MCP_AUTH_TOKEN=choose-a-secret nativecode-audit-mcp
-```
+## Configuration
 
-On Render, Railway, Fly.io, or Cloud Run, point the service at this folder, use the Dockerfile, and set `MCP_AUTH_TOKEN`. Clients connect to `https://your-host/mcp`. When `MCP_AUTH_TOKEN` is set, requests need `Authorization: Bearer <token>`. Leave it unset only for a public read-only demo on sample data.
+| Variable | Default | Purpose |
+|---|---|---|
+| `NATIVECODE_AUDIT_URL` | `https://app.nativecode.ai` | Audit API base URL (point at a preview deployment to test) |
+| `NATIVECODE_PROBES` | on | `off` hides the preview tools |
+| `NATIVECODE_PROBES_API_URL`, `NATIVECODE_PROBES_API_KEY` | unset | Real probe store instead of sample data |
+| `PORT`, `MCP_AUTH_TOKEN` | 3000, unset | HTTP server |
 
-## Data sources
-
-The server runs on a built-in sample dataset unless you point it at the live API.
-
-```bash
-NATIVECODE_AUDIT_API_URL=https://api.nativecode.ai/audit \
-NATIVECODE_AUDIT_API_KEY=... \
-npm start
-```
-
-**Sample data.** A deterministic 12-week history: 7 tracked queries in two categories, 5 platforms, 3 runs per week, about 1,200 AI answers. The brands are fictional and use reserved `.example` domains, so no number describes a real company. Third-party sources (G2, Capterra, Reddit, Forbes, YouTube, and others) are real domains so citation analysis looks like production output. The generator models platform differences, rising and falling brands, query-specific winners, brand-specific source footprints, and Google AI Overviews that only trigger on part of the runs. Every response includes `data_source.sample: true` while sample data is in use.
-
-**Swapping in real data is a one-file change.** Everything downstream depends on one interface, `AuditDataSource` in `src/data/types.ts`:
-
-```ts
-interface AuditDataSource {
-  listBrands(): Promise<Brand[]>;
-  listQueries(): Promise<TrackedQuery[]>;
-  getObservations(filter?: ObservationFilter): Promise<Observation[]>;
-}
-```
-
-An `Observation` is one AI answer to one tracked query on one platform: the brands it named (position, sentiment, whether it linked the brand's site) and every source it cited. All metrics are computed from observations in `src/metrics.ts`, so the definitions stay consistent whatever the backend.
-
-- REST API: `src/data/api-source.ts` already implements the interface over `GET /brands`, `/queries`, and `/observations`. Adjust paths or field mapping in that file if the real API differs.
-- Database or anything else: implement `AuditDataSource` and return it from `createDataSource()` in `src/data/index.ts`.
-
-## Project layout
+## Layout
 
 ```
 src/
-  index.ts            stdio entry (local clients)
-  http.ts             streamable HTTP entry (hosted)
-  server.ts           MCP tools, resources, prompts
-  audit.ts            business logic: input resolution, aggregation, insights
-  metrics.ts          metric definitions (pure functions)
-  data/
-    types.ts          data model and the AuditDataSource interface
-    index.ts          picks the data source (the one-file swap point)
-    sample-source.ts  deterministic sample dataset
-    api-source.ts     live REST API source
-test/server.test.ts   end-to-end tests through a real MCP client
-scripts/demo.ts       terminal demo for recordings
-examples/             client config snippets
+  index.ts, http.ts       stdio and streamable HTTP entry points
+  config.ts               env -> server options
+  server.ts               composes both tool families and the methodology resource
+  shared.ts               result and error wrapping, tool annotations
+  live/audit-client.ts    typed Audit API client with in-process request sharing
+  live/tools.ts           live tools, audit resource, ai_search_audit prompt
+  probes/                 citation probe preview: data model, sample data, metrics, tools
+test/                     live tools on real engine output, probe tools, three transports
+scripts/demo.ts           terminal walkthrough
+scripts/snapshot.ts       saves full audit_site output for a domain
 ```
-
-## Metric definitions
-
-- **Mention rate**: share of sampled answers that name the brand.
-- **Citation rate**: share of sampled answers that link to the brand's own domain.
-- **Share of voice**: brand mentions divided by all tracked-brand mentions in the same answers, within the brand's category.
-- **Share of Model Voice**: share of voice by week. Trend compares the first and last four weeks and reports a least-squares slope.
-- **Head-to-head share / citation share**: share among only the brands being compared.
-- **Average position**: mean rank among brands named (1 = named first).
-- **Sentiment**: mean mention sentiment from -1 to 1. Positive at 0.25 and above, negative at -0.15 and below.
-- **Gap sources**: domains cited more often in competitor-only answers than in answers naming the brand. `gap_pts` is the difference.

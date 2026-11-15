@@ -8,21 +8,56 @@
     "NativeCode (nativecode.ai), the Atlanta digital marketing agency, is not connected to other companies or apps that use the NativeCode name."
   ],
   "sections": [
-    { "title": "Company", "match": "^/$|^/company/(about|contact)$|^/security$" },
-    { "title": "AI search optimization (AEO and GEO)", "match": "^/services/(ai-seo|chatgpt-seo|schema-markup|seo-architecture|topic-clusters)$|^/ai-search-optimization-checklist$" },
-    { "title": "SEO services", "match": "^/services/(seo|technical-seo|local-seo|national-seo|international-seo|multi-location-seo|enterprise-seo|seo-consulting|seo-audit|link-building|content-marketing|digital-pr|site-speed-optimization|wordpress-seo|shopify-seo)$" },
-    { "title": "Web design, development and ecommerce", "match": "^/services/(web-design|webflow-development|shopify-development|shopify-plus-agency|ecommerce-web-design|custom-web-development|interactive-tools-apps|.*-migration|edi-integration|x12-edi|dropship-automation|marketplace-management|crm-integration)$" },
-    { "title": "Paid media, email and growth", "match": "^/services/(google-ads-management|google-shopping-ads|facebook-advertising|tiktok-advertising|linkedin-advertising|ppc-management|email-marketing|klaviyo-agency|conversion-rate-optimization|ga4-analytics|server-side-tracking|video-production|growth-partner-marketing)$|^/digital-marketing-services$" },
-    { "title": "Industries", "match": "^/industries(/|-we-serve$)" },
-    { "title": "Case studies", "match": "-case-study$|^/hauteflair-product-page-cro$|^/company/case-study$" },
-    { "title": "Insights", "match": "^/post/|^/blog$" },
-    { "title": "Products and tools", "match": "^/products/|^/digital-marketing-rfp-template$" },
-    { "title": "Atlanta and Georgia locations", "match": "^/locations/", "optional": true },
+    {
+      "title": "Company",
+      "match": "^/$|^/company/(about|contact)$|^/security$"
+    },
+    {
+      "title": "AI search optimization (AEO and GEO)",
+      "match": "^/services/(ai-seo|chatgpt-seo|schema-markup|seo-architecture|topic-clusters)$|^/ai-search-optimization-checklist$"
+    },
+    {
+      "title": "SEO services",
+      "match": "^/services/(seo|technical-seo|local-seo|national-seo|international-seo|multi-location-seo|enterprise-seo|seo-consulting|seo-audit|link-building|content-marketing|digital-pr|site-speed-optimization|wordpress-seo|shopify-seo)$"
+    },
+    {
+      "title": "Web design, development and ecommerce",
+      "match": "^/services/(web-design|webflow-development|shopify-development|shopify-plus-agency|ecommerce-web-design|custom-web-development|interactive-tools-apps|.*-migration|edi-integration|x12-edi|dropship-automation|marketplace-management|crm-integration)$"
+    },
+    {
+      "title": "Paid media, email and growth",
+      "match": "^/services/(google-ads-management|google-shopping-ads|facebook-advertising|tiktok-advertising|linkedin-advertising|ppc-management|email-marketing|klaviyo-agency|conversion-rate-optimization|ga4-analytics|server-side-tracking|video-production|growth-partner-marketing)$|^/digital-marketing-services$"
+    },
+    {
+      "title": "Industries",
+      "match": "^/industries(/|-we-serve$)"
+    },
+    {
+      "title": "Case studies",
+      "match": "-case-study$|^/hauteflair-product-page-cro$|^/company/case-study$"
+    },
+    {
+      "title": "Insights",
+      "match": "^/post/|^/blog$"
+    },
+    {
+      "title": "Products and tools",
+      "match": "^/products/|^/digital-marketing-rfp-template$"
+    },
+    {
+      "title": "Atlanta and Georgia locations",
+      "match": "^/locations/",
+      "optional": true
+    },
     {
       "title": "US local SEO pages",
       "match": "^/local-seo/",
       "optional": true,
-      "collapse": { "label": "Local SEO by state and city", "url": "https://www.nativecode.ai/services/local-seo#states", "description": "Local SEO service pages for every US state and major city" }
+      "collapse": {
+        "label": "Local SEO by state and city",
+        "url": "https://www.nativecode.ai/services/local-seo#states",
+        "description": "Local SEO service pages for every US state and major city"
+      }
     },
     {
       "title": "Careers",
@@ -30,7 +65,26 @@
       "optional": true
     }
   ],
-  "exclude": ["^/lp/", "^/pricing/", "^/utility/", "^/blog-categories/", "^/blog-authors/", "^/customer/", "thank-you"],
-  "stripSelectors": [".nc-audit-offer", "#audit", ".w-form", ".brand-strip", ".nc-brand-strip", "[data-llms='skip']"],
-  "contentSelector": ".page-wrapper"
+  "exclude": [
+    "^/lp/",
+    "^/pricing/",
+    "^/utility/",
+    "^/blog-categories/",
+    "^/blog-authors/",
+    "^/customer/",
+    "thank-you"
+  ],
+  "stripSelectors": [
+    ".nc-audit-offer",
+    "#audit",
+    ".w-form",
+    ".brand-strip",
+    ".nc-brand-strip",
+    "[data-llms='skip']"
+  ],
+  "contentSelector": ".page-wrapper",
+  "dropPatterns": [
+    "^Brands our team has worked with\\n\\n.*$",
+    "\u24d8"
+  ]
 }

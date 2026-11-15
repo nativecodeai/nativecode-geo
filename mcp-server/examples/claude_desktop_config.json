@@ -4,8 +4,7 @@
       "command": "node",
       "args": ["/ABSOLUTE/PATH/TO/nativecode-geo/mcp-server/dist/index.js"],
       "env": {
-        "NATIVECODE_AUDIT_API_URL": "",
-        "NATIVECODE_AUDIT_API_KEY": ""
+        "NATIVECODE_AUDIT_URL": "https://app.nativecode.ai"
       }
     }
   }
