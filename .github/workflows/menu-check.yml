@@ -11,6 +11,8 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     defaults:
       run:
         working-directory: agentic-dom
@@ -30,3 +32,11 @@ jobs:
         with:
           name: menu-shots
           path: agentic-dom/menu-shots
+      - name: Push screenshots to the menu-shots branch
+        if: always()
+        working-directory: agentic-dom/menu-shots
+        run: |
+          git init -q && git checkout -q -b menu-shots
+          git config user.name "github-actions" && git config user.email "actions@github.com"
+          git add -A && git commit -qm "Menu check screenshots ${{ github.run_id }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" menu-shots
