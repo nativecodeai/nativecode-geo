@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NativeCode GEO engineering</title>
+<meta name="description" content="LLM-native infrastructure from NativeCode: an MCP server for NativeCode Audit, llms.txt and a Markdown mirror of nativecode.ai, a RAG search over the site, and an agentic DOM audit.">
+<link rel="alternate" type="text/plain" href="llms.txt" title="llms.txt">
+<style>
+  :root { --ink:#16181d; --muted:#5b616e; --line:#e3e5ea; --bg:#fafaf8; --card:#fff; --accent:#1f5eff; --mark:#fff4c2; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.55 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; color:var(--ink); background:var(--bg); }
+  a { color:var(--accent); }
+  .skip { position:absolute; left:-999px; top:0; background:#000; color:#fff; padding:8px 12px; }
+  .skip:focus { left:8px; }
+  header, main, footer { max-width:960px; margin:0 auto; padding:0 24px; }
+  header { padding-top:48px; }
+  .eyebrow { font:600 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+  h1 { font-size:clamp(28px, 4vw, 40px); line-height:1.15; margin:12px 0 12px; letter-spacing:-.01em; }
+  .lede { color:var(--muted); max-width:680px; margin:0; }
+  section { margin:44px 0; }
+  h2 { font-size:20px; margin:0 0 6px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:14px; margin-top:20px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 18px; }
+  .card h3 { font-size:15px; margin:0 0 6px; }
+  .card p { margin:0 0 10px; font-size:14px; color:var(--muted); }
+  .card ul { margin:0; padding-left:18px; font-size:14px; }
+  .search { display:flex; gap:8px; margin-top:16px; }
+  .search input { flex:1; font:inherit; padding:11px 13px; border:1px solid #c9ccd4; border-radius:8px; background:#fff; }
+  .search button { font:inherit; font-weight:600; padding:11px 18px; border:0; border-radius:8px; background:var(--ink); color:#fff; cursor:pointer; }
+  .search button:disabled { opacity:.5; cursor:wait; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+  .chips button { font:inherit; font-size:13px; padding:5px 10px; border:1px solid var(--line); border-radius:999px; background:#fff; cursor:pointer; color:var(--ink); }
+  #status { font-size:13px; color:var(--muted); margin-top:10px; min-height:20px; }
+  .hit { border-top:1px solid var(--line); padding:14px 0; }
+  .hit h3 { font-size:15px; margin:0 0 4px; }
+  .hit .meta { font:12px ui-monospace, Menlo, monospace; color:var(--muted); margin-bottom:6px; }
+  .hit p { margin:0; font-size:14px; white-space:pre-line; }
+  mark { background:var(--mark); padding:0 1px; }
+  pre { background:#111318; color:#e8eaf0; padding:14px 16px; border-radius:8px; overflow:auto; font-size:13px; }
+  footer { padding-bottom:48px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="eyebrow">NativeCode / GEO engineering</div>
+  <h1>Infrastructure that lets AI models read, measure and navigate a site.</h1>
+  <p class="lede">Four working pieces, built and rebuilt weekly by GitHub Actions against the live nativecode.ai. Source: <a href="https://github.com/nativecodeai/nativecode-geo">github.com/nativecodeai/nativecode-geo</a>.</p>
+</header>
+
+<main id="main">
+  <section aria-labelledby="pieces">
+    <h2 id="pieces">What is here</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>MCP server for NativeCode Audit</h3>
+        <p>Lets Claude and other MCP clients run live SEO, AEO and GEO audits through app.nativecode.ai.</p>
+        <ul><li><a href="mcp/demo-nativecode.txt">Live run against nativecode.ai</a></li><li><a href="mcp/audit-nativecode.json">Full audit_site output</a></li><li><a href="https://github.com/nativecodeai/nativecode-geo/tree/main/mcp-server">Setup</a></li></ul>
+      </div>
+      <div class="card">
+        <h3>llms.txt and Markdown mirror</h3>
+        <p>A curated llms.txt, the full site as one text file, and a clean Markdown copy of every page.</p>
+        <ul><li><a href="llms.txt">llms.txt</a></li><li><a href="llms-full.txt">llms-full.txt</a></li><li><a href="manifest.json">Crawl manifest</a></li></ul>
+      </div>
+      <div class="card">
+        <h3>RAG over NativeCode content</h3>
+        <p>Chunks of the Markdown mirror, MiniLM embeddings and a hybrid vector and BM25 index. Try it below.</p>
+        <ul><li><a href="rag/index.json">Vector index</a></li><li><a href="rag/sample-answers.json">Sample answers</a></li></ul>
+      </div>
+      <div class="card">
+        <h3>Agentic DOM audit</h3>
+        <p>How well browser agents and screen readers can perceive and operate each nativecode.ai template.</p>
+        <ul><li><a href="agentic-dom/report.md">Report</a></li><li><a href="agentic-dom/report.json">Raw findings</a></li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="ask">
+    <h2 id="ask">Search nativecode.ai with retrieval</h2>
+    <p class="lede">Your question is embedded in this browser with the same MiniLM model that built the index, then matched against every chunk by meaning and by keywords. The first search downloads the model (about 23 MB).</p>
+    <form class="search" id="form" role="search">
+      <label for="q" class="skip">Question</label>
+      <input id="q" name="q" type="search" placeholder="Ask about NativeCode services, AI search, Shopify, EDI..." autocomplete="off" required>
+      <button id="go" type="submit">Search</button>
+    </form>
+    <div class="chips" aria-label="Example questions">
+      <button type="button">How do you get a brand cited in ChatGPT answers?</button>
+      <button type="button">Do you migrate stores from WooCommerce to Shopify?</button>
+      <button type="button">What is llms.txt and do I need one?</button>
+      <button type="button">Where is NativeCode based?</button>
+    </div>
+    <div id="status" role="status" aria-live="polite"></div>
+    <div id="results"></div>
+  </section>
+
+  <section aria-labelledby="connect">
+    <h2 id="connect">Connect the MCP server</h2>
+    <pre><code>git clone https://github.com/nativecodeai/nativecode-geo
+cd nativecode-geo/mcp-server &amp;&amp; npm install &amp;&amp; npm run build
+claude mcp add nativecode-audit -- node "$PWD/dist/index.js"</code></pre>
+    <p class="lede">Then ask: "Audit nativecode.ai for AI search readiness and give me the quick wins."</p>
+  </section>
+</main>
+
+<footer>Generated <span id="built">from the latest pipeline run</span>. NativeCode, Atlanta.</footer>
+
+<script type="module" src="rag.js"></script>
+</body>
+</html>

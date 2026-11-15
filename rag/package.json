@@ -1,0 +1,20 @@
+{
+  "name": "nativecode-rag",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Retrieval-augmented generation over NativeCode site content: chunking, MiniLM embeddings, a hybrid vector + BM25 store, and a Claude-backed answer CLI.",
+  "type": "module",
+  "scripts": {
+    "index": "tsx src/cli-index.ts",
+    "ask": "tsx src/cli-ask.ts",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

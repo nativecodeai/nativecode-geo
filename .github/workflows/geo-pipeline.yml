@@ -1,0 +1,114 @@
+name: GEO pipeline
+
+# Tests every package, then rebuilds everything against the live nativecode.ai:
+# llms.txt + Markdown mirror, the RAG index, the agentic DOM audit, and a live
+# MCP server run against app.nativecode.ai. Output is published to gh-pages.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 9 * * 1" # Mondays 09:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: geo-pipeline
+  cancel-in-progress: true
+
+env:
+  SITE: https://www.nativecode.ai
+  PAGES_URL: https://nativecodeai.github.io/nativecode-geo
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: mcp-server
+        working-directory: mcp-server
+        run: npm ci && npm test
+      - name: llms
+        working-directory: llms
+        run: npm ci && npm test
+      - name: rag
+        working-directory: rag
+        run: npm ci && npm test
+      - name: agentic-dom
+        working-directory: agentic-dom
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+          CHROME_PATH="$(node -e "console.log(require('playwright').chromium.executablePath())")" npm test
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: llms.txt, llms-full.txt and Markdown mirror
+        working-directory: llms
+        run: |
+          npm ci
+          npx tsx src/cli.ts --config nativecode.config.json --out ../public --mirror-base "$PAGES_URL"
+
+      - name: RAG index (MiniLM) and sample answers
+        working-directory: rag
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          npm ci
+          npx tsx src/cli-index.ts --md ../public/md --out ../public/rag/index.json --source "$SITE"
+          {
+            echo "["
+            first=1
+            while IFS= read -r q; do
+              [ $first -eq 1 ] || echo ","
+              first=0
+              npx tsx src/cli-ask.ts --index ../public/rag/index.json --json "$q"
+            done <<'QUESTIONS'
+          How does NativeCode get a brand cited in AI answers?
+          Does NativeCode migrate stores from WooCommerce to Shopify?
+          What is llms.txt and does a site need one?
+          Where is NativeCode based and how do I contact them?
+          QUESTIONS
+            echo "]"
+          } > ../public/rag/sample-answers.json
+
+      - name: Agentic DOM audit
+        working-directory: agentic-dom
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+          npx tsx src/cli.ts --urls nativecode-urls.txt --out ../public/agentic-dom
+          npx tsx src/cli.ts --urls nativecode-urls.txt --out ../public/agentic-dom/mobile --mobile
+
+      - name: MCP server live run against app.nativecode.ai
+        working-directory: mcp-server
+        continue-on-error: true
+        run: |
+          npm ci
+          mkdir -p ../public/mcp
+          NO_COLOR=1 npx tsx scripts/demo.ts nativecode.ai | sed 's/\x1b\[[0-9;]*m//g' > ../public/mcp/demo-nativecode.txt
+          npx tsx scripts/snapshot.ts nativecode.ai ../public/mcp/audit-nativecode.json
+
+      - name: Publish to gh-pages
+        run: |
+          cp site/index.html site/rag.js public/
+          touch public/.nojekyll
+          cd public
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Build from ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" gh-pages

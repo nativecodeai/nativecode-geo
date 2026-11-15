@@ -1,0 +1,15 @@
+# One URL per template on nativecode.ai. Template issues repeat on every page built from it.
+https://www.nativecode.ai/
+https://www.nativecode.ai/digital-marketing-services
+https://www.nativecode.ai/services/seo
+https://www.nativecode.ai/services/ai-seo
+https://www.nativecode.ai/industries/saas-seo
+https://www.nativecode.ai/locations/atlanta-seo-agency
+https://www.nativecode.ai/local-seo/georgia-seo-company
+https://www.nativecode.ai/constant-contact-case-study
+https://www.nativecode.ai/blog
+https://www.nativecode.ai/post/how-to-measure-ai-visibility
+https://www.nativecode.ai/products/tdee
+https://www.nativecode.ai/company/about
+https://www.nativecode.ai/company/contact
+https://www.nativecode.ai/company/career

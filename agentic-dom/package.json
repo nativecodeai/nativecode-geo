@@ -1,0 +1,20 @@
+{
+  "name": "nativecode-agentic-dom",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Audits how well AI web agents (Computer Use, browser agents, screen readers) can perceive and operate a site: accessibility tree, landmarks, accessible names, keyboard reachability, plus axe-core WCAG checks.",
+  "type": "module",
+  "scripts": {
+    "audit": "tsx src/cli.ts",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "playwright": "^1.56.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
