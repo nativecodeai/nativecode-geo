@@ -63,6 +63,16 @@ export async function auditPage(browser: Browser, url: string, opts: { viewport?
     await page.goto(url, { waitUntil: "load", timeout: 45_000 });
     // Let Webflow interactions and lazy content settle without waiting on analytics beacons.
     await page.waitForLoadState("networkidle", { timeout: 5_000 }).catch(() => {});
+    // Scroll once so scroll-reveal animations finish; otherwise axe measures text mid-fade
+    // and reports contrast failures a visitor never sees once the page has settled.
+    await page.evaluate(async () => {
+      for (let y = 0; y < document.body.scrollHeight; y += 500) {
+        window.scrollTo(0, y);
+        await new Promise((r) => setTimeout(r, 80));
+      }
+      window.scrollTo(0, 0);
+    });
+    await page.waitForTimeout(1500);
     const cdp = await context.newCDPSession(page);
     const nodes = ((await cdp.send("Accessibility.getFullAXTree")) as { nodes: AXNode[] }).nodes.filter((n) => !n.ignored);
     const findings: Finding[] = [];
