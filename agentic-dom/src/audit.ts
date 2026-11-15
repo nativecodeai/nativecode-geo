@@ -212,7 +212,7 @@ function domChecks() {
     const cs = getComputedStyle(el);
     return r.width > 0 && r.height > 0 && cs.visibility !== "hidden" && cs.display !== "none";
   };
-  const isNative = (el: Element) => el.matches("a[href], button, input, select, textarea, summary, label, [role], [tabindex]") || !!el.closest("a[href], button, label, [role=button], [role=link]");
+  const isNative = (el: Element) => el.matches("a[href], button, input, select, textarea, summary, label, [role], [tabindex]") || !!el.closest("a[href], button, label, summary, details, [role=button], [role=link]");
 
   const fakeButtons = [...document.querySelectorAll<HTMLElement>("div, span, li, img, svg")]
     .filter((el) => visible(el) && !isNative(el))
