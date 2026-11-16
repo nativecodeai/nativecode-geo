@@ -1,0 +1,51 @@
+NativeCode Audit MCP server
+Tools: audit_site, get_ai_search_readiness, get_fix_plan, compare_sites, get_saved_report, list_tracked_brands, get_ai_visibility, compare_brands, get_citation_sources, get_share_of_model_voice
+Live mode: crawling nativecode.ai through https://app.nativecode.ai
+
+> audit_site {"domain":"nativecode.ai"}
+nativecode.ai: 76/100, Competitive. 25 of 30 factors measured.
+┌─────────┬───────┬──────────┐
+│ (index) │ score │ measured │
+├─────────┼───────┼──────────┤
+│ SEO     │ 100   │ '8/10'   │
+│ AEO     │ 54    │ '10/10'  │
+│ GEO     │ 66    │ '7/10'   │
+└─────────┴───────┴──────────┘
+llms.txt: found. Not measured: Page Speed Readiness, Keyword Footprint, Citation Likelihood, AI Query Coverage, Competitor Displacement Opportunity.
+
+> get_ai_search_readiness {"domain":"nativecode.ai","category":"geo"}
+┌─────────┬───────────────────────────────────────┬───────┬──────────────────────────────────────────────────────────────────────────┐
+│ (index) │ factor                                │ score │ evidence                                                                 │
+├─────────┼───────────────────────────────────────┼───────┼──────────────────────────────────────────────────────────────────────────┤
+│ 0       │ 'AI Crawler Accessibility'            │ 100   │ '0 of 8 retrieval crawlers blocked. No training crawlers blocked.'       │
+│ 1       │ 'llms.txt Readiness'                  │ 100   │ 'llms.txt found: structured with headings, 119 link(s)'                  │
+│ 2       │ 'Structured Data Coverage'            │ 70    │ '11 distinct type(s); 5 node(s) with @id; 0 sameAs link(s)'              │
+│ 3       │ 'E-E-A-T Signals'                     │ 55    │ 'author markup no; about yes; contact yes; content dates no'             │
+│ 4       │ 'Brand Entity Strength'               │ 0     │ '0 sameAs link(s), 0 to a knowledge base or major profile'               │
+│ 5       │ 'Citation Likelihood'                 │ 'n/m' │ ''                                                                       │
+│ 6       │ 'Content Freshness'                   │ 100   │ 'most recent update 2026-11-16; 100% of sitemap entries carry a lastmod' │
+│ 7       │ 'AI Query Coverage'                   │ 'n/m' │ ''                                                                       │
+│ 8       │ 'Competitor Displacement Opportunity' │ 'n/m' │ ''                                                                       │
+│ 9       │ 'AI-Citable Content Blocks'           │ 37    │ '112 of 299 paragraphs are quotable length; 0 table(s), 31 list(s), 0 d' │
+└─────────┴───────────────────────────────────────┴───────┴──────────────────────────────────────────────────────────────────────────┘
+
+> get_fix_plan {"domain":"nativecode.ai","max_effort":"Low","limit":5}
+1. [Critical] Add author bios, credentials and review signals: Attach credentialed author bios and reviewer signals to substantive content.
+2. [High] Cite primary sources in substantive content: Reference primary data and authoritative sources where you make claims.
+
+Citation probe preview (sample data, fictional brands):
+
+> get_share_of_model_voice {"brand":"Sendcraft"}
+Trend: rising, 20.7% -> 29.4% (0.96 pts/week)
+08-17 ########## 19.4%
+08-24 ########## 20.5%
+08-31 ############# 25.6%
+09-07 ######### 17.3%
+09-14 ############## 27.1%
+09-21 ############### 29.3%
+09-28 ############ 23.2%
+10-05 ############ 24.1%
+10-12 ############## 27.5%
+10-19 ############## 28.9%
+10-26 ############### 29.5%
+11-02 ################ 31.7%

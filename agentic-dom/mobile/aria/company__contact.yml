@@ -1,0 +1,389 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - button "Menu"
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - paragraph: Contact
+  - heading "Tell us what you need to grow." [level=1]
+  - paragraph: Contact NativeCode to request a free audit or a scoped proposal. Share your goals and a few details about your team, and a senior strategist reads every message, replies directly and comes to the first call with a point of view on your site. NativeCode is Atlanta-based and works with brands nationwide.
+  - paragraph: "01"
+  - paragraph: A senior strategist reads it
+  - paragraph: No ticket queue and no junior sales rep. The person who replies can scope the work.
+  - paragraph: "02"
+  - paragraph: A working call, not a pitch
+  - paragraph: We look at your site, search data and competitors before we talk.
+  - paragraph: "03"
+  - paragraph: A written proposal
+  - paragraph: Scope, team, timeline and fee in one document you can share internally.
+  - paragraph: Direct lines
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - paragraph: 6350 McDonough Drive, Ste F, Norcross, GA 30093
+  - paragraph: Comparing agencies?
+  - paragraph: Use our free RFP template and scorecard to compare proposals side by side.
+  - link "Get the RFP kit →":
+    - /url: /digital-marketing-rfp-template
+  - paragraph: Start a project
+  - form "Contact Form":
+    - text: Name
+    - textbox "Name":
+      - /placeholder: Full name
+    - text: Work email
+    - textbox "Work email":
+      - /placeholder: you@company.com
+    - text: Company
+    - textbox "Company":
+      - /placeholder: Company name
+    - text: Website
+    - textbox "Website":
+      - /placeholder: yourcompany.com
+    - text: Your role
+    - textbox "Your role":
+      - /placeholder: e.g. VP Marketing
+    - group "What do you need help with?":
+      - text: What do you need help with?
+      - checkbox "SEO and AI search"
+      - text: SEO and AI search
+      - checkbox "Web design and development"
+      - text: Web design and development
+      - checkbox "Ecommerce and Shopify"
+      - text: Ecommerce and Shopify
+      - checkbox "Google Ads and Meta Ads"
+      - text: Google Ads and Meta Ads
+      - checkbox "Email and lifecycle"
+      - text: Email and lifecycle
+      - checkbox "Creative and video"
+      - text: Creative and video
+      - checkbox "Analytics and CRO"
+      - text: Analytics and CRO
+      - checkbox "EDI and operations"
+      - text: EDI and operations
+      - checkbox "Custom development"
+      - text: Custom development
+      - checkbox "Not sure yet"
+      - text: Not sure yet
+    - group "Expected investment":
+      - text: Expected investment
+      - radio "Under $5K / mo"
+      - text: Under $5K / mo
+      - radio "$5K to $15K / mo"
+      - text: $5K to $15K / mo
+      - radio "$15K to $50K / mo"
+      - text: $15K to $50K / mo
+      - radio "$50K+ / mo"
+      - text: $50K+ / mo
+      - radio "One-time project"
+      - text: One-time project
+      - radio "Not sure yet"
+      - text: Not sure yet
+    - group "When do you want to start?":
+      - text: When do you want to start?
+      - radio "Within 30 days"
+      - text: Within 30 days
+      - radio "1 to 3 months"
+      - text: 1 to 3 months
+      - radio "3 to 6 months"
+      - text: 3 to 6 months
+      - radio "Just researching"
+      - text: Just researching
+    - text: What are you trying to achieve?
+    - textbox "What are you trying to achieve?":
+      - /placeholder: Goals, current channels, rough numbers and any deadline. Links welcome.
+    - group "How did you find us?":
+      - text: How did you find us?
+      - radio "Google"
+      - text: Google
+      - radio "ChatGPT or another AI"
+      - text: ChatGPT or another AI
+      - radio "Referral"
+      - text: Referral
+      - radio "LinkedIn"
+      - text: LinkedIn
+      - radio "Other"
+      - text: Other
+    - button "Send project details" [disabled]
+    - paragraph:
+      - text: By sending this form you agree to our
+      - link "Terms":
+        - /url: /utility/terms-and-condition
+      - text: and
+      - link "Privacy Policy":
+        - /url: /utility/privacy-policy
+      - text: .
+  - region "Brands our team has worked with":
+    - paragraph: Brands our team has worked with
+    - link "Constant Contact ⓘ":
+      - /url: /constant-contact-case-study
+    - text: Cox Enterprises Mondelēz International Samsung Kohl’s Hanesbrands
+    - link "HauteFlair ⓘ":
+      - /url: /hauteflair-case-study
+  - paragraph: What happens next
+  - heading "What happens after you contact us?" [level=2]
+  - paragraph: Every program starts the same way. You see the scope, the team and the fee before you commit to anything.
+  - paragraph: "01"
+  - heading "We review your note" [level=3]
+  - paragraph: We read what you sent, look at your site and check where you show up in Google and AI answers today.
+  - paragraph: "02"
+  - heading "Discovery call" [level=3]
+  - paragraph: A working session on goals, current numbers, constraints and who needs to sign off.
+  - paragraph: "03"
+  - heading "Written proposal" [level=3]
+  - paragraph: Scope, team, timeline, fee and how we will report progress, in one document.
+  - paragraph: "04"
+  - heading "Kickoff" [level=3]
+  - paragraph: Access, tracking checks and a first-month plan. The work is built in your accounts, so it stays yours.
+  - paragraph: For everyone who signs off
+  - heading "Built for the whole buying team." [level=2]
+  - paragraph: Most programs need a yes from marketing, ecommerce, engineering and finance. Here is what each of them gets.
+  - paragraph: Marketing leaders
+  - heading "One plan, measured on revenue" [level=3]
+  - paragraph: Search, paid, email and creative run by one senior team instead of four vendors.
+  - list:
+    - listitem: Reporting tied to leads and revenue
+    - listitem: One roadmap across channels
+    - listitem: A named senior lead
+  - paragraph: Ecommerce and digital
+  - heading "A store that ranks and converts" [level=3]
+  - paragraph: Catalog architecture, product pages and operations built inside Shopify or Webflow.
+  - list:
+    - listitem: Collection and product page structure
+    - listitem: Conversion testing
+    - listitem: Supplier EDI and order routing
+  - paragraph: IT and engineering
+  - heading "Work inside your guardrails" [level=3]
+  - paragraph: We build in your stack with the access you grant, and document what changes.
+  - list:
+    - listitem: Limited access with MFA
+    - listitem: No proprietary lock-in
+    - listitem: Security documentation on request
+  - paragraph: Finance and procurement
+  - heading "Clear terms, nothing hidden" [level=3]
+  - paragraph: Proposals you can line up against other agencies, with ownership spelled out.
+  - list:
+    - listitem: Itemized pricing by service
+    - listitem: You own every account and asset
+    - listitem: A defined handover if you leave
+  - paragraph: Selected work
+  - heading "Programs we have run." [level=2]
+  - paragraph: SEO, AI search, web and growth programs for organizations across the US. Each case study covers the approach and scope.
+  - paragraph: SaaS · AI search
+  - heading "Constant Contact" [level=3]
+  - paragraph: An SEO, AEO and GEO program that builds visibility in Google and AI answer engines.
+  - link "Case study →":
+    - /url: /constant-contact-case-study
+  - paragraph: Ecommerce
+  - heading "HauteFlair" [level=3]
+  - paragraph: Search architecture, structured data and organic growth for an online retailer with a large catalog.
+  - link "Case study →":
+    - /url: /hauteflair-case-study
+  - paragraph: Shopify · EDI
+  - heading "Spooky Costumes" [level=3]
+  - paragraph: Shopify rebuild and supplier EDI for a catalog of more than 8,000 products.
+  - link "Case study →":
+    - /url: /spooky-costumes-case-study
+  - paragraph: Shopify · EDI
+  - heading "ThirdLust" [level=3]
+  - paragraph: Shopify search and supplier EDI for a catalog of more than 11,000 products.
+  - link "Case study →":
+    - /url: /thirdlust-case-study
+  - paragraph: Free resources
+  - heading "Doing your homework first?" [level=2]
+  - paragraph: Two working documents for teams planning a search or marketing program. Use them whether or not you hire us.
+  - paragraph: Word and Excel
+  - heading "Digital marketing RFP template and scorecard" [level=3]
+  - paragraph: An RFP you can send to agencies, plus a weighted scorecard that ranks their answers on the same terms.
+  - link "Get the template →":
+    - /url: /digital-marketing-rfp-template
+  - paragraph: PDF checklist
+  - heading "AI search optimization checklist" [level=3]
+  - paragraph: Forty checks across crawl access, structured data, entities, content and measurement to see how ready your site is for AI answers.
+  - link "Get the checklist →":
+    - /url: /ai-search-optimization-checklist
+  - paragraph: FAQ
+  - heading "What should you know before you reach out?" [level=2]
+  - heading "How much does it cost to work with NativeCode?" [level=3]
+  - paragraph: It depends on scope. After a free audit or a discovery call, a senior strategist sends a written proposal with the scope, timeline and price before any work starts. SEO and AI search programs, paid media, email and web builds are each scoped to your goals, site and team. Share your budget range in the form and we will shape the proposal around it.
+  - heading "Do you work with companies outside Atlanta?" [level=3]
+  - paragraph: Yes. NativeCode is based in Atlanta, with an office in Norcross, and works with teams across the United States and in other countries. Most work runs remotely inside your own tools and accounts, with video calls for planning and reviews. Clients in metro Atlanta can also meet in person when that helps.
+  - heading "What should I include in my message?" [level=3]
+  - paragraph: Include your goals, the channels you run today, rough traffic or revenue figures if you can share them, and any deadline or launch date. Links to your site, your current reports and the platforms you use, such as Shopify, Webflow, GA4 or Klaviyo, help us come to the first call prepared with a point of view.
+  - heading "Can you work inside our existing accounts?" [level=3]
+  - paragraph: Yes. We build in your Google Ads, Meta, GA4, Search Console, Shopify, Webflow and email platform accounts, so the work and the data stay yours. Access is scoped to what the engagement needs and is read-only where possible. Our Security and trust page explains how we handle accounts, devices and client information.
+  - heading "I am an existing client. Where do I go?" [level=3]
+  - paragraph: Email your project lead directly for anything about an active engagement. If you are not sure who that is, write to hello@nativecode.ai with your company name in the subject line and we will route it to the right person. For security or vendor-risk questions, email security@nativecode.ai instead.
+  - paragraph: Other paths
+  - heading "Looking for someone specific?" [level=2]
+  - paragraph: New work
+  - heading "Projects and partnerships" [level=3]
+  - paragraph: Evaluating NativeCode for a program, a build or a partnership? Tell us about fit and timing.
+  - link "Email us →":
+    - /url: mailto:hello@nativecode.ai?subject=New%20project
+  - paragraph: Clients
+  - heading "Client support" [level=3]
+  - paragraph: Existing client with a question about an active engagement? We respond directly.
+  - link "Get support →":
+    - /url: mailto:hello@nativecode.ai?subject=Client%20support
+  - paragraph: Media
+  - heading "Press and speaking" [level=3]
+  - paragraph: Interviews, podcasts and speaking requests on search, AI discovery and growth.
+  - link "Media inquiries →":
+    - /url: mailto:hello@nativecode.ai?subject=Media%20inquiry
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

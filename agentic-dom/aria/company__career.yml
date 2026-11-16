@@ -1,0 +1,244 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - navigation:
+    - button "Services"
+    - button "Industries & locations"
+    - button "Resources"
+    - button "Company"
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - paragraph: Careers
+  - 'heading "Careers at NativeCode: help us grow the agency." [level=1]'
+  - paragraph: NativeCode is an Atlanta-based digital marketing agency, and we are adding senior specialists in client strategy, business development, paid media, email, technical SEO and web development. Every open role is remote within the US and works directly with our leadership and delivery team.
+  - link "See open roles":
+    - /url: "#roles"
+  - link "Get in touch":
+    - /url: mailto:mailto:career@nativecode.ai?subject=Careers
+  - paragraph: How we work
+  - heading "What is it like to work at NativeCode?" [level=2]
+  - paragraph: You work directly with senior strategists, engineers and decision-makers on problems that matter to the client’s business.
+  - paragraph: "01"
+  - heading "Work that moves the business" [level=3]
+  - paragraph: You work with senior strategists, engineers and client decision-makers on search, ads, email and web problems tied to real revenue and pipeline.
+  - paragraph: "02"
+  - heading "Clear scopes, fair rates" [level=3]
+  - paragraph: Every engagement starts with an agreed scope, availability and rate. Compensation reflects seniority, contribution and results.
+  - paragraph: "03"
+  - heading "Remote and async-friendly" [level=3]
+  - paragraph: Work from anywhere in the US. Meetings are planned and kept short, so there is room for deep, focused work.
+  - paragraph: Open roles
+  - heading "What roles are open?" [level=2]
+  - paragraph: All roles are remote within the US and engaged as independent contractors, on a fractional or project basis. Open a role to read the full description and apply.
+  - link "Fractional · Remote, US Client Strategy Lead, Digital Marketing Lead client meetings and communication across SEO, content marketing and paid media engagements. View role and apply":
+    - /url: /jobs/client-strategy-lead-paid-media-seo
+    - paragraph: Fractional · Remote, US
+    - heading "Client Strategy Lead, Digital Marketing" [level=3]
+    - paragraph: Lead client meetings and communication across SEO, content marketing and paid media engagements.
+    - paragraph: View role and apply
+  - link "Fractional · Remote, US Business Development Manager, Digital Marketing Find new clients, start conversations with decision-makers and turn qualified opportunities into signed work. View role and apply":
+    - /url: /jobs/business-development-manager-digital-marketing
+    - paragraph: Fractional · Remote, US
+    - heading "Business Development Manager, Digital Marketing" [level=3]
+    - paragraph: Find new clients, start conversations with decision-makers and turn qualified opportunities into signed work.
+    - paragraph: View role and apply
+  - link "Contract · Remote, US Paid Media Specialist, Google, Meta and LinkedIn Ads Build and run Google, Meta and LinkedIn Ads campaigns with clean tracking and clear reporting. View role and apply":
+    - /url: /jobs/paid-media-specialist-google-meta-linkedin-ads
+    - paragraph: Contract · Remote, US
+    - heading "Paid Media Specialist, Google, Meta and LinkedIn Ads" [level=3]
+    - paragraph: Build and run Google, Meta and LinkedIn Ads campaigns with clean tracking and clear reporting.
+    - paragraph: View role and apply
+  - link "Contract · Remote, US Email Marketing and Klaviyo Specialist Build flows, segments and campaigns in Klaviyo and other email platforms, measured on revenue. View role and apply":
+    - /url: /jobs/email-marketing-klaviyo-specialist
+    - paragraph: Contract · Remote, US
+    - heading "Email Marketing and Klaviyo Specialist" [level=3]
+    - paragraph: Build flows, segments and campaigns in Klaviyo and other email platforms, measured on revenue.
+    - paragraph: View role and apply
+  - link "Contract · Remote, US Technical SEO and AI Search Specialist Own crawlability, indexation, structure and schema so client sites rank and get cited in AI answers. View role and apply":
+    - /url: /jobs/technical-seo-ai-search-specialist
+    - paragraph: Contract · Remote, US
+    - heading "Technical SEO and AI Search Specialist" [level=3]
+    - paragraph: Own crawlability, indexation, structure and schema so client sites rank and get cited in AI answers.
+    - paragraph: View role and apply
+  - link "Contract · Remote, US Webflow and Shopify Developer Build fast, well-structured Webflow and Shopify sites with SEO and schema built in. View role and apply":
+    - /url: /jobs/webflow-shopify-developer
+    - paragraph: Contract · Remote, US
+    - heading "Webflow and Shopify Developer" [level=3]
+    - paragraph: Build fast, well-structured Webflow and Shopify sites with SEO and schema built in.
+    - paragraph: View role and apply
+  - paragraph: FAQ
+  - heading "Questions about working with NativeCode" [level=2]
+  - paragraph: Still have a question?
+  - paragraph: Ask the senior strategist who would run your program.
+  - link "Start a project":
+    - /url: /company/contact
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - heading "Are NativeCode jobs remote?" [level=3]
+  - paragraph: Yes. All current roles are remote within the US. Some roles, such as the Client Strategy Lead, need availability during US Eastern business hours for client meetings.
+  - heading "Are these full-time jobs?" [level=3]
+  - paragraph: Current openings are fractional or contract roles for independent contractors. Scope, hours and rates are agreed with each person based on the work and their availability.
+  - heading "How do I apply?" [level=3]
+  - paragraph: Open the role, read the full description and use the application form on that page. Include your LinkedIn profile or portfolio and a short note on your most relevant work.
+  - heading "What happens after I apply?" [level=3]
+  - paragraph: Applications are reviewed against the role. If there is a fit, we set up a short video call, then agree on scope, availability and rates.
+  - heading "What if none of the roles fit?" [level=3]
+  - paragraph: Email career@nativecode.ai with Careers in the subject line, a link to your work and a few lines on what you do best.
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

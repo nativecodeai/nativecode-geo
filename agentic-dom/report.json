@@ -1,0 +1,2910 @@
+{
+  "generated_at": "2026-11-16T19:43:57.256Z",
+  "viewport": "desktop",
+  "pages": [
+    {
+      "url": "https://www.nativecode.ai/",
+      "title": "Digital Marketing Agency in Atlanta | NativeCode",
+      "score": 95,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 1,
+        "region": 1
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "The digital marketing agency that turns search into revenue."
+        },
+        {
+          "level": 2,
+          "name": "What do you need to grow?"
+        },
+        {
+          "level": 2,
+          "name": "See what is holding your growth back."
+        },
+        {
+          "level": 3,
+          "name": "Get your free audit"
+        },
+        {
+          "level": 2,
+          "name": "What does a full-service digital marketing agency cover?"
+        },
+        {
+          "level": 2,
+          "name": "How can you work with us?"
+        },
+        {
+          "level": 3,
+          "name": "Growth program"
+        },
+        {
+          "level": 3,
+          "name": "Projects"
+        },
+        {
+          "level": 3,
+          "name": "Advisory"
+        },
+        {
+          "level": 3,
+          "name": "How a program runs"
+        },
+        {
+          "level": 3,
+          "name": "Is the audit really free?"
+        },
+        {
+          "level": 3,
+          "name": "Who does the work?"
+        },
+        {
+          "level": 3,
+          "name": "Do you work outside Atlanta?"
+        },
+        {
+          "level": 3,
+          "name": "Can you work with our in-house team?"
+        },
+        {
+          "level": 3,
+          "name": "How is pricing set?"
+        },
+        {
+          "level": 2,
+          "name": "Why work with NativeCode?"
+        },
+        {
+          "level": 3,
+          "name": "Senior people only"
+        },
+        {
+          "level": 3,
+          "name": "Search is our core"
+        },
+        {
+          "level": 3,
+          "name": "One plan, every channel"
+        },
+        {
+          "level": 3,
+          "name": "Enterprise-ready"
+        },
+        {
+          "level": 2,
+          "name": "Start with your industry or your market."
+        },
+        {
+          "level": 2,
+          "name": "Ads, films and content, made in house."
+        },
+        {
+          "level": 2,
+          "name": "Find out what to fix first."
+        },
+        {
+          "level": 3,
+          "name": "Get found on Google and in AI answers"
+        },
+        {
+          "level": 3,
+          "name": "A website that turns visitors into leads"
+        },
+        {
+          "level": 3,
+          "name": "An online store that sells more"
+        },
+        {
+          "level": 3,
+          "name": "Ads that pay for themselves"
+        },
+        {
+          "level": 3,
+          "name": "Email that brings customers back"
+        },
+        {
+          "level": 3,
+          "name": "Not sure where to start"
+        },
+        {
+          "level": 2,
+          "name": "Trusted where search drives revenue."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "Online retailer with a large catalog"
+        },
+        {
+          "level": 3,
+          "name": "Product page CRO"
+        },
+        {
+          "level": 3,
+          "name": "Ecommerce operations"
+        },
+        {
+          "level": 3,
+          "name": "Six products we build and run"
+        },
+        {
+          "level": 3,
+          "name": "SEO and AI search"
+        },
+        {
+          "level": 3,
+          "name": "Web design and development"
+        },
+        {
+          "level": 3,
+          "name": "Ecommerce"
+        },
+        {
+          "level": 3,
+          "name": "Google Ads"
+        },
+        {
+          "level": 3,
+          "name": "Meta Ads"
+        },
+        {
+          "level": 3,
+          "name": "Email and lifecycle"
+        },
+        {
+          "level": 3,
+          "name": "Creative and video"
+        },
+        {
+          "level": 3,
+          "name": "Analytics and CRO"
+        },
+        {
+          "level": 3,
+          "name": "EDI and ecommerce operations"
+        },
+        {
+          "level": 3,
+          "name": "Custom web development"
+        },
+        {
+          "level": 4,
+          "name": "Discover"
+        },
+        {
+          "level": 4,
+          "name": "Plan"
+        },
+        {
+          "level": 4,
+          "name": "Build and launch"
+        },
+        {
+          "level": 4,
+          "name": "Optimize"
+        },
+        {
+          "level": 2,
+          "name": "Questions before you start."
+        },
+        {
+          "level": 3,
+          "name": "Twelve industries"
+        },
+        {
+          "level": 3,
+          "name": "Local SEO and AEO"
+        },
+        {
+          "level": 3,
+          "name": "More locations, more markets"
+        }
+      ],
+      "interactive": {
+        "total": 179,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 23,
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright"
+        }
+      ],
+      "contrast": [
+        {
+          "target": "a[href$=\"seo-architecture\"] > div > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">01</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": "a[href$=\"seo-architecture\"] > div > .ds-text",
+          "html": "<p class=\"ds-text\">Technical SEO, site architecture and content that rank in Google and get cited in AI answers.</p>",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"webflow-development\"] > div > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">02</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"webflow-development\"] > div > .ds-text",
+          "html": "<p class=\"ds-text\">Fast, accessible websites on Webflow and custom stacks, designed to convert and built to scale.</p>",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"shopify-seo\"] > div > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">03</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"shopify-seo\"] > div > .ds-text",
+          "html": "<p class=\"ds-text\">Shopify builds, catalog architecture and product pages that turn search demand into orders.</p>",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"ppc-management\"]:nth-child(4) > div > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">04</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"ppc-management\"]:nth-child(4) > div > .ds-text",
+          "html": "<p class=\"ds-text\">Search, Shopping, Performance Max and YouTube campaigns managed against profit, not clicks.</p>",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"ppc-management\"]:nth-child(5) > div > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">05</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"ppc-management\"]:nth-child(5) > div > .ds-text",
+          "html": "<p class=\"ds-text\">Facebook and Instagram campaigns with full-funnel structure, Conversions API and weekly creative testing.</p>",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"email-marketing\"] > div > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">06</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"email-marketing\"] > div > .ds-text",
+          "html": "<p class=\"ds-text\">Email and SMS sequences, segmentation and campaigns in Klaviyo, Mailchimp, Constant Contact and other platforms.</p>",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"video-production\"] > div > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">07</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block[href$=\"video-production\"] > div > .ds-text",
+          "html": "<p class=\"ds-text\">Ad creative, product imagery and short-form video produced in house and tested against live spend.</p>",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block:nth-child(8) > div > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">08</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card.w-inline-block:nth-child(8) > div > .ds-text",
+          "html": "<p class=\"ds-text\">GA4, attribution, dashboards and testing programs that show what works and lift conversion.</p>",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card-wide.w-inline-block[href$=\"edi-integration\"] > .ds-card-wide-copy > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">09 · New</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card-wide.w-inline-block[href$=\"edi-integration\"] > .ds-card-wide-copy > .ds-text",
+          "html": "<p class=\"ds-text\">EDI connections between your store and your suppliers: inventory sync, purchase orders and order routing, ship notices and tracking, and invo",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card-wide.w-inline-block:nth-child(10) > .ds-card-wide-copy > .ds-eyebrow",
+          "html": "<p class=\"ds-eyebrow\">10 · New</p>",
+          "fg": "#969692",
+          "bg": "#ffffff",
+          "ratio": 2.96,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".ds-card-wide.w-inline-block:nth-child(10) > .ds-card-wide-copy > .ds-text",
+          "html": "<p class=\"ds-text\">Bring the idea. We make it real. Web apps, internal tools, calculators, portals and AI features, designed, built and launched by one senior t",
+          "fg": "#858580",
+          "bg": "#ffffff",
+          "ratio": 3.7,
+          "expected": 4.5,
+          "fontSize": "12.8pt (17px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".hp-eng-main > .hp-eng-top > .hp-eng-idx",
+          "html": "<p class=\"hp-eng-idx\">01</p>",
+          "fg": "#636560",
+          "bg": "#12150f",
+          "ratio": 3.12,
+          "expected": 4.5,
+          "fontSize": "8.3pt (11px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".hp-eng-card:nth-child(2) > .hp-eng-top > .hp-eng-idx",
+          "html": "<p class=\"hp-eng-idx\">02</p>",
+          "fg": "#616162",
+          "bg": "#0f1012",
+          "ratio": 3.07,
+          "expected": 4.5,
+          "fontSize": "8.3pt (11px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".hp-eng-card:nth-child(3) > .hp-eng-top > .hp-eng-idx",
+          "html": "<p class=\"hp-eng-idx\">03</p>",
+          "fg": "#616162",
+          "bg": "#0f1012",
+          "ratio": 3.07,
+          "expected": 4.5,
+          "fontSize": "8.3pt (11px)",
+          "fontWeight": "normal"
+        }
+      ],
+      "aria_snapshot": "aria/home.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/digital-marketing-services",
+      "title": "Digital Marketing Services: Full List | NativeCode",
+      "score": 100,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 0,
+        "region": 0
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "Digital marketing services, from search to sales."
+        },
+        {
+          "level": 2,
+          "name": "What digital marketing services does NativeCode offer?"
+        },
+        {
+          "level": 3,
+          "name": "SEO and AI search"
+        },
+        {
+          "level": 3,
+          "name": "Websites"
+        },
+        {
+          "level": 3,
+          "name": "Shopify and ecommerce"
+        },
+        {
+          "level": 3,
+          "name": "Paid media"
+        },
+        {
+          "level": 3,
+          "name": "Email, data and growth"
+        },
+        {
+          "level": 3,
+          "name": "Local SEO"
+        },
+        {
+          "level": 2,
+          "name": "Programs we have run."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "HauteFlair"
+        },
+        {
+          "level": 3,
+          "name": "Spooky Costumes"
+        },
+        {
+          "level": 3,
+          "name": "ThirdLust"
+        },
+        {
+          "level": 3,
+          "name": "What digital marketing services does NativeCode offer?"
+        },
+        {
+          "level": 3,
+          "name": "Do I need more than one service?"
+        },
+        {
+          "level": 3,
+          "name": "Do you work with businesses outside Atlanta?"
+        },
+        {
+          "level": 3,
+          "name": "How do I choose where to start?"
+        },
+        {
+          "level": 2,
+          "name": "Not sure which service you need?"
+        },
+        {
+          "level": 2,
+          "name": "Digital marketing services: common questions"
+        }
+      ],
+      "interactive": {
+        "total": 149,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "ambiguous-links",
+          "severity": "notice",
+          "title": "Same link name, different destinations",
+          "count": 1,
+          "examples": [
+            "\"case study →\" -> 4 destinations"
+          ],
+          "why": "Two links with the same name that go to different places force an agent to guess.",
+          "fix": "Make the names distinct or add context with aria-label."
+        },
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [],
+      "contrast": [],
+      "aria_snapshot": "aria/digital-marketing-services.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/services/seo",
+      "title": "SEO Services and SEO Agency | NativeCode",
+      "score": 95,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 1,
+        "region": 1
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "SEO services that turn search into revenue."
+        },
+        {
+          "level": 2,
+          "name": "What do our SEO services include?"
+        },
+        {
+          "level": 2,
+          "name": "How does an SEO engagement work?"
+        },
+        {
+          "level": 2,
+          "name": "Which SEO service do you need?"
+        },
+        {
+          "level": 3,
+          "name": "How long does SEO take to work?"
+        },
+        {
+          "level": 3,
+          "name": "What is the difference between SEO and AEO?"
+        },
+        {
+          "level": 3,
+          "name": "Do you work with in-house teams and developers?"
+        },
+        {
+          "level": 3,
+          "name": "How do you report on SEO results?"
+        },
+        {
+          "level": 3,
+          "name": "Are you an Atlanta SEO company or a national agency?"
+        },
+        {
+          "level": 2,
+          "name": "Related services"
+        },
+        {
+          "level": 2,
+          "name": "Find out what to fix first."
+        },
+        {
+          "level": 2,
+          "name": "See what is holding your rankings back"
+        },
+        {
+          "level": 3,
+          "name": "Technical SEO"
+        },
+        {
+          "level": 3,
+          "name": "SEO architecture"
+        },
+        {
+          "level": 3,
+          "name": "Content and topic clusters"
+        },
+        {
+          "level": 3,
+          "name": "AI search and AEO"
+        },
+        {
+          "level": 3,
+          "name": "Link building and digital PR"
+        },
+        {
+          "level": 3,
+          "name": "Local, national and international SEO"
+        },
+        {
+          "level": 3,
+          "name": "Technical SEO"
+        },
+        {
+          "level": 3,
+          "name": "SEO audit"
+        },
+        {
+          "level": 3,
+          "name": "SEO consulting"
+        },
+        {
+          "level": 3,
+          "name": "Enterprise SEO"
+        },
+        {
+          "level": 3,
+          "name": "Local SEO"
+        },
+        {
+          "level": 3,
+          "name": "National SEO"
+        },
+        {
+          "level": 3,
+          "name": "Multi-location SEO"
+        },
+        {
+          "level": 3,
+          "name": "International SEO"
+        },
+        {
+          "level": 3,
+          "name": "Shopify SEO"
+        },
+        {
+          "level": 3,
+          "name": "WordPress SEO"
+        },
+        {
+          "level": 3,
+          "name": "Content marketing"
+        },
+        {
+          "level": 3,
+          "name": "AI search and AEO"
+        },
+        {
+          "level": 2,
+          "name": "Trusted where search drives revenue."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "Online retailer with a large catalog"
+        },
+        {
+          "level": 3,
+          "name": "Product page CRO"
+        },
+        {
+          "level": 3,
+          "name": "Ecommerce operations"
+        },
+        {
+          "level": 3,
+          "name": "Six products we build and run"
+        },
+        {
+          "level": 2,
+          "name": "Questions about SEO services"
+        },
+        {
+          "level": 3,
+          "name": "SEO audit"
+        },
+        {
+          "level": 3,
+          "name": "AI search and AEO"
+        },
+        {
+          "level": 3,
+          "name": "Audit"
+        },
+        {
+          "level": 3,
+          "name": "Plan"
+        },
+        {
+          "level": 3,
+          "name": "Build"
+        },
+        {
+          "level": 3,
+          "name": "Report"
+        }
+      ],
+      "interactive": {
+        "total": 138,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link.w--current> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright"
+        }
+      ],
+      "contrast": [
+        {
+          "target": ".lp2-optional",
+          "html": "<span class=\"lp2-optional\">(optional)</span>",
+          "fg": "#8a8f98",
+          "bg": "#f4f3ef",
+          "ratio": 2.92,
+          "expected": 4.5,
+          "fontSize": "10.5pt (14px)",
+          "fontWeight": "normal"
+        }
+      ],
+      "aria_snapshot": "aria/services__seo.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/services/ai-seo",
+      "title": "AI SEO Services and AI Search Optimization | NativeCode",
+      "score": 95,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 1,
+        "region": 1
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "AI SEO services: visibility where the answers happen."
+        },
+        {
+          "level": 2,
+          "name": "How does AI search optimization work?"
+        },
+        {
+          "level": 3,
+          "name": "AI visibility audit"
+        },
+        {
+          "level": 3,
+          "name": "Entity optimization"
+        },
+        {
+          "level": 3,
+          "name": "Structured data systems"
+        },
+        {
+          "level": 3,
+          "name": "Answer-ready formats"
+        },
+        {
+          "level": 3,
+          "name": "Authority programs"
+        },
+        {
+          "level": 3,
+          "name": "Citation tracking"
+        },
+        {
+          "level": 2,
+          "name": "How does an AI search program run?"
+        },
+        {
+          "level": 3,
+          "name": "Audit"
+        },
+        {
+          "level": 3,
+          "name": "Structure"
+        },
+        {
+          "level": 3,
+          "name": "Format"
+        },
+        {
+          "level": 3,
+          "name": "Track"
+        },
+        {
+          "level": 3,
+          "name": "What is Answer Engine Optimization?"
+        },
+        {
+          "level": 3,
+          "name": "How is AEO different from SEO?"
+        },
+        {
+          "level": 3,
+          "name": "Can you prove this works?"
+        },
+        {
+          "level": 3,
+          "name": "Do you work alongside existing SEO teams?"
+        },
+        {
+          "level": 3,
+          "name": "How do you measure AI visibility?"
+        },
+        {
+          "level": 2,
+          "name": "Works best with"
+        },
+        {
+          "level": 2,
+          "name": "Find out what to fix first."
+        },
+        {
+          "level": 2,
+          "name": "See how AI answers describe your brand"
+        },
+        {
+          "level": 2,
+          "name": "Trusted where search drives revenue."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "Online retailer with a large catalog"
+        },
+        {
+          "level": 3,
+          "name": "Product page CRO"
+        },
+        {
+          "level": 3,
+          "name": "Ecommerce operations"
+        },
+        {
+          "level": 3,
+          "name": "Six products we build and run"
+        },
+        {
+          "level": 2,
+          "name": "AI search optimization questions"
+        },
+        {
+          "level": 3,
+          "name": "The structure engines read first"
+        },
+        {
+          "level": 3,
+          "name": "Content built to be quoted"
+        }
+      ],
+      "interactive": {
+        "total": 110,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link.w--current> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright"
+        }
+      ],
+      "contrast": [
+        {
+          "target": ".lp2-optional",
+          "html": "<span class=\"lp2-optional\">(optional)</span>",
+          "fg": "#8a8f98",
+          "bg": "#f4f3ef",
+          "ratio": 2.92,
+          "expected": 4.5,
+          "fontSize": "10.5pt (14px)",
+          "fontWeight": "normal"
+        }
+      ],
+      "aria_snapshot": "aria/services__ai-seo.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/industries/saas-seo",
+      "title": "SaaS SEO and AEO Services | NativeCode",
+      "score": 95,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 1,
+        "region": 1
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "SaaS SEO and AEO for software companies."
+        },
+        {
+          "level": 2,
+          "name": "Why do SaaS buyers decide before talking to sales?"
+        },
+        {
+          "level": 3,
+          "name": "Traffic that never converts"
+        },
+        {
+          "level": 3,
+          "name": "Comparisons owned by others"
+        },
+        {
+          "level": 3,
+          "name": "Docs left out"
+        },
+        {
+          "level": 2,
+          "name": "Programs we have run."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "HauteFlair"
+        },
+        {
+          "level": 3,
+          "name": "Spooky Costumes"
+        },
+        {
+          "level": 3,
+          "name": "ThirdLust"
+        },
+        {
+          "level": 2,
+          "name": "What does SaaS SEO include?"
+        },
+        {
+          "level": 3,
+          "name": "Use-case and solution pages"
+        },
+        {
+          "level": 3,
+          "name": "Comparison pages"
+        },
+        {
+          "level": 3,
+          "name": "Integration pages"
+        },
+        {
+          "level": 3,
+          "name": "Documentation SEO"
+        },
+        {
+          "level": 3,
+          "name": "Template pages, done carefully"
+        },
+        {
+          "level": 3,
+          "name": "Product-led content"
+        },
+        {
+          "level": 2,
+          "name": "How does a SaaS product get onto AI shortlists?"
+        },
+        {
+          "level": 3,
+          "name": "Category questions"
+        },
+        {
+          "level": 3,
+          "name": "Consistent signals"
+        },
+        {
+          "level": 3,
+          "name": "Developer assistants"
+        },
+        {
+          "level": 3,
+          "name": "Prompt tracking"
+        },
+        {
+          "level": 3,
+          "name": "What should a SaaS company publish first?"
+        },
+        {
+          "level": 3,
+          "name": "Are comparison pages worth it?"
+        },
+        {
+          "level": 3,
+          "name": "Should docs live on a subdomain?"
+        },
+        {
+          "level": 3,
+          "name": "How do you measure AI visibility for SaaS?"
+        },
+        {
+          "level": 2,
+          "name": "Get your product on the AI shortlist."
+        },
+        {
+          "level": 2,
+          "name": "Free SaaS SEO audit for your product"
+        },
+        {
+          "level": 2,
+          "name": "Trusted where search drives revenue."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "Online retailer with a large catalog"
+        },
+        {
+          "level": 3,
+          "name": "Product page CRO"
+        },
+        {
+          "level": 3,
+          "name": "Ecommerce operations"
+        },
+        {
+          "level": 3,
+          "name": "Six products we build and run"
+        },
+        {
+          "level": 2,
+          "name": "SaaS SEO questions"
+        }
+      ],
+      "interactive": {
+        "total": 107,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "ambiguous-links",
+          "severity": "notice",
+          "title": "Same link name, different destinations",
+          "count": 1,
+          "examples": [
+            "\"case study →\" -> 4 destinations"
+          ],
+          "why": "Two links with the same name that go to different places force an agent to guess.",
+          "fix": "Make the names distinct or add context with aria-label."
+        },
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright"
+        }
+      ],
+      "contrast": [
+        {
+          "target": ".lp2-optional",
+          "html": "<span class=\"lp2-optional\">(optional)</span>",
+          "fg": "#8a8f98",
+          "bg": "#f4f3ef",
+          "ratio": 2.92,
+          "expected": 4.5,
+          "fontSize": "10.5pt (14px)",
+          "fontWeight": "normal"
+        }
+      ],
+      "aria_snapshot": "aria/industries__saas-seo.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/locations/atlanta-seo-agency",
+      "title": "Atlanta SEO Agency: Local SEO and AEO | NativeCode",
+      "score": 95,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 1,
+        "region": 1
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "Atlanta SEO agency for local search and AI answers."
+        },
+        {
+          "level": 2,
+          "name": "How do Atlanta customers search for local businesses?"
+        },
+        {
+          "level": 3,
+          "name": "Neighborhood searches"
+        },
+        {
+          "level": 3,
+          "name": "Inside and outside the Perimeter"
+        },
+        {
+          "level": 3,
+          "name": "Close competition"
+        },
+        {
+          "level": 2,
+          "name": "What does NativeCode do for Atlanta businesses?"
+        },
+        {
+          "level": 3,
+          "name": "Local SEO and AEO"
+        },
+        {
+          "level": 3,
+          "name": "AI search"
+        },
+        {
+          "level": 3,
+          "name": "Websites"
+        },
+        {
+          "level": 3,
+          "name": "Ecommerce"
+        },
+        {
+          "level": 3,
+          "name": "Paid media"
+        },
+        {
+          "level": 3,
+          "name": "Email marketing"
+        },
+        {
+          "level": 2,
+          "name": "Programs we have run."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "HauteFlair"
+        },
+        {
+          "level": 3,
+          "name": "Spooky Costumes"
+        },
+        {
+          "level": 3,
+          "name": "ThirdLust"
+        },
+        {
+          "level": 3,
+          "name": "Is NativeCode based in Atlanta?"
+        },
+        {
+          "level": 3,
+          "name": "How do I rank in Google Maps in Atlanta?"
+        },
+        {
+          "level": 3,
+          "name": "Can you help us rank across the metro?"
+        },
+        {
+          "level": 3,
+          "name": "What does local SEO cost in Atlanta?"
+        },
+        {
+          "level": 2,
+          "name": "Other areas we serve"
+        },
+        {
+          "level": 2,
+          "name": "Rank where Atlanta searches."
+        },
+        {
+          "level": 2,
+          "name": "Free SEO audit for Atlanta businesses"
+        },
+        {
+          "level": 2,
+          "name": "Trusted where search drives revenue."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "Online retailer with a large catalog"
+        },
+        {
+          "level": 3,
+          "name": "Product page CRO"
+        },
+        {
+          "level": 3,
+          "name": "Ecommerce operations"
+        },
+        {
+          "level": 3,
+          "name": "Six products we build and run"
+        },
+        {
+          "level": 2,
+          "name": "Atlanta SEO agency questions"
+        },
+        {
+          "level": 3,
+          "name": "Marietta"
+        },
+        {
+          "level": 3,
+          "name": "Alpharetta"
+        },
+        {
+          "level": 3,
+          "name": "Sandy Springs"
+        },
+        {
+          "level": 3,
+          "name": "Decatur"
+        },
+        {
+          "level": 3,
+          "name": "Roswell"
+        },
+        {
+          "level": 3,
+          "name": "Duluth"
+        }
+      ],
+      "interactive": {
+        "total": 117,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "ambiguous-links",
+          "severity": "notice",
+          "title": "Same link name, different destinations",
+          "count": 1,
+          "examples": [
+            "\"case study →\" -> 4 destinations"
+          ],
+          "why": "Two links with the same name that go to different places force an agent to guess.",
+          "fix": "Make the names distinct or add context with aria-label."
+        },
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright"
+        }
+      ],
+      "contrast": [
+        {
+          "target": ".lp2-optional",
+          "html": "<span class=\"lp2-optional\">(optional)</span>",
+          "fg": "#8a8f98",
+          "bg": "#f4f3ef",
+          "ratio": 2.92,
+          "expected": 4.5,
+          "fontSize": "10.5pt (14px)",
+          "fontWeight": "normal"
+        }
+      ],
+      "aria_snapshot": "aria/locations__atlanta-seo-agency.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/local-seo/georgia-seo-company",
+      "title": "Georgia SEO Company: Local SEO and AEO | NativeCode",
+      "score": 95,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 1,
+        "region": 1
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "Georgia SEO company for local businesses."
+        },
+        {
+          "level": 2,
+          "name": "How do Georgia customers search for local businesses?"
+        },
+        {
+          "level": 3,
+          "name": "Metro Atlanta's many cities"
+        },
+        {
+          "level": 3,
+          "name": "Augusta, Columbus and Chattanooga"
+        },
+        {
+          "level": 3,
+          "name": "Coast and mountain tourism"
+        },
+        {
+          "level": 2,
+          "name": "Everything that decides who ranks nearby."
+        },
+        {
+          "level": 3,
+          "name": "Google Business Profile"
+        },
+        {
+          "level": 3,
+          "name": "Location and service area pages"
+        },
+        {
+          "level": 3,
+          "name": "Reviews and citations"
+        },
+        {
+          "level": 3,
+          "name": "AI local answers"
+        },
+        {
+          "level": 3,
+          "name": "Local ads"
+        },
+        {
+          "level": 3,
+          "name": "Reaching further"
+        },
+        {
+          "level": 2,
+          "name": "Programs we have run."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "HauteFlair"
+        },
+        {
+          "level": 3,
+          "name": "Spooky Costumes"
+        },
+        {
+          "level": 3,
+          "name": "ThirdLust"
+        },
+        {
+          "level": 2,
+          "name": "Explore Georgia and nearby"
+        },
+        {
+          "level": 3,
+          "name": "CITIES IN METRO ATLANTA"
+        },
+        {
+          "level": 3,
+          "name": "NEIGHBORING STATES"
+        },
+        {
+          "level": 3,
+          "name": "Does NativeCode work with businesses in Georgia?"
+        },
+        {
+          "level": 3,
+          "name": "Can an intown Atlanta business rank in Alpharetta or Marietta?"
+        },
+        {
+          "level": 3,
+          "name": "Should Gwinnett businesses publish Spanish or Korean content?"
+        },
+        {
+          "level": 3,
+          "name": "How do Savannah tourism businesses show up in AI answers?"
+        },
+        {
+          "level": 2,
+          "name": "Work with an Atlanta agency on Georgia search."
+        },
+        {
+          "level": 2,
+          "name": "See what is holding your rankings back"
+        },
+        {
+          "level": 2,
+          "name": "Trusted where search drives revenue."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "Online retailer with a large catalog"
+        },
+        {
+          "level": 3,
+          "name": "Product page CRO"
+        },
+        {
+          "level": 3,
+          "name": "Ecommerce operations"
+        },
+        {
+          "level": 3,
+          "name": "Six products we build and run"
+        },
+        {
+          "level": 2,
+          "name": "Local SEO questions"
+        }
+      ],
+      "interactive": {
+        "total": 124,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "ambiguous-links",
+          "severity": "notice",
+          "title": "Same link name, different destinations",
+          "count": 1,
+          "examples": [
+            "\"case study →\" -> 4 destinations"
+          ],
+          "why": "Two links with the same name that go to different places force an agent to guess.",
+          "fix": "Make the names distinct or add context with aria-label."
+        },
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 1,
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright"
+        }
+      ],
+      "contrast": [
+        {
+          "target": ".lp2-optional",
+          "html": "<span class=\"lp2-optional\">(optional)</span>",
+          "fg": "#8a8f98",
+          "bg": "#f4f3ef",
+          "ratio": 2.92,
+          "expected": 4.5,
+          "fontSize": "10.5pt (14px)",
+          "fontWeight": "normal"
+        }
+      ],
+      "aria_snapshot": "aria/local-seo__georgia-seo-company.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/constant-contact-case-study",
+      "title": "Constant Contact Case Study: SEO and AEO | NativeCode",
+      "score": 95,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 0,
+        "region": 0
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "An SEO, AEO and GEO program for Constant Contact."
+        },
+        {
+          "level": 2,
+          "name": "Program results on request"
+        },
+        {
+          "level": 2,
+          "name": "Keep exploring"
+        },
+        {
+          "level": 2,
+          "name": "What did Constant Contact need?"
+        },
+        {
+          "level": 2,
+          "name": "How is the program structured?"
+        },
+        {
+          "level": 2,
+          "name": "How is each page built to be quoted?"
+        },
+        {
+          "level": 2,
+          "name": "Growth programs"
+        },
+        {
+          "level": 3,
+          "name": "Six products we build and run"
+        },
+        {
+          "level": 3,
+          "name": "HauteFlair"
+        }
+      ],
+      "interactive": {
+        "total": 89,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 4,
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright"
+        }
+      ],
+      "contrast": [
+        {
+          "target": ".cs-fact:nth-child(2) > .cs-fact-l",
+          "html": "<p class=\"cs-fact-l\">Client</p>",
+          "fg": "#878c91",
+          "bg": "#252e3b",
+          "ratio": 4.03,
+          "expected": 4.5,
+          "fontSize": "8.3pt (11px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".cs-fact:nth-child(3) > .cs-fact-l",
+          "html": "<p class=\"cs-fact-l\">Sector</p>",
+          "fg": "#878c91",
+          "bg": "#252e3b",
+          "ratio": 4.03,
+          "expected": 4.5,
+          "fontSize": "8.3pt (11px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".cs-fact:nth-child(4) > .cs-fact-l",
+          "html": "<p class=\"cs-fact-l\">Engagement</p>",
+          "fg": "#878c91",
+          "bg": "#252e3b",
+          "ratio": 4.03,
+          "expected": 4.5,
+          "fontSize": "8.3pt (11px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".cs-fact:nth-child(5) > .cs-fact-l",
+          "html": "<p class=\"cs-fact-l\">Scope</p>",
+          "fg": "#878c91",
+          "bg": "#252e3b",
+          "ratio": 4.03,
+          "expected": 4.5,
+          "fontSize": "8.3pt (11px)",
+          "fontWeight": "normal"
+        }
+      ],
+      "aria_snapshot": "aria/constant-contact-case-study.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/blog",
+      "title": "SEO and AI Search Blog | NativeCode",
+      "score": 95,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 0,
+        "region": 0
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "Notes on search, AI answers and growth."
+        },
+        {
+          "level": 2,
+          "name": "The Klaviyo Flows Every Shopify Store Needs, in the Order to Build Them"
+        },
+        {
+          "level": 2,
+          "name": "Google Ads Conversion Tracking Setup: GA4, Enhanced Conversions and Offline Leads"
+        },
+        {
+          "level": 2,
+          "name": "What Is EDI? A Plain-English Guide for Shopify Stores"
+        },
+        {
+          "level": 2,
+          "name": "How to Measure AI Visibility Without a Rank Tracker"
+        },
+        {
+          "level": 2,
+          "name": "Wikipedia, Wikidata, and Entity Grounding"
+        },
+        {
+          "level": 2,
+          "name": "llms.txt: What It Is, What It Isn't, and Whether You Need One"
+        },
+        {
+          "level": 2,
+          "name": "Robots.txt and the AI Crawlers"
+        },
+        {
+          "level": 2,
+          "name": "Schema Markup for AI Citation: Which Types Actually Matter"
+        },
+        {
+          "level": 2,
+          "name": "Why Your FAQ Isn't Getting Quoted"
+        },
+        {
+          "level": 2,
+          "name": "How to Structure a Page So an Answer Engine Can Quote It"
+        },
+        {
+          "level": 2,
+          "name": "What Answer Engine Optimization Actually Is"
+        },
+        {
+          "level": 2,
+          "name": "Prompt Methodology for AI Visibility Optimization: Complete Guide"
+        },
+        {
+          "level": 2,
+          "name": "How AI Overviews Choose Sources: Signal Breakdown for AI Search Visibility"
+        },
+        {
+          "level": 2,
+          "name": "AI Search vs Traditional SEO: The Complete Structural Breakdown"
+        },
+        {
+          "level": 2,
+          "name": "The Evolution from SEO to AI Discovery Strategy"
+        },
+        {
+          "level": 2,
+          "name": "The New Era of Digital Discovery: Growth Architecture and AI Search Visibility Explained"
+        },
+        {
+          "level": 2,
+          "name": "Scaling Categories Without Killing Search Performance"
+        },
+        {
+          "level": 2,
+          "name": "How AI Search Is Changing What “Ranking” Really Means"
+        },
+        {
+          "level": 2,
+          "name": "Why Most Websites Stop Growing After Year One"
+        }
+      ],
+      "interactive": {
+        "total": 107,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodes": 19,
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=playwright"
+        }
+      ],
+      "contrast": [
+        {
+          "target": "a[href$=\"klaviyo-flows-shopify\"] > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">November 3, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(2) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">November 3, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(3) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">October 31, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(4) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">September 1, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(5) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">September 1, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(6) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">September 1, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(7) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">September 1, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(8) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">September 1, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(9) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">September 1, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(10) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">September 1, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(11) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">September 1, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(12) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">February 26, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(13) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">February 21, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(14) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">February 20, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(15) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">February 8, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(16) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">February 7, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(17) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">February 2, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(18) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">February 2, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        },
+        {
+          "target": ".w-dyn-item[role=\"listitem\"]:nth-child(19) > .ds-post > .ds-post-link.w-inline-block > .ds-post-meta",
+          "html": "<div class=\"ds-post-meta\">February 2, 2026</div>",
+          "fg": "#78797a",
+          "bg": "#ffffff",
+          "ratio": 4.36,
+          "expected": 4.5,
+          "fontSize": "9.0pt (12px)",
+          "fontWeight": "normal"
+        }
+      ],
+      "aria_snapshot": "aria/blog.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/post/how-to-measure-ai-visibility",
+      "title": "How to Measure AI Visibility | NativeCode",
+      "score": 100,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 0,
+        "region": 0
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "How to Measure AI Visibility Without a Rank Tracker"
+        },
+        {
+          "level": 2,
+          "name": "Why doesn't rank tracking work for AI answers?"
+        },
+        {
+          "level": 2,
+          "name": "How do you build a prompt panel?"
+        },
+        {
+          "level": 2,
+          "name": "How should AI visibility be scored?"
+        },
+        {
+          "level": 2,
+          "name": "The controls that make it valid"
+        },
+        {
+          "level": 2,
+          "name": "What to report"
+        },
+        {
+          "level": 2,
+          "name": "Three metrics that will mislead you"
+        },
+        {
+          "level": 2,
+          "name": "Frequently asked questions"
+        },
+        {
+          "level": 3,
+          "name": "Can I track AI visibility with a tool?"
+        },
+        {
+          "level": 3,
+          "name": "How many prompts do I need?"
+        },
+        {
+          "level": 3,
+          "name": "Why does the same prompt give different answers?"
+        },
+        {
+          "level": 3,
+          "name": "What is a good citation rate?"
+        },
+        {
+          "level": 2,
+          "name": "Where to start"
+        },
+        {
+          "level": 2,
+          "name": "Want this applied to your site?"
+        }
+      ],
+      "interactive": {
+        "total": 86,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 68,
+          "examples": [
+            "<a.ds-article-cat-link.w-inline-block> \"AI Search & AEO\" 119x19",
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [],
+      "contrast": [],
+      "aria_snapshot": "aria/post__how-to-measure-ai-visibility.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/products/tdee",
+      "title": "TDEE.co TDEE, BMR and Macro Calculator | NativeCode",
+      "score": 100,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 3,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 0,
+        "region": 1
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "TDEE.co One instrument for your whole energy plan."
+        },
+        {
+          "level": 2,
+          "name": "What TDEE.co is"
+        },
+        {
+          "level": 2,
+          "name": "The elements a visitor actually uses"
+        },
+        {
+          "level": 2,
+          "name": "8 tools, one engine"
+        },
+        {
+          "level": 2,
+          "name": "The math, stated plainly"
+        },
+        {
+          "level": 2,
+          "name": "Three readers, one page"
+        },
+        {
+          "level": 3,
+          "name": "People starting a cut or a bulk"
+        },
+        {
+          "level": 3,
+          "name": "Coaches and trainers"
+        },
+        {
+          "level": 3,
+          "name": "Answer engines"
+        },
+        {
+          "level": 2,
+          "name": "Why it can be cited"
+        },
+        {
+          "level": 3,
+          "name": "Medically reviewed"
+        },
+        {
+          "level": 3,
+          "name": "Evidence-based"
+        },
+        {
+          "level": 3,
+          "name": "Honest about limits"
+        },
+        {
+          "level": 2,
+          "name": "This is what AI-visible looks like."
+        },
+        {
+          "level": 2,
+          "name": "Questions about TDEE.co"
+        },
+        {
+          "level": 2,
+          "name": "Related products"
+        },
+        {
+          "level": 3,
+          "name": "The energy readout"
+        },
+        {
+          "level": 3,
+          "name": "Goal table"
+        },
+        {
+          "level": 3,
+          "name": "Suggested macros"
+        },
+        {
+          "level": 3,
+          "name": "Accuracy band"
+        },
+        {
+          "level": 3,
+          "name": "Estimate resting burn"
+        },
+        {
+          "level": 3,
+          "name": "Scale by activity"
+        },
+        {
+          "level": 3,
+          "name": "Refine with body fat"
+        },
+        {
+          "level": 3,
+          "name": "Steer to a goal"
+        }
+      ],
+      "interactive": {
+        "total": 104,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 69,
+          "examples": [
+            "<a> \"Products\" 65x18",
+            "<a> \"FAQ\" 24x51",
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [],
+      "contrast": [],
+      "aria_snapshot": "aria/products__tdee.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/company/about",
+      "title": "About Us: Atlanta Digital Marketing Agency | NativeCode",
+      "score": 100,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 0,
+        "region": 0
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "One senior team for search, web, creative and growth."
+        },
+        {
+          "level": 2,
+          "name": "How does NativeCode work?"
+        },
+        {
+          "level": 3,
+          "name": "Senior-led"
+        },
+        {
+          "level": 3,
+          "name": "One program"
+        },
+        {
+          "level": 3,
+          "name": "An extension of your team"
+        },
+        {
+          "level": 2,
+          "name": "What services does NativeCode offer?"
+        },
+        {
+          "level": 3,
+          "name": "SEO and AI search"
+        },
+        {
+          "level": 3,
+          "name": "Design and development"
+        },
+        {
+          "level": 3,
+          "name": "Paid, email and CRO"
+        },
+        {
+          "level": 3,
+          "name": "Creative and video"
+        },
+        {
+          "level": 2,
+          "name": "Our products are our case studies."
+        },
+        {
+          "level": 3,
+          "name": "TDEE.co"
+        },
+        {
+          "level": 3,
+          "name": "BraSize.ai"
+        },
+        {
+          "level": 3,
+          "name": "SizeGuide.ai"
+        },
+        {
+          "level": 3,
+          "name": "DueDateCalculator.ai"
+        },
+        {
+          "level": 3,
+          "name": "PeriodCalculator.ai"
+        },
+        {
+          "level": 3,
+          "name": "TimeCalculator.ai"
+        },
+        {
+          "level": 2,
+          "name": "Where is NativeCode based?"
+        }
+      ],
+      "interactive": {
+        "total": 89,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "ambiguous-links",
+          "severity": "notice",
+          "title": "Same link name, different destinations",
+          "count": 1,
+          "examples": [
+            "\"see the product →\" -> 6 destinations"
+          ],
+          "why": "Two links with the same name that go to different places force an agent to guess.",
+          "fix": "Make the names distinct or add context with aria-label."
+        },
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [],
+      "contrast": [],
+      "aria_snapshot": "aria/company__about.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/company/contact",
+      "title": "Contact Us: Free Audit or Proposal | NativeCode",
+      "score": 100,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 1,
+        "region": 1
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "Tell us what you need to grow."
+        },
+        {
+          "level": 2,
+          "name": "What happens after you contact us?"
+        },
+        {
+          "level": 3,
+          "name": "We review your note"
+        },
+        {
+          "level": 3,
+          "name": "Discovery call"
+        },
+        {
+          "level": 3,
+          "name": "Written proposal"
+        },
+        {
+          "level": 3,
+          "name": "Kickoff"
+        },
+        {
+          "level": 2,
+          "name": "Built for the whole buying team."
+        },
+        {
+          "level": 3,
+          "name": "One plan, measured on revenue"
+        },
+        {
+          "level": 3,
+          "name": "A store that ranks and converts"
+        },
+        {
+          "level": 3,
+          "name": "Work inside your guardrails"
+        },
+        {
+          "level": 3,
+          "name": "Clear terms, nothing hidden"
+        },
+        {
+          "level": 2,
+          "name": "Programs we have run."
+        },
+        {
+          "level": 3,
+          "name": "Constant Contact"
+        },
+        {
+          "level": 3,
+          "name": "HauteFlair"
+        },
+        {
+          "level": 3,
+          "name": "Spooky Costumes"
+        },
+        {
+          "level": 3,
+          "name": "ThirdLust"
+        },
+        {
+          "level": 2,
+          "name": "Doing your homework first?"
+        },
+        {
+          "level": 3,
+          "name": "How much does it cost to work with NativeCode?"
+        },
+        {
+          "level": 3,
+          "name": "Do you work with companies outside Atlanta?"
+        },
+        {
+          "level": 3,
+          "name": "What should I include in my message?"
+        },
+        {
+          "level": 3,
+          "name": "Can you work inside our existing accounts?"
+        },
+        {
+          "level": 3,
+          "name": "I am an existing client. Where do I go?"
+        },
+        {
+          "level": 2,
+          "name": "Looking for someone specific?"
+        },
+        {
+          "level": 3,
+          "name": "Digital marketing RFP template and scorecard"
+        },
+        {
+          "level": 3,
+          "name": "AI search optimization checklist"
+        },
+        {
+          "level": 2,
+          "name": "What should you know before you reach out?"
+        },
+        {
+          "level": 3,
+          "name": "Projects and partnerships"
+        },
+        {
+          "level": 3,
+          "name": "Client support"
+        },
+        {
+          "level": 3,
+          "name": "Press and speaking"
+        }
+      ],
+      "interactive": {
+        "total": 129,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "ambiguous-links",
+          "severity": "notice",
+          "title": "Same link name, different destinations",
+          "count": 1,
+          "examples": [
+            "\"case study →\" -> 4 destinations"
+          ],
+          "why": "Two links with the same name that go to different places force an agent to guess.",
+          "fix": "Make the names distinct or add context with aria-label."
+        },
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [],
+      "contrast": [],
+      "aria_snapshot": "aria/company__contact.yml"
+    },
+    {
+      "url": "https://www.nativecode.ai/company/career",
+      "title": "Careers: Remote Digital Marketing Jobs | NativeCode",
+      "score": 100,
+      "landmarks": {
+        "banner": 1,
+        "navigation": 1,
+        "main": 1,
+        "contentinfo": 1,
+        "complementary": 0,
+        "search": 0,
+        "form": 0,
+        "region": 0
+      },
+      "headings": [
+        {
+          "level": 1,
+          "name": "Careers at NativeCode: help us grow the agency."
+        },
+        {
+          "level": 2,
+          "name": "What is it like to work at NativeCode?"
+        },
+        {
+          "level": 3,
+          "name": "Work that moves the business"
+        },
+        {
+          "level": 3,
+          "name": "Clear scopes, fair rates"
+        },
+        {
+          "level": 3,
+          "name": "Remote and async-friendly"
+        },
+        {
+          "level": 2,
+          "name": "What roles are open?"
+        },
+        {
+          "level": 3,
+          "name": "Are NativeCode jobs remote?"
+        },
+        {
+          "level": 3,
+          "name": "Are these full-time jobs?"
+        },
+        {
+          "level": 3,
+          "name": "How do I apply?"
+        },
+        {
+          "level": 3,
+          "name": "What happens after I apply?"
+        },
+        {
+          "level": 3,
+          "name": "What if none of the roles fit?"
+        },
+        {
+          "level": 3,
+          "name": "Client Strategy Lead, Digital Marketing"
+        },
+        {
+          "level": 3,
+          "name": "Business Development Manager, Digital Marketing"
+        },
+        {
+          "level": 3,
+          "name": "Paid Media Specialist, Google, Meta and LinkedIn Ads"
+        },
+        {
+          "level": 3,
+          "name": "Email Marketing and Klaviyo Specialist"
+        },
+        {
+          "level": 3,
+          "name": "Technical SEO and AI Search Specialist"
+        },
+        {
+          "level": 3,
+          "name": "Webflow and Shopify Developer"
+        },
+        {
+          "level": 2,
+          "name": "Questions about working with NativeCode"
+        }
+      ],
+      "interactive": {
+        "total": 89,
+        "unnamed": 0
+      },
+      "findings": [
+        {
+          "id": "small-target",
+          "severity": "notice",
+          "title": "Click targets smaller than 24x24 px",
+          "count": 67,
+          "examples": [
+            "<a.nf-contact> \"(800) 618-6053\" 210x23",
+            "<a.nf-contact> \"hello@nativecode.ai\" 210x23",
+            "<a.nf-link> \"SEO services\" 92x20",
+            "<a.nf-link> \"AI SEO\" 48x20",
+            "<a.nf-link> \"Technical SEO\" 99x20"
+          ],
+          "why": "Visual agents click coordinates from screenshots. Small, tightly packed targets get mis-clicked (WCAG 2.5.8).",
+          "fix": "Give links and buttons at least 24x24 px of hit area with padding."
+        },
+        {
+          "id": "skip-link",
+          "severity": "notice",
+          "title": "No skip link",
+          "count": 1,
+          "examples": [
+            "First focusable element is not a skip-to-content link"
+          ],
+          "why": "A skip link lets keyboard and agent users bypass repeated navigation in one step.",
+          "fix": "Add a visually hidden link to #main as the first element in the body, shown on focus."
+        }
+      ],
+      "axe": [],
+      "contrast": [],
+      "aria_snapshot": "aria/company__career.yml"
+    }
+  ]
+}

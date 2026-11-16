@@ -1,0 +1,328 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - button "Menu"
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - link "← Industries we serve":
+    - /url: /industries-we-serve
+  - paragraph: Industries · SaaS and technology
+  - heading "SaaS SEO and AEO for software companies." [level=1]
+  - paragraph: SaaS SEO puts a software product in the search results and AI answers buyers read before they book a demo. NativeCode is an Atlanta-based agency serving SaaS companies nationwide, and we build the use-case, comparison and integration pages that do it, the same approach we run in our ongoing program with Constant Contact.
+  - link "Start a project":
+    - /url: /company/contact
+  - link "Constant Contact case study":
+    - /url: /constant-contact-case-study
+  - paragraph: Free SEO audit
+  - heading "Free SaaS SEO audit for your product" [level=2]
+  - list:
+    - listitem: The technical and content issues costing you traffic
+    - listitem: Every fix ranked by revenue impact
+    - listitem: Where AI answers name competitors instead of you
+  - form "Site Audit":
+    - text: Website
+    - textbox "Website":
+      - /placeholder: yourcompany.com
+    - text: Name
+    - textbox "Name":
+      - /placeholder: Your name
+    - text: Work email
+    - textbox "Work email":
+      - /placeholder: you@company.com
+    - text: Anything we should know? (optional)
+    - textbox "Anything we should know? (optional)":
+      - /placeholder: Goals, platforms or deadlines
+    - text: Leave this field empty
+    - textbox "Leave this field empty":
+      - /placeholder: Leave empty
+    - button "Get my free audit" [disabled]
+  - paragraph:
+    - text: No obligation and no spam. Prefer to talk? Call
+    - link "(800) 618-6053":
+      - /url: tel:+18006186053
+    - text: .
+  - region "Brands our team has worked with":
+    - paragraph: Brands our team has worked with
+    - link "Constant Contact ⓘ":
+      - /url: /constant-contact-case-study
+    - text: Cox Enterprises Mondelēz International Samsung Kohl’s Hanesbrands
+    - link "HauteFlair ⓘ":
+      - /url: /hauteflair-case-study
+  - paragraph: The search problem
+  - heading "Why do SaaS buyers decide before talking to sales?" [level=2]
+  - paragraph: SaaS buyers decide early because most software research happens in search results and AI answers. If your product is not in them, it is not on the shortlist.
+  - paragraph: "01"
+  - heading "Traffic that never converts" [level=3]
+  - paragraph: Broad top-of-funnel posts bring visitors who never touch the product, while pages that match buying intent never get written.
+  - paragraph: "02"
+  - heading "Comparisons owned by others" [level=3]
+  - paragraph: Review sites and competitors own the alternatives and versus searches, so buyers hear your story from someone else.
+  - paragraph: "03"
+  - heading "Docs left out" [level=3]
+  - paragraph: Documentation and integration pages answer real questions, but often sit apart from the main site with no structure or internal links.
+  - paragraph: Selected work
+  - heading "Programs we have run." [level=2]
+  - paragraph: SEO, AI search, web and growth programs for organizations across the US. Each case study covers the approach and scope.
+  - paragraph: SaaS · AI search
+  - heading "Constant Contact" [level=3]
+  - paragraph: An SEO, AEO and GEO program that builds visibility in Google and AI answer engines.
+  - link "Case study →":
+    - /url: /constant-contact-case-study
+  - paragraph: Ecommerce
+  - heading "HauteFlair" [level=3]
+  - paragraph: Search architecture, structured data and organic growth for an online retailer with a large catalog.
+  - link "Case study →":
+    - /url: /hauteflair-case-study
+  - paragraph: Shopify · EDI
+  - heading "Spooky Costumes" [level=3]
+  - paragraph: Shopify rebuild and supplier EDI for a catalog of more than 8,000 products.
+  - link "Case study →":
+    - /url: /spooky-costumes-case-study
+  - paragraph: Shopify · EDI
+  - heading "ThirdLust" [level=3]
+  - paragraph: Shopify search and supplier EDI for a catalog of more than 11,000 products.
+  - link "Case study →":
+    - /url: /thirdlust-case-study
+  - paragraph: What we do
+  - heading "What does SaaS SEO include?" [level=2]
+  - paragraph: SaaS SEO includes use-case, comparison and integration pages, documentation SEO, template pages and product-led content. We start with the pages buyers read right before they choose, then build the content that feeds them.
+  - paragraph:
+    - text: SaaS SEO is part of our
+    - link "SEO services":
+      - /url: /services/seo
+    - text: and often pairs with
+    - link "AI search optimization":
+      - /url: /services/ai-seo
+    - text: and
+    - link "content marketing":
+      - /url: /services/content-marketing
+    - text: .
+  - heading "Use-case and solution pages" [level=3]
+  - paragraph: One page per job your product does, written for the team that does it.
+  - heading "Comparison pages" [level=3]
+  - paragraph: Honest alternatives and versus pages that explain where each product fits.
+  - heading "Integration pages" [level=3]
+  - paragraph: A page for each integration that explains what it does and who it is for.
+  - heading "Documentation SEO" [level=3]
+  - paragraph: Structure, linking and crawl access for help centers and developer docs.
+  - heading "Template pages, done carefully" [level=3]
+  - paragraph: Scaled pages built only where there is real data to make each one useful.
+  - heading "Product-led content" [level=3]
+  - paragraph: Tutorials and guides that show the product solving the problem being searched.
+  - paragraph: AI search for software
+  - heading "How does a SaaS product get onto AI shortlists?" [level=2]
+  - paragraph: A SaaS product gets onto AI shortlists when its site, review profiles and partner listings state the same clear facts about what it does and who it suits.
+  - heading "Category questions" [level=3]
+  - paragraph: Clear, quotable pages on what your product is best for and who it suits.
+  - heading "Consistent signals" [level=3]
+  - paragraph: Matching product facts across your site, review profiles and partner listings.
+  - heading "Developer assistants" [level=3]
+  - paragraph: Docs structured so AI coding tools read current documentation, not stale guesses.
+  - heading "Prompt tracking" [level=3]
+  - paragraph: Category and comparison prompts tracked monthly across the major AI tools.
+  - paragraph: Proof
+  - heading "Trusted where search drives revenue." [level=2]
+  - paragraph: Search, AI visibility, conversion and operations work across SaaS and ecommerce. Each example links to the full write-up.
+  - link "AI search Constant Contact An SEO, AEO and GEO program that builds visibility in Google and AI answer engines. →":
+    - /url: /constant-contact-case-study
+    - paragraph: AI search
+    - heading "Constant Contact" [level=3]
+    - paragraph: An SEO, AEO and GEO program that builds visibility in Google and AI answer engines.
+    - paragraph: →
+  - link "Search architecture Online retailer with a large catalog Search architecture built so a large catalog of category and product pages can be found, crawled and ranked. →":
+    - /url: /hauteflair-case-study
+    - paragraph: Search architecture
+    - heading "Online retailer with a large catalog" [level=3]
+    - paragraph: Search architecture built so a large catalog of category and product pages can be found, crawled and ranked.
+    - paragraph: →
+  - link "Conversion Product page CRO Product page changes for an online retailer that raised its conversion rate. →":
+    - /url: /hauteflair-product-page-cro
+    - paragraph: Conversion
+    - heading "Product page CRO" [level=3]
+    - paragraph: Product page changes for an online retailer that raised its conversion rate.
+    - paragraph: →
+  - link "Operations Ecommerce operations Supplier EDI connections for inventory and order routing, built for three ecommerce brands. →":
+    - /url: /services/edi-integration
+    - paragraph: Operations
+    - heading "Ecommerce operations" [level=3]
+    - paragraph: Supplier EDI connections for inventory and order routing, built for three ecommerce brands.
+    - paragraph: →
+  - link "NativeCode Labs Six products we build and run Calculators and tools ranked with the same methods we use for clients. →":
+    - /url: /company/case-study
+    - paragraph: NativeCode Labs
+    - heading "Six products we build and run" [level=3]
+    - paragraph: Calculators and tools ranked with the same methods we use for clients.
+    - paragraph: →
+  - paragraph: FAQ
+  - heading "SaaS SEO questions" [level=2]
+  - heading "What should a SaaS company publish first?" [level=3]
+  - paragraph: "A SaaS company should publish pages that match buying intent first: use-case, comparison and integration pages. They sit closer to a signup or demo than general blog posts, and they give later content something to link to. Broad educational posts come after the pages that convert are in place."
+  - heading "Are comparison pages worth it?" [level=3]
+  - paragraph: Yes, when they are honest. Buyers search for alternatives late in their research, and a fair page that explains where each product fits earns trust and links. Pages that only attack competitors tend to lose that trust and rarely get cited by AI tools as a neutral source.
+  - heading "Should docs live on a subdomain?" [level=3]
+  - paragraph: Either can work. What matters is that docs get clear structure, crawlable content and links to product pages. For developer products, an llms.txt file at the docs root helps AI coding tools find the right pages. We review the current setup before recommending a move.
+  - heading "How do you measure AI visibility for SaaS?" [level=3]
+  - paragraph: We track a fixed set of category and comparison prompts in ChatGPT, Perplexity and Google AI Overviews each month. For each one we record whether the product is mentioned, cited and linked, and which sources the answer relied on, so content work can target the gaps.
+  - paragraph: SaaS
+  - heading "Get your product on the AI shortlist." [level=2]
+  - paragraph: Tell us your category and your main competitors. We will show you where buyers find them and not you.
+  - link "Get my free SEO audit":
+    - /url: "#audit"
+  - link "AI search and AEO":
+    - /url: /services/ai-seo
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

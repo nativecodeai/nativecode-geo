@@ -1,0 +1,396 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - button "Menu"
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - navigation "Breadcrumb":
+    - link "Products":
+      - /url: /company/case-study
+    - text: TDEE.co
+  - paragraph: Health & nutrition Live
+  - heading "TDEE.co One instrument for your whole energy plan." [level=1]
+  - paragraph: A medically reviewed TDEE calculator that reads your resting burn, your maintenance line, and calorie and macro targets for any goal, all off one continuous energy axis.
+  - link "Open tdee.co":
+    - /url: https://tdee.co
+  - link "Book a strategy session":
+    - /url: https://www.nativecode.ai/company/contact
+  - figure "Signature instrument, redrawn as a plate. The live version is on tdee.co.":
+    - 'img "TDEE.co: signature instrument, drawn as a schematic"': ENERGY AXIS · KCAL / DAY BMR · RESTING 62% ACTIVITY 38% 0 1,640 2,640 2,640 MAINTENANCE LINE · TDEE −500 · 2,140 +250 · 2,890 GOAL · DEFICIT ⟷ SURPLUS
+    - text: Signature instrument, redrawn as a plate. The live version is on tdee.co.
+  - term: Engine
+  - definition: Mifflin-St Jeor · Katch-McArdle · Harris-Benedict
+  - term: Review
+  - definition: Medically reviewed · Family Medicine
+  - term: Instruments
+  - definition: 8 calculators
+  - term: Data
+  - definition: No sign-up · Instant
+  - term: Operated with
+  - definition: Elix Health Group
+  - term: Powered by
+  - definition: NativeCode.ai
+  - navigation "On this page":
+    - list:
+      - listitem:
+        - link "Overview":
+          - /url: "#overview"
+      - listitem:
+        - link "Inside the product":
+          - /url: "#inside"
+      - listitem:
+        - link "Instruments":
+          - /url: "#instruments"
+      - listitem:
+        - link "Method":
+          - /url: "#method"
+      - listitem:
+        - link "Who it serves":
+          - /url: "#audience"
+      - listitem:
+        - link "Trust":
+          - /url: "#trust"
+      - listitem:
+        - link "FAQ":
+          - /url: "#faq"
+  - paragraph: Overview
+  - heading "What TDEE.co is" [level=2]
+  - paragraph: "TDEE.co answers the question behind every diet and training plan: how many calories do I actually burn in a day? It estimates basal metabolic rate with the Mifflin-St Jeor equation, switches to Katch-McArdle when a body-fat percentage is supplied, and multiplies by an honest activity factor between 1.2 and 1.9."
+  - paragraph: Every number the site produces lives on the same axis (resting burn, activity energy, the maintenance line, a goal deficit or surplus, and a macro split), so a visitor can see how one result becomes the next rather than juggling seven unrelated calculators.
+  - paragraph: "The page is medically reviewed, cites its equations, and is structured for answer engines: fifteen definition-first FAQs written to be quoted, a formula shown in full, and an accuracy section that says plainly what a calculator cannot see."
+  - paragraph: Inside the product
+  - heading "The elements a visitor actually uses" [level=2]
+  - paragraph: Each card names a real element on tdee.co and reproduces a sample readout from it, so the page shows the product rather than describing it.
+  - article:
+    - heading "The energy readout" [level=3]
+    - paragraph: "The headline result: total daily energy expenditure, split into the share that is resting metabolism and the share added by movement and digestion."
+    - term: Your TDEE
+    - definition: 2,640 kcal / day
+    - term: Resting (BMR)
+    - definition: 1,640 · 62%
+    - term: Activity & digestion
+    - definition: 38%
+  - article:
+    - heading "Goal table" [level=3]
+    - paragraph: Four calorie targets derived from the same maintenance line, each labelled with the pace of change it implies.
+    - term: Aggressive loss ~1.5 lb/wk
+    - definition: 1,980
+    - term: Weight loss ~1 lb/wk
+    - definition: 2,140
+    - term: Maintain
+    - definition: 2,640
+    - term: Lean gain ~0.5 lb/wk
+    - definition: 2,890
+  - article:
+    - heading "Suggested macros" [level=3]
+    - paragraph: Protein set first to protect lean mass, then carbohydrate and fat divided across the remaining calories, with a one-tap copy of the full result.
+    - term: Protein
+    - definition: 198 g
+    - term: Carbs
+    - definition: 264 g
+    - term: Fat
+    - definition: 88 g
+  - article:
+    - heading "Accuracy band" [level=3]
+    - paragraph: A ±5–10% range drawn around the estimate, a list of what no formula can see, and a three-step calibration routine.
+    - term: Typical accuracy
+    - definition: ±5–10%
+    - term: Calibrate over
+    - definition: 2–3 weeks
+    - term: Adjust by
+    - definition: 100–200 kcal
+  - paragraph: The instrument family
+  - heading "8 tools, one engine" [level=2]
+  - paragraph: Every calculator on tdee.co runs on the same logic layer, so answers never disagree with each other. Numbered in the order the product presents them.
+  - list:
+    - listitem:
+      - link "Nº 01 Flagship TDEE Calculator Maintenance calories from BMR and an activity multiplier. TDEE = BMR × activity":
+        - /url: https://tdee.co/
+        - text: Nº 01 Flagship
+        - strong: TDEE Calculator
+        - text: Maintenance calories from BMR and an activity multiplier.
+        - code: TDEE = BMR × activity
+    - listitem:
+      - link "Nº 02 Resting BMR Calculator Three formulas compared side by side. 10w + 6.25h − 5a ± s":
+        - /url: https://tdee.co/bmr-calculator
+        - text: Nº 02 Resting
+        - strong: BMR Calculator
+        - text: Three formulas compared side by side.
+        - code: 10w + 6.25h − 5a ± s
+    - listitem:
+      - link "Nº 03 Split Macro Calculator Calories into protein, carbs, and fat for a goal. 4 · 4 · 9 kcal/g":
+        - /url: https://tdee.co/macro-calculator
+        - text: Nº 03 Split
+        - strong: Macro Calculator
+        - text: Calories into protein, carbs, and fat for a goal.
+        - code: 4 · 4 · 9 kcal/g
+    - listitem:
+      - link "Nº 04 Lose Calorie Deficit A sustainable deficit with a calorie floor. TDEE − 300…500":
+        - /url: https://tdee.co/calorie-deficit
+        - text: Nº 04 Lose
+        - strong: Calorie Deficit
+        - text: A sustainable deficit with a calorie floor.
+        - code: TDEE − 300…500
+    - listitem:
+      - link "Nº 05 Hold Maintenance Calories The number that keeps weight stable. = TDEE":
+        - /url: https://tdee.co/maintenance-calories
+        - text: Nº 05 Hold
+        - strong: Maintenance Calories
+        - text: The number that keeps weight stable.
+        - code: = TDEE
+    - listitem:
+      - link "Nº 06 Daily Calorie Calculator Daily burn from body data and movement.":
+        - /url: https://tdee.co/calorie-calculator
+        - text: Nº 06 Daily
+        - strong: Calorie Calculator
+        - text: Daily burn from body data and movement.
+    - listitem:
+      - link "Nº 07 Composition Body Fat Calculator Estimate body fat to unlock Katch-McArdle.":
+        - /url: https://tdee.co/body-fat-calculator
+        - text: Nº 07 Composition
+        - strong: Body Fat Calculator
+        - text: Estimate body fat to unlock Katch-McArdle.
+    - listitem:
+      - link "Nº 08 Protein Protein Calculator A protein target for lean gain or fat loss.":
+        - /url: https://tdee.co/protein-calculator
+        - text: Nº 08 Protein
+        - strong: Protein Calculator
+        - text: A protein target for lean gain or fat loss.
+  - paragraph: Method
+  - heading "The math, stated plainly" [level=2]
+  - paragraph: Every NativeCode product publishes its assumptions on the page. This is the sequence the engine follows.
+  - list:
+    - listitem:
+      - text: "01"
+      - heading "Estimate resting burn" [level=3]
+      - code: BMR = 10·kg + 6.25·cm − 5·age + 5 (men) / − 161 (women)
+      - paragraph: Mifflin-St Jeor is the default, recognised by the Academy of Nutrition and Dietetics as the most accurate general-population equation.
+    - listitem:
+      - text: "02"
+      - heading "Scale by activity" [level=3]
+      - code: TDEE = BMR × 1.2 … 1.9
+      - paragraph: The multiplier is the single biggest variable. The site tells people to match an average week, not a best one. A desk job plus four hard sessions is ×1.55.
+    - listitem:
+      - text: "03"
+      - heading "Refine with body fat" [level=3]
+      - code: BMR = 370 + 21.6 × lean mass (kg)
+      - paragraph: Entering a body-fat percentage switches the engine to Katch-McArdle, which is driven by lean mass rather than total weight.
+    - listitem:
+      - text: "04"
+      - heading "Steer to a goal" [level=3]
+      - code: −500 → ~1 lb/wk · +250 → lean gain
+      - paragraph: Deficits and surpluses are applied to the maintenance line, with a low-calorie warning threshold of about 1,200 (women) and 1,500 (men).
+  - paragraph: Who it serves
+  - heading "Three readers, one page" [level=2]
+  - heading "People starting a cut or a bulk" [level=3]
+  - paragraph: One trustworthy calorie number and a macro split, without a sign-up wall.
+  - heading "Coaches and trainers" [level=3]
+  - paragraph: A cited, reviewed reference to send clients instead of a spreadsheet.
+  - heading "Answer engines" [level=3]
+  - paragraph: Definition-first answers to 15 high-intent questions about calories, BMR, and macros.
+  - paragraph: Trust
+  - heading "Why it can be cited" [level=2]
+  - heading "Medically reviewed" [level=3]
+  - paragraph: Reviewed by a board-certified family-medicine physician, with a named reviewer page and a last-reviewed date on the page itself.
+  - heading "Evidence-based" [level=3]
+  - paragraph: Built on the peer-reviewed Mifflin-St Jeor (1990), Katch-McArdle, and revised Harris-Benedict (1984) equations.
+  - heading "Honest about limits" [level=3]
+  - paragraph: "The page states the ±5–10% accuracy band and lists what a calculator cannot see: genetics, hormones, sleep, stress, NEAT."
+  - paragraph: Built by NativeCode
+  - heading "This is what AI-visible looks like." [level=2]
+  - paragraph:
+    - text: "TDEE.co is structured the way answer engines read: a one-sentence answer at the top of every section, definition-first FAQs written to be quoted, formulas shown in full, and named sources. The same discipline we apply to client sites, applied to our own. We build tools like this for clients through our"
+    - link "interactive tools and calculator development":
+      - /url: /services/interactive-tools-apps
+    - text: service. For a client example, see the
+    - link "HauteFlair product page case study":
+      - /url: /hauteflair-product-page-cro
+    - text: .
+  - link "Book a growth strategy session":
+    - /url: https://www.nativecode.ai/company/contact
+  - link "See every product":
+    - /url: /company/case-study
+  - paragraph: FAQ
+  - heading "Questions about TDEE.co" [level=2]
+  - group: What does TDEE.co calculate?
+  - group: Which formula does it use?
+  - group: Is it free?
+  - group: How accurate is the result?
+  - group: Who reviews the content?
+  - region "Related products":
+    - paragraph: Also in the family
+    - heading "Related products" [level=2]
+    - link "PeriodCalculator.ai schematic Cycle prediction PeriodCalculator.ai Built like an instrument.":
+      - /url: /products/periodcalculator
+      - img "PeriodCalculator.ai schematic": CYCLE DIAL · 28 DAYS · LUTEAL 14 OVULATION = NEXT PERIOD − LUTEAL OVULATION · DAY 14 PERIOD DAYS 1–5 FERTILE WINDOW DAYS 9–14
+      - text: Cycle prediction
+      - strong: PeriodCalculator.ai
+      - text: Built like an instrument.
+    - link "DueDateCalculator.ai schematic Pregnancy timing DueDateCalculator.ai One date in. Forty weeks in view.":
+      - /url: /products/duedatecalculator
+      - img "DueDateCalculator.ai schematic": 40-WEEK HORIZON · GESTATIONAL WEEKS 1ST 2ND 3RD 0 14 20 28 37 40 24w 3d TODAY ESTIMATED DUE DATE EDD = LMP + 280 DAYS HALFWAY · 20 EARLY TERM · 37 FULL TERM · 39–40
+      - text: Pregnancy timing
+      - strong: DueDateCalculator.ai
+      - text: One date in. Forty weeks in view.
+    - link "Brasize.ai schematic Fit & sizing Brasize.ai Two measurements. One trusted result.":
+      - /url: /products/brasize
+      - img "Brasize.ai schematic": TWO MEASUREMENTS · SNUG-MEASURE METHOD UNDERBUST · SNUG 34″ → BAND 34 BUST · LOOSE, FULLEST POINT 37″ − 34 = 3″ → C Δ 3″ 34C 32D 36B SISTER ↓ SISTER ↑ US 34C · UK 34C · EU 75C · FR 90C · AU 12C
+      - text: Fit & sizing
+      - strong: Brasize.ai
+      - text: Two measurements. One trusted result.
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

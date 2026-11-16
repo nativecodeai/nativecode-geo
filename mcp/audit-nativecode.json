@@ -1,0 +1,353 @@
+{
+  "tool": "audit_site",
+  "arguments": {
+    "domain": "nativecode.ai",
+    "detail": "full"
+  },
+  "captured_at": "2026-11-16T19:45:19.295Z",
+  "result": {
+    "domain": "nativecode.ai",
+    "overall_score": 76,
+    "tier": "Competitive",
+    "summary": "nativecode.ai scores 76/100, which places it at Competitive. In short, the site competes in classic search but is leaving AI-search visibility on the table. Its strongest area is technical SEO (100/100); the fastest gains are in answer engine readiness (54/100).",
+    "categories": {
+      "seo": {
+        "label": "Technical SEO",
+        "score": 100,
+        "measured": "8/10"
+      },
+      "aeo": {
+        "label": "Answer engine readiness (AEO)",
+        "score": 54,
+        "measured": "10/10"
+      },
+      "geo": {
+        "label": "Generative engine readiness (GEO)",
+        "score": 66,
+        "measured": "7/10"
+      }
+    },
+    "coverage": "25 of 30 factors measured",
+    "top_fixes": [
+      {
+        "title": "Add author bios, credentials and review signals",
+        "priority": "Critical",
+        "category": "Authority",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "Authorship and expertise are core trust inputs for both Google and AI engines.",
+        "fix": "Attach credentialed author bios and reviewer signals to substantive content.",
+        "current_factor_score": 0
+      },
+      {
+        "title": "Build 'best / vs / alternative' comparison pages",
+        "priority": "Critical",
+        "category": "Content",
+        "impact": "Revenue",
+        "effort": "Medium",
+        "why": "Comparison queries are high-intent and disproportionately surfaced in AI answers.",
+        "fix": "Create objective comparison pages targeting your category's buying queries.",
+        "current_factor_score": 15
+      },
+      {
+        "title": "Cite primary sources in substantive content",
+        "priority": "High",
+        "category": "Authority",
+        "impact": "AI Citation Readiness",
+        "effort": "Low",
+        "why": "Well-sourced content is more trustworthy to cite than unsupported claims.",
+        "fix": "Reference primary data and authoritative sources where you make claims.",
+        "current_factor_score": 38
+      }
+    ],
+    "not_measured": [
+      {
+        "factor": "Page Speed Readiness",
+        "category": "SEO",
+        "why": "PageSpeed Insights did not return a reading for this run."
+      },
+      {
+        "factor": "Keyword Footprint",
+        "category": "SEO",
+        "why": "Measuring ranked keyword coverage needs third-party rank data, which this tier does not call."
+      },
+      {
+        "factor": "Citation Likelihood",
+        "category": "GEO",
+        "why": "Measuring whether engines actually cite this site needs live prompt testing, which this tier does not run."
+      },
+      {
+        "factor": "AI Query Coverage",
+        "category": "GEO",
+        "why": "Measuring coverage of the prompts people actually use needs live prompt testing, which this tier does not run."
+      },
+      {
+        "factor": "Competitor Displacement Opportunity",
+        "category": "GEO",
+        "why": "Measuring displaceable positions needs third-party rank and citation data, which this tier does not call."
+      }
+    ],
+    "estimated_annual_opportunity_usd": {
+      "value": 228680,
+      "note": "Planning estimate from default traffic and conversion assumptions for this business model, not measured traffic."
+    },
+    "crawl": {
+      "final_url": "https://www.nativecode.ai/",
+      "http_status": 200,
+      "https": true,
+      "robots_txt": true,
+      "llms_txt": true,
+      "sitemap_xml": true,
+      "pages_sampled": 3,
+      "pagespeed_measured": false,
+      "fetched_at": "2026-11-16T19:45:18.556Z",
+      "notes": [
+        "Redirected to https://www.nativecode.ai.",
+        "PageSpeed Insights did not answer; speed was not scored."
+      ]
+    },
+    "factors": {
+      "seo": [
+        {
+          "id": "indexability",
+          "label": "Indexability",
+          "status": "measured",
+          "score": 100,
+          "finding": "The homepage is cleanly indexable: a 200 response with a canonical and a declared language.",
+          "evidence": "HTTP 200, 1 redirect(s); canonical present; meta robots not set"
+        },
+        {
+          "id": "pagespeed",
+          "label": "Page Speed Readiness",
+          "status": "unavailable",
+          "score": null,
+          "finding": "PageSpeed Insights did not return a reading for this run."
+        },
+        {
+          "id": "metadata",
+          "label": "Metadata Quality",
+          "status": "measured",
+          "score": 100,
+          "finding": "Well-formed title, description and social metadata.",
+          "evidence": "title 48 chars; description 148 chars; open graph present"
+        },
+        {
+          "id": "internal-linking",
+          "label": "Internal Linking",
+          "status": "measured",
+          "score": 100,
+          "finding": "Healthy link volume with descriptive anchors reaching deeper pages.",
+          "evidence": "221 internal links, 221 with descriptive anchor text, 217 to deeper pages"
+        },
+        {
+          "id": "content-depth",
+          "label": "Content Depth",
+          "status": "measured",
+          "score": 100,
+          "finding": "Substantive, well-sectioned content across the pages sampled.",
+          "evidence": "1870 words and 29 headings per page across 3 page(s)"
+        },
+        {
+          "id": "schema-seo",
+          "label": "Schema Presence",
+          "status": "measured",
+          "score": 100,
+          "finding": "Broad, valid structured data across the pages sampled.",
+          "evidence": "types found: Organization, PostalAddress, Country, WebSite, WebPage, FAQPage, Question, Answer"
+        },
+        {
+          "id": "mobile-ux",
+          "label": "Mobile UX",
+          "status": "measured",
+          "score": 100,
+          "finding": "Properly configured for mobile rendering.",
+          "evidence": "viewport responsive; 0/0 images carry alt text"
+        },
+        {
+          "id": "crawlability",
+          "label": "Technical Crawlability",
+          "status": "measured",
+          "score": 100,
+          "finding": "Clean crawl path: HTTPS, a valid robots.txt, and a sitemap it points to.",
+          "evidence": "robots.txt present; sitemap.xml valid; sitemap declared in robots.txt: yes"
+        },
+        {
+          "id": "architecture",
+          "label": "Site Architecture",
+          "status": "measured",
+          "score": 100,
+          "finding": "Logical, shallow architecture with clear top-level sections.",
+          "evidence": "270 URLs in the sitemap, median depth 2; 14 top-level sections linked from the homepage"
+        },
+        {
+          "id": "keyword-footprint",
+          "label": "Keyword Footprint",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring ranked keyword coverage needs third-party rank data, which this tier does not call."
+        }
+      ],
+      "aeo": [
+        {
+          "id": "direct-answers",
+          "label": "Direct-Answer Formatting",
+          "status": "measured",
+          "score": 90,
+          "finding": "Questions are answered immediately, in blocks an engine can lift whole.",
+          "evidence": "18 of 20 question headings are followed by a 40-320 character answer block"
+        },
+        {
+          "id": "faq",
+          "label": "FAQ Sections",
+          "status": "measured",
+          "score": 100,
+          "finding": "FAQ content is present and marked up for direct extraction.",
+          "evidence": "FAQPage schema present; 20 question headings; 1 FAQ URL(s) in the sitemap"
+        },
+        {
+          "id": "definitions",
+          "label": "Definitions & Glossary",
+          "status": "measured",
+          "score": 16,
+          "finding": "Nothing on the site defines its own terms, so the engine has to source definitions elsewhere.",
+          "evidence": "1 definition heading(s), 0 definition list(s), 1 glossary URL(s)"
+        },
+        {
+          "id": "comparison",
+          "label": "Comparison Content",
+          "status": "measured",
+          "score": 15,
+          "finding": "There is no comparison content, which is most of what buyers ask an AI assistant for.",
+          "evidence": "1 comparison heading(s), 1 comparison URL(s), 0 table(s)"
+        },
+        {
+          "id": "howto",
+          "label": "How-To Content",
+          "status": "measured",
+          "score": 20,
+          "finding": "No procedural content was found. How-to queries are a large share of AI prompts.",
+          "evidence": "HowTo schema absent; 2 how-to heading(s); 0 ordered list(s)"
+        },
+        {
+          "id": "entity-clarity",
+          "label": "Entity Clarity",
+          "status": "measured",
+          "score": 75,
+          "finding": "The brand is clearly described as an entity, with external corroboration.",
+          "evidence": "Organization schema present; 0 sameAs link(s); about page linked from the homepage"
+        },
+        {
+          "id": "author-signals",
+          "label": "Author / Editor Signals",
+          "status": "measured",
+          "score": 0,
+          "finding": "Content is unattributed. Engines weight authorship heavily when deciding what to quote.",
+          "evidence": "0 Person node(s), 0 authored item(s), 0 author link(s), 0 content date(s)"
+        },
+        {
+          "id": "citations",
+          "label": "Source Citations",
+          "status": "measured",
+          "score": 38,
+          "finding": "Claims are made without sources. Unsourced pages are rarely the ones an engine quotes.",
+          "evidence": "9 outbound link(s), 0 to primary or authoritative domains"
+        },
+        {
+          "id": "content-structure",
+          "label": "Content Structure",
+          "status": "measured",
+          "score": 100,
+          "finding": "Clean heading hierarchy with lists and tables carrying structured content.",
+          "evidence": "1 h1; 53 headings; no skipped levels; 11 list/table element(s)"
+        },
+        {
+          "id": "question-coverage",
+          "label": "Question-Query Coverage",
+          "status": "measured",
+          "score": 85,
+          "finding": "Broad coverage of the questions the category actually gets asked.",
+          "evidence": "20 question heading(s); 14 question-shaped URL(s) in the sitemap"
+        }
+      ],
+      "geo": [
+        {
+          "id": "ai-crawler-access",
+          "label": "AI Crawler Accessibility",
+          "status": "measured",
+          "score": 100,
+          "finding": "Every AI search and retrieval crawler is allowed. Nothing in robots.txt stands between this site and an AI answer.",
+          "evidence": "0 of 8 retrieval crawlers blocked. No training crawlers blocked."
+        },
+        {
+          "id": "llms-txt",
+          "label": "llms.txt Readiness",
+          "status": "measured",
+          "score": 100,
+          "finding": "A well-formed llms.txt pointing engines at the pages that matter.",
+          "evidence": "llms.txt found: structured with headings, 119 link(s)"
+        },
+        {
+          "id": "structured-data-geo",
+          "label": "Structured Data Coverage",
+          "status": "measured",
+          "score": 70,
+          "finding": "Structured data covers the basics but does not yet connect entities to each other.",
+          "evidence": "11 distinct type(s); 5 node(s) with @id; 0 sameAs link(s)"
+        },
+        {
+          "id": "eeat",
+          "label": "E-E-A-T Signals",
+          "status": "measured",
+          "score": 55,
+          "finding": "The basic trust signals are there; experience and credentials are not yet evidenced.",
+          "evidence": "author markup no; about yes; contact yes; content dates no"
+        },
+        {
+          "id": "brand-entity",
+          "label": "Brand Entity Strength",
+          "status": "measured",
+          "score": 0,
+          "finding": "The brand is not reconciled to any knowledge base, so engines treat it as an unknown string.",
+          "evidence": "0 sameAs link(s), 0 to a knowledge base or major profile"
+        },
+        {
+          "id": "citation-likelihood",
+          "label": "Citation Likelihood",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring whether engines actually cite this site needs live prompt testing, which this tier does not run."
+        },
+        {
+          "id": "freshness",
+          "label": "Content Freshness",
+          "status": "measured",
+          "score": 100,
+          "finding": "Content is current and consistently dated.",
+          "evidence": "most recent update 2026-11-16; 100% of sitemap entries carry a lastmod"
+        },
+        {
+          "id": "query-coverage-geo",
+          "label": "AI Query Coverage",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring coverage of the prompts people actually use needs live prompt testing, which this tier does not run."
+        },
+        {
+          "id": "competitor-displacement",
+          "label": "Competitor Displacement Opportunity",
+          "status": "unavailable",
+          "score": null,
+          "finding": "Measuring displaceable positions needs third-party rank and citation data, which this tier does not call."
+        },
+        {
+          "id": "citable-blocks",
+          "label": "AI-Citable Content Blocks",
+          "status": "measured",
+          "score": 37,
+          "finding": "Content runs in long blocks with nothing an engine can lift cleanly.",
+          "evidence": "112 of 299 paragraphs are quotable length; 0 table(s), 31 list(s), 0 definition list(s)"
+        }
+      ]
+    }
+  }
+}

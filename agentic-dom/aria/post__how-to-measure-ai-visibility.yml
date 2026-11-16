@@ -1,0 +1,308 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - navigation:
+    - button "Services"
+    - button "Industries & locations"
+    - button "Resources"
+    - button "Company"
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - link "← All insights":
+    - /url: /blog
+  - link "AI Search & AEO":
+    - /url: /blog-categories/ai-search-aeo
+  - heading "How to Measure AI Visibility Without a Rank Tracker" [level=1]
+  - text: Chris I· August 31, 2026
+  - paragraph:
+    - strong: AI visibility is measured with a fixed panel of prompts, run on a schedule, scored on a three-level rubric, not with a rank tracker, because generated answers have no stable positions to track.
+    - text: The method is less precise than rank tracking and considerably more useful than the alternative, which is inferring AI performance from organic traffic and hoping.
+  - paragraph: This is the complete methodology, including the controls that make non-deterministic output trendable and the metrics that will mislead you.
+  - heading "Why doesn't rank tracking work for AI answers?" [level=2]
+  - paragraph: Three properties of generated answers break the model rank tracking depends on.
+  - paragraph:
+    - strong: There is no position.
+    - text: An answer either cites you or it does not. There is no third result to climb toward.
+  - paragraph:
+    - strong: Output is non-deterministic.
+    - text: The same prompt run twice can produce different sources. A single observation is not a measurement.
+  - paragraph:
+    - strong: Context shifts results.
+    - text: Account history, location, and session state all influence what an assistant returns, so two people running the same prompt legitimately see different answers.
+  - paragraph: What survives is frequency. You cannot know your position, but you can know how often you appear across a controlled, repeated sample, and frequency trends are actionable.
+  - heading "How do you build a prompt panel?" [level=2]
+  - paragraph: Write 20 to 50 prompts a real buyer would actually type. Fewer than 20 and single-prompt noise dominates; beyond 50 the manual cost outweighs the added resolution.
+  - paragraph: "Cover three intents deliberately, because they fail for different reasons and the fix differs:"
+  - table:
+    - rowgroup:
+      - row "Intent Example What failure indicates":
+        - columnheader "Intent"
+        - columnheader "Example"
+        - columnheader "What failure indicates"
+    - rowgroup:
+      - row "Definitional \"what is answer engine optimization\" No quotable definition on your site":
+        - cell "Definitional"
+        - cell "\"what is answer engine optimization\""
+        - cell "No quotable definition on your site"
+      - row "Comparative \"AEO vs SEO\" No structured comparison content":
+        - cell "Comparative"
+        - cell "\"AEO vs SEO\""
+        - cell "No structured comparison content"
+      - row "Commercial \"who does AEO for ecommerce\" Weak entity grounding":
+        - cell "Commercial"
+        - cell "\"who does AEO for ecommerce\""
+        - cell "Weak entity grounding"
+  - paragraph: Source the phrasing from real inputs, sales calls, support tickets, the questions prospects actually ask, rather than keyword tools. Prompts are spoken language, and keyword-derived phrasing does not match how people write to an assistant.
+  - paragraph:
+    - text: Then
+    - strong: freeze the list.
+    - text: A panel that changes between cycles measures nothing. Add new prompts to a separate second panel if you need to expand coverage.
+  - heading "How should AI visibility be scored?" [level=2]
+  - paragraph: "Binary scoring throws away the most diagnostically useful state: being known but not quoted."
+  - table:
+    - rowgroup:
+      - row "Score Outcome What it tells you":
+        - columnheader "Score"
+        - columnheader "Outcome"
+        - columnheader "What it tells you"
+    - rowgroup:
+      - row "0 Absent Not retrieved for this intent at all":
+        - cell "0"
+        - cell "Absent"
+        - cell "Not retrieved for this intent at all"
+      - row "1 Mentioned, not linked Entity is recognised; no page was quotable":
+        - cell "1"
+        - cell "Mentioned, not linked"
+        - cell "Entity is recognised; no page was quotable"
+      - row "2 Cited with a link Full retrieval path cleared":
+        - cell "2"
+        - cell "Cited with a link"
+        - cell "Full retrieval path cleared"
+  - paragraph: "The distinction between 0 and 1 is the one that directs your work. A panel scoring mostly 0s is an entity grounding problem: the model does not know who you are. A panel scoring mostly 1s is an extraction problem: it knows you and cannot quote you. Those are different quarters of work, and binary scoring cannot tell them apart."
+  - paragraph:
+    - text: "Record one more field on every score of 2:"
+    - strong: which URL was cited.
+    - text: That column is the most valuable data the exercise produces, because it shows you which page structures are working so you can replicate them deliberately.
+  - heading "The controls that make it valid" [level=2]
+  - paragraph: Four disciplines, all of which are the difference between a signal and a story.
+  - list:
+    - listitem:
+      - strong: Three runs per prompt, averaged.
+      - text: Non-determinism means one run is noise. Three is the practical minimum for a number you can act on.
+    - listitem:
+      - strong: Logged out, consistent location.
+      - text: Personalisation contaminates results. Use a clean session from the same region every cycle.
+    - listitem:
+      - strong: Same day of month, same engines.
+      - text: Fix the schedule and the engine list. Adding an engine mid-series makes the trend uninterpretable.
+    - listitem:
+      - strong: One person or one script.
+      - text: Judgement calls about what counts as a mention should be made consistently.
+  - paragraph: Monthly is the right cadence for most businesses. Weekly measures noise; quarterly is too slow to connect a change to its cause.
+  - heading "What to report" [level=2]
+  - paragraph:
+    - text: Two numbers carry most of the value.
+    - strong: Citation rate
+    - text: is the share of panel prompts scoring 2.
+    - strong: Mean score
+    - text: "per intent bucket captures partial progress that citation rate alone hides: moving a bucket from 0.2 to 0.9 is real improvement even if the citation rate barely moves."
+  - paragraph: Report both against the previous cycle, with the cited-URL list attached. Resist the urge to add composite "visibility scores" that blend the two; they obscure which of the two problems you are actually solving.
+  - heading "Three metrics that will mislead you" [level=2]
+  - paragraph:
+    - strong: Referral traffic from AI platforms.
+    - text: Useful but not a visibility measure. Most AI citations do not produce a click, so referral volume undercounts influence severely.
+  - paragraph:
+    - strong: Brand search volume.
+    - text: Lags by months and is contaminated by every other marketing activity you run.
+  - paragraph:
+    - strong: Any single spectacular result.
+    - text: The screenshot of your brand in an AI Overview is a data point of one, from a non-deterministic system. It is a nice thing to see and it is not evidence.
+  - heading "Frequently asked questions" [level=2]
+  - heading "Can I track AI visibility with a tool?" [level=3]
+  - paragraph: "Yes. Several vendors now offer AI visibility tracking, and they automate the panel and scoring method described here. They are worth evaluating for scale, but understand the methodology first: the output is only as good as the prompt panel behind it, and that panel should reflect your buyers rather than a generic list."
+  - heading "How many prompts do I need?" [level=3]
+  - paragraph: Twenty to fifty prompts is the practical range. Fewer than twenty and the noise from any single prompt dominates the average. More than fifty and running the panel by hand becomes impractical without tooling. Write the prompts from real sales calls and support tickets so they match how your buyers actually ask.
+  - heading "Why does the same prompt give different answers?" [level=3]
+  - paragraph: Generated responses are non-deterministic, and retrieval can surface different sources from one run to the next. That is why the method runs each prompt three times and averages the scores instead of trusting a single observation. One run tells you what happened once. The average tells you what usually happens.
+  - heading "What is a good citation rate?" [level=3]
+  - paragraph: There is no meaningful benchmark for citation rate, because it depends on how competitive your category is and how your buyers phrase their questions. The number that matters is your own, measured on a frozen prompt panel and moving in the right direction from month to month. Compare against your last run, not against another company.
+  - heading "Where to start" [level=2]
+  - paragraph: "Write ten prompts this week from your last ten sales conversations, run them once across two engines, and score them. That first run is not a measurement: it is a baseline sanity check, and it usually reveals immediately whether you have an entity problem or an extraction problem."
+  - paragraph:
+    - text: Then build the panel out properly and freeze it. For help constructing a panel that reflects a real buying process, that is a
+    - link "strategy session":
+      - /url: https://www.nativecode.ai/company/contact
+    - text: .
+  - paragraph:
+    - text: "Related reading: our guide on"
+    - link "what answer engine optimization is":
+      - /url: /post/what-answer-engine-optimization-actually-is
+    - text: ", and how our"
+    - link "AI search optimization and AEO services":
+      - /url: /services/ai-seo
+    - text: put this into practice.
+  - paragraph: Work with NativeCode
+  - heading "Want this applied to your site?" [level=2]
+  - paragraph: We run SEO, AI search, web, paid media, email and creative programs for growing and enterprise brands.
+  - link "Start a project":
+    - /url: /company/contact
+  - link "More insights":
+    - /url: /blog
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

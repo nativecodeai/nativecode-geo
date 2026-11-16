@@ -1,0 +1,301 @@
+[
+{
+  "question": "How does NativeCode get a brand cited in AI answers?",
+  "answer": "[1] NativeCode is a content marketing agency that plans and writes SEO content built to rank in Google and get cited in AI answers. We build topic clusters, briefs and articles around what your buyers search, for organizations nationwide from our Atlanta base.\n[2] AI SEO, also called AI search optimization, AEO or GEO, helps your site get read, trusted and cited by Google AI Overviews, ChatGPT and Perplexity. NativeCode is an Atlanta-based AI SEO agency that runs this work for brands nationwide, with entity work, structured data and answer-ready content.\n[3] Topic clusters are groups of linked pages, one pillar and its supporting articles, that cover a subject fully enough to rank and be cited. NativeCode is an Atlanta-based team that builds topic clusters for brands nationwide, each one intent-mapped, entity-optimized, schema-wired and interlinked for Google, AI Overviews, ChatGPT and Perplexity.",
+  "sources": [
+    {
+      "n": 1,
+      "title": "Content Marketing Agency and SEO Content",
+      "url": "https://www.nativecode.ai/services/content-marketing",
+      "heading": "Content Marketing Agency and SEO Content > A content marketing agency for SEO content that ranks and gets cited."
+    },
+    {
+      "n": 2,
+      "title": "AI SEO Services and AI Search Optimization",
+      "url": "https://www.nativecode.ai/services/ai-seo",
+      "heading": "AI SEO Services and AI Search Optimization > AI SEO services: visibility where the answers happen."
+    },
+    {
+      "n": 3,
+      "title": "Topic Clusters: Content Built to Get Cited",
+      "url": "https://www.nativecode.ai/services/topic-clusters",
+      "heading": "Topic Clusters: Content Built to Get Cited > Topic clusters built to get cited."
+    },
+    {
+      "n": 4,
+      "title": "AI Search vs Traditional SEO: Key Differences",
+      "url": "https://www.nativecode.ai/post/ai-search-vs-traditional-seo-the-complete-structural-breakdown",
+      "heading": "AI Search vs Traditional SEO: Key Differences > AI Search vs Traditional SEO: The Complete Structural Breakdown > Frequently asked questions > How do you measure success in AI search?"
+    },
+    {
+      "n": 5,
+      "title": "AI SEO Services and AI Search Optimization",
+      "url": "https://www.nativecode.ai/services/ai-seo",
+      "heading": "AI SEO Services and AI Search Optimization > AI SEO services: visibility where the answers happen. > How does AI search optimization work? > AI visibility audit"
+    }
+  ],
+  "mode": "extractive",
+  "hits": [
+    {
+      "heading": "Content Marketing Agency and SEO Content > A content marketing agency for SEO content that ranks and gets cited.",
+      "url": "https://www.nativecode.ai/services/content-marketing",
+      "score": 0.031754032258064516,
+      "dense": 0.642,
+      "sparse": 12.041
+    },
+    {
+      "heading": "AI SEO Services and AI Search Optimization > AI SEO services: visibility where the answers happen.",
+      "url": "https://www.nativecode.ai/services/ai-seo",
+      "score": 0.02877846790890269,
+      "dense": 0.593,
+      "sparse": 11.023
+    },
+    {
+      "heading": "Topic Clusters: Content Built to Get Cited > Topic clusters built to get cited.",
+      "url": "https://www.nativecode.ai/services/topic-clusters",
+      "score": 0.02664576802507837,
+      "dense": 0.55,
+      "sparse": 11.419
+    },
+    {
+      "heading": "AI Search vs Traditional SEO: Key Differences > AI Search vs Traditional SEO: The Complete Structural Breakdown > Frequently asked questions > How do you measure success in AI search?",
+      "url": "https://www.nativecode.ai/post/ai-search-vs-traditional-seo-the-complete-structural-breakdown",
+      "score": 0.0261986301369863,
+      "dense": 0.561,
+      "sparse": 10.592
+    },
+    {
+      "heading": "AI SEO Services and AI Search Optimization > AI SEO services: visibility where the answers happen. > How does AI search optimization work? > AI visibility audit",
+      "url": "https://www.nativecode.ai/services/ai-seo",
+      "score": 0.025595238095238095,
+      "dense": 0.514,
+      "sparse": 14.118
+    }
+  ]
+}
+,
+{
+  "question": "Does NativeCode migrate stores from WooCommerce to Shopify?",
+  "answer": "[1] Yes. We map every URL on the old store, carry over content, titles and schema, and set 301 redirects before launch.\n[2] NativeCode handles Shopify migration from Magento, BigCommerce, WooCommerce and Wix, with SEO-safe redirects, clean product data and supplier EDI continuity. Our Atlanta-based team plans every URL before launch so stores keep their rankings and keep shipping orders, for brands nationwide.\n[3] NativeCode handles WooCommerce to Shopify migration, moving products, variations, customers, orders, reviews and blog content, with a 301 redirect for every changed URL. We are an Atlanta-based team serving companies nationwide, and we replace WordPress plugins with Shopify apps or native features so you stop managing servers and plugin updates.",
+  "sources": [
+    {
+      "n": 1,
+      "title": "Shopify Development Company",
+      "url": "https://www.nativecode.ai/services/shopify-development",
+      "heading": "Shopify Development Company > A Shopify development company for stores built to sell and rank. > Questions about Shopify development > Can you migrate us to Shopify without losing rankings?"
+    },
+    {
+      "n": 2,
+      "title": "Shopify Migration Services",
+      "url": "https://www.nativecode.ai/services/shopify-migration",
+      "heading": "Shopify Migration Services > Shopify migration without losing rankings or orders."
+    },
+    {
+      "n": 3,
+      "title": "WooCommerce to Shopify Migration",
+      "url": "https://www.nativecode.ai/services/woocommerce-to-shopify-migration",
+      "heading": "WooCommerce to Shopify Migration > WooCommerce to Shopify migration without the plugin upkeep."
+    },
+    {
+      "n": 4,
+      "title": "WooCommerce to Shopify Migration",
+      "url": "https://www.nativecode.ai/services/woocommerce-to-shopify-migration",
+      "heading": "WooCommerce to Shopify Migration > WooCommerce to Shopify migration without the plugin upkeep. > Questions about WooCommerce to Shopify migration > Can you migrate WooCommerce Subscriptions?"
+    },
+    {
+      "n": 5,
+      "title": "Shopify Plus Agency for Growing Brands",
+      "url": "https://www.nativecode.ai/services/shopify-plus-agency",
+      "heading": "Shopify Plus Agency for Growing Brands > A Shopify Plus agency for brands that have outgrown standard Shopify. > Questions about Shopify Plus > Can you migrate our store to Shopify Plus?"
+    }
+  ],
+  "mode": "extractive",
+  "hits": [
+    {
+      "heading": "Shopify Development Company > A Shopify development company for stores built to sell and rank. > Questions about Shopify development > Can you migrate us to Shopify without losing rankings?",
+      "url": "https://www.nativecode.ai/services/shopify-development",
+      "score": 0.03149801587301587,
+      "dense": 0.674,
+      "sparse": 18.562
+    },
+    {
+      "heading": "Shopify Migration Services > Shopify migration without losing rankings or orders.",
+      "url": "https://www.nativecode.ai/services/shopify-migration",
+      "score": 0.03047794966520434,
+      "dense": 0.752,
+      "sparse": 12.828
+    },
+    {
+      "heading": "WooCommerce to Shopify Migration > WooCommerce to Shopify migration without the plugin upkeep.",
+      "url": "https://www.nativecode.ai/services/woocommerce-to-shopify-migration",
+      "score": 0.02964254577157803,
+      "dense": 0.726,
+      "sparse": 12.149
+    },
+    {
+      "heading": "WooCommerce to Shopify Migration > WooCommerce to Shopify migration without the plugin upkeep. > Questions about WooCommerce to Shopify migration > Can you migrate WooCommerce Subscriptions?",
+      "url": "https://www.nativecode.ai/services/woocommerce-to-shopify-migration",
+      "score": 0.029513888888888888,
+      "dense": 0.619,
+      "sparse": 17.333
+    },
+    {
+      "heading": "Shopify Plus Agency for Growing Brands > A Shopify Plus agency for brands that have outgrown standard Shopify. > Questions about Shopify Plus > Can you migrate our store to Shopify Plus?",
+      "url": "https://www.nativecode.ai/services/shopify-plus-agency",
+      "score": 0.028588564574170333,
+      "dense": 0.596,
+      "sparse": 20.336
+    }
+  ]
+}
+,
+{
+  "question": "What is llms.txt and does a site need one?",
+  "answer": "[1] The file does work reliably in one layer, and it is the layer the original proposal described: developer tooling. AI coding assistants (Cursor, GitHub Copilot, Claude Code and similar tools) routinely fetch /llms.\n[2] Site type Recommendation Why Developer docs / API Yes, and maintain it Coding assistants actively fetch it Technical SaaS Yes Overlaps with the tooling use case Marketing site Optional, low priority Cheap to add, no demonstrated benefit Ecommerce Skip for now Product data belongs in feeds and schema\n[3] llms. txt is a community proposal, not a standard, and no major AI provider has committed to reading it.",
+  "sources": [
+    {
+      "n": 1,
+      "title": "llms.txt: What It Is and Do You Need One?",
+      "url": "https://www.nativecode.ai/post/llms-txt-what-it-is-and-whether-you-need-one",
+      "heading": "llms.txt: What It Is and Do You Need One? > NativeCode > Where it genuinely works"
+    },
+    {
+      "n": 2,
+      "title": "llms.txt: What It Is and Do You Need One?",
+      "url": "https://www.nativecode.ai/post/llms-txt-what-it-is-and-whether-you-need-one",
+      "heading": "llms.txt: What It Is and Do You Need One? > NativeCode > Who should publish an llms.txt file?"
+    },
+    {
+      "n": 3,
+      "title": "SEO and AI Search Blog",
+      "url": "https://www.nativecode.ai/blog",
+      "heading": "SEO and AI Search Blog > Notes on search, AI answers and growth. > llms.txt: What It Is, What It Isn't, and Whether You Need One"
+    },
+    {
+      "n": 4,
+      "title": "Robots.txt and AI Crawlers: 2026 Reference",
+      "url": "https://www.nativecode.ai/post/robots-txt-and-the-ai-crawlers",
+      "heading": "Robots.txt and AI Crawlers: 2026 Reference > Robots.txt and the AI Crawlers > Where to start"
+    },
+    {
+      "n": 5,
+      "title": "SaaS SEO and AEO Services",
+      "url": "https://www.nativecode.ai/industries/saas-seo",
+      "heading": "SaaS SEO and AEO Services > SaaS SEO and AEO for software companies. > SaaS SEO questions > Should docs live on a subdomain?"
+    }
+  ],
+  "mode": "extractive",
+  "hits": [
+    {
+      "heading": "llms.txt: What It Is and Do You Need One? > NativeCode > Where it genuinely works",
+      "url": "https://www.nativecode.ai/post/llms-txt-what-it-is-and-whether-you-need-one",
+      "score": 0.03177805800756621,
+      "dense": 0.648,
+      "sparse": 23.256
+    },
+    {
+      "heading": "llms.txt: What It Is and Do You Need One? > NativeCode > Who should publish an llms.txt file?",
+      "url": "https://www.nativecode.ai/post/llms-txt-what-it-is-and-whether-you-need-one",
+      "score": 0.03149801587301587,
+      "dense": 0.714,
+      "sparse": 22.191
+    },
+    {
+      "heading": "SEO and AI Search Blog > Notes on search, AI answers and growth. > llms.txt: What It Is, What It Isn't, and Whether You Need One",
+      "url": "https://www.nativecode.ai/blog",
+      "score": 0.030090497737556562,
+      "dense": 0.624,
+      "sparse": 21.957
+    },
+    {
+      "heading": "Robots.txt and AI Crawlers: 2026 Reference > Robots.txt and the AI Crawlers > Where to start",
+      "url": "https://www.nativecode.ai/post/robots-txt-and-the-ai-crawlers",
+      "score": 0.02666666666666667,
+      "dense": 0.486,
+      "sparse": 16.814
+    },
+    {
+      "heading": "SaaS SEO and AEO Services > SaaS SEO and AEO for software companies. > SaaS SEO questions > Should docs live on a subdomain?",
+      "url": "https://www.nativecode.ai/industries/saas-seo",
+      "score": 0.02631578947368421,
+      "dense": 0.418,
+      "sparse": 10.647
+    }
+  ]
+}
+,
+{
+  "question": "Where is NativeCode based and how do I contact them?",
+  "answer": "[1] Yes. NativeCode is based in Atlanta, with an office in Norcross, and works with teams across the United States and in other countries.\n[2] An email marketing agency plans, builds and runs the email and SMS programs that bring customers back. NativeCode is an Atlanta-based email marketing agency working in Klaviyo, Mailchimp, Constant Contact and other platforms for brands nationwide, with automated sequences, segmentation and campaigns built in your account and measured on revenue.\n[3] NativeCode provides SEO services for large organizations: technical SEO, content and AI search optimization that grow qualified traffic and leads. We are an Atlanta-based SEO agency serving brands nationwide, run by a senior team with 15+ years in technical SEO.",
+  "sources": [
+    {
+      "n": 1,
+      "title": "Contact Us: Free Audit or Proposal",
+      "url": "https://www.nativecode.ai/company/contact",
+      "heading": "Contact Us: Free Audit or Proposal > Tell us what you need to grow. > What should you know before you reach out? > Do you work with companies outside Atlanta?"
+    },
+    {
+      "n": 2,
+      "title": "Email Marketing Agency: Klaviyo and Mailchimp",
+      "url": "https://www.nativecode.ai/services/email-marketing",
+      "heading": "Email Marketing Agency: Klaviyo and Mailchimp > Email marketing agency for programs that grow repeat revenue."
+    },
+    {
+      "n": 3,
+      "title": "SEO Services and SEO Agency",
+      "url": "https://www.nativecode.ai/services/seo",
+      "heading": "SEO Services and SEO Agency > SEO services that turn search into revenue."
+    },
+    {
+      "n": 4,
+      "title": "Case Studies: SEO, Web and Ecommerce",
+      "url": "https://www.nativecode.ai/company/case-study",
+      "heading": "Case Studies: SEO, Web and Ecommerce > Client programs, and the products we run ourselves."
+    },
+    {
+      "n": 5,
+      "title": "SaaS SEO and AEO Services",
+      "url": "https://www.nativecode.ai/industries/saas-seo",
+      "heading": "SaaS SEO and AEO Services > SaaS SEO and AEO for software companies."
+    }
+  ],
+  "mode": "extractive",
+  "hits": [
+    {
+      "heading": "Contact Us: Free Audit or Proposal > Tell us what you need to grow. > What should you know before you reach out? > Do you work with companies outside Atlanta?",
+      "url": "https://www.nativecode.ai/company/contact",
+      "score": 0.031754032258064516,
+      "dense": 0.74,
+      "sparse": 6.137
+    },
+    {
+      "heading": "Email Marketing Agency: Klaviyo and Mailchimp > Email marketing agency for programs that grow repeat revenue.",
+      "url": "https://www.nativecode.ai/services/email-marketing",
+      "score": 0.02854251012145749,
+      "dense": 0.686,
+      "sparse": 6.048
+    },
+    {
+      "heading": "SEO Services and SEO Agency > SEO services that turn search into revenue.",
+      "url": "https://www.nativecode.ai/services/seo",
+      "score": 0.027651515151515153,
+      "dense": 0.677,
+      "sparse": 6.004
+    },
+    {
+      "heading": "Case Studies: SEO, Web and Ecommerce > Client programs, and the products we run ourselves.",
+      "url": "https://www.nativecode.ai/company/case-study",
+      "score": 0.02749266862170088,
+      "dense": 0.662,
+      "sparse": 6.632
+    },
+    {
+      "heading": "SaaS SEO and AEO Services > SaaS SEO and AEO for software companies.",
+      "url": "https://www.nativecode.ai/industries/saas-seo",
+      "score": 0.0197718210013292,
+      "dense": 0.547,
+      "sparse": 6.933
+    }
+  ]
+}
+]

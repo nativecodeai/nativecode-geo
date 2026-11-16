@@ -1,0 +1,160 @@
+# NativeCode
+
+> NativeCode is an Atlanta-based digital marketing agency for growing and enterprise companies nationwide. One senior team plans, builds and runs SEO, AI search optimization (AEO and GEO), websites on Webflow and Shopify, Google and Meta Ads, and email marketing, and reports every channel against revenue.
+
+- Website: https://www.nativecode.ai. Office: 6350 McDonough Drive, Ste F, Norcross, GA 30093. Phone: (404) 401-1853. Email: hello@nativecode.ai.
+- NativeCode Audit, a free SEO, AEO and GEO site audit tool, runs at https://app.nativecode.ai.
+- NativeCode (nativecode.ai), the Atlanta digital marketing agency, is not connected to other companies or apps that use the NativeCode name.
+
+Clean Markdown of every page listed here is at https://nativecodeai.github.io/nativecode-geo/md/<path>.md (for example https://nativecodeai.github.io/nativecode-geo/md/services/seo.md). The full text of all pages in one file: https://nativecodeai.github.io/nativecode-geo/llms-full.txt
+
+## Company
+
+- [Digital Marketing Agency in Atlanta](https://www.nativecode.ai): Atlanta-based digital marketing agency for SEO, AI search, web design, Google and Meta Ads and email, run by one senior team nationwide. Free audit.
+- [About Us: Atlanta Digital Marketing Agency](https://www.nativecode.ai/company/about): NativeCode is an Atlanta-based digital marketing and engineering firm running SEO, AI search, web, paid media, email and creative for brands nationwide.
+- [Contact Us: Free Audit or Proposal](https://www.nativecode.ai/company/contact): Request a free audit or a scoped proposal from a senior strategist. SEO, AI search, web, ads and email. Atlanta-based, working nationwide.
+- [Security and Trust](https://www.nativecode.ai/security): Learn how NativeCode protects client information through limited access, MFA, secure devices, data minimization, and documented security practices.
+
+## AI search optimization (AEO and GEO)
+
+- [AI Search Optimization Checklist: 40 Checks](https://www.nativecode.ai/ai-search-optimization-checklist): A free 40-point checklist for ChatGPT, Gemini, Perplexity and Google AI answers: crawler access, schema, entities, content and measurement.
+- [AI SEO Services and AI Search Optimization](https://www.nativecode.ai/services/ai-seo): AI SEO services for Google AI Overviews, ChatGPT and Perplexity: entity work, structured data and answer-ready content. Free AI search audit.
+- [ChatGPT SEO and Perplexity Optimization](https://www.nativecode.ai/services/chatgpt-seo): ChatGPT SEO and Perplexity optimization: crawler access, entity clarity, answer-first content and citation tracking. Free AI search audit.
+- [Schema Markup Services: Structured Data](https://www.nativecode.ai/services/schema-markup): Schema markup services: JSON-LD structured data that search and AI engines can read, rich results eligibility, validation and monitoring. Free SEO audit.
+- [SEO Architecture for Scalable Organic Growth](https://www.nativecode.ai/services/seo-architecture): SEO architecture for growing and enterprise sites: site structure, taxonomy, internal linking, entity design and AI search readiness. Free audit.
+- [Topic Clusters: Content Built to Get Cited](https://www.nativecode.ai/services/topic-clusters): Topic clusters with pillar and supporting pages, JSON-LD schema and answer blocks, built to rank in Google and get cited in AI Overviews and ChatGPT.
+
+## SEO services
+
+- [Content Marketing Agency and SEO Content](https://www.nativecode.ai/services/content-marketing): Content marketing agency for SEO content that ranks and gets cited in AI answers: topic clusters, briefs and editing. Get a free SEO audit.
+- [Digital PR Agency for Links and Citations](https://www.nativecode.ai/services/digital-pr): Digital PR agency for data studies, expert commentary and linkable tools that earn coverage, links and AI citations. Atlanta-based. Free SEO audit.
+- [Enterprise SEO Services and Agency](https://www.nativecode.ai/services/enterprise-seo): Enterprise SEO services for large sites: architecture, migrations, governance and AI search across teams and markets. Get a free SEO audit.
+- [International SEO Agency for Global Brands](https://www.nativecode.ai/services/international-seo): International SEO agency for brands entering new countries: hreflang, market structure, localized content and AI search visibility. Free audit.
+- [Link Building Services: Editorial Links and PR](https://www.nativecode.ai/services/link-building): Link building services that earn editorial links and digital PR coverage. No paid link networks or PBNs. Atlanta-based, nationwide. Free SEO audit.
+- [Local SEO Services for Maps and AI Search](https://www.nativecode.ai/services/local-seo): Local SEO services from an Atlanta-based team: Google Business Profile, location pages, reviews and local AI answers. Free local SEO audit.
+- [Multi-location SEO and AEO Agency](https://www.nativecode.ai/services/multi-location-seo): Multi-location SEO and AEO for franchises and chains: Google Business Profiles, location pages, reviews and reporting for every location. Free audit.
+- [National SEO Services and AEO Agency](https://www.nativecode.ai/services/national-seo): National SEO for brands that sell across the US: site architecture, content, digital PR and AI search visibility from an Atlanta-based team. Free audit.
+- [SEO Services and SEO Agency](https://www.nativecode.ai/services/seo): SEO services from an Atlanta-based SEO agency: technical SEO, content and AI search for large organizations nationwide. Start with a free SEO audit.
+- [SEO Audit Services: Free Website Audit](https://www.nativecode.ai/services/seo-audit): SEO audit services covering technical SEO, content, links and AI search visibility. Request a free SEO audit from a senior team.
+- [SEO Consultant and SEO Consulting Services](https://www.nativecode.ai/services/seo-consulting): Senior SEO consultant for in-house teams: audits, roadmaps, migrations and AI search strategy, with no junior handoffs. Get a free SEO audit.
+- [Shopify SEO Agency: Collection Architecture](https://www.nativecode.ai/services/shopify-seo): Shopify SEO at catalog scale: collection taxonomy, faceted navigation, product schema and pages that rank and get cited by AI answers. Free audit.
+- [Site Speed Optimization Services](https://www.nativecode.ai/services/site-speed-optimization): Site speed optimization for Core Web Vitals: LCP, INP and CLS fixes on Shopify, Webflow and WordPress. Atlanta-based, nationwide. Get a free speed audit.
+- [Technical SEO Services and Audits](https://www.nativecode.ai/services/technical-seo): Technical SEO services: crawl, indexation, speed, schema and site architecture fixed at the source on your platform. Get a free SEO audit.
+- [WordPress SEO and Development](https://www.nativecode.ai/services/wordpress-seo): WordPress SEO and development: speed, plugins, schema, site structure and content fixed by one senior team. Get a free SEO audit.
+
+## Web design, development and ecommerce
+
+- [BigCommerce to Shopify Migration](https://www.nativecode.ai/services/bigcommerce-to-shopify-migration): BigCommerce to Shopify migration: options and custom fields mapped, 301 redirects, apps replaced and B2B Edition planned. Free migration review.
+- [CRM Integration Services: HubSpot, Salesforce](https://www.nativecode.ai/services/crm-integration): CRM integration services for HubSpot and Salesforce: forms, Shopify, ad platforms, UTM attribution and offline conversion imports. Free tracking review.
+- [Custom Web Development Services](https://www.nativecode.ai/services/custom-web-development): Custom web development for web apps, internal tools, calculators, portals and integrations, built by an Atlanta-based senior team. Free website review.
+- [Dropship Automation for Suppliers](https://www.nativecode.ai/services/dropship-automation): Dropship automation connecting dropship and wholesale suppliers to Shopify: inventory sync, order routing and tracking. Free supplier integration review.
+- [Ecommerce Website Design Company](https://www.nativecode.ai/services/ecommerce-web-design): Ecommerce website design for Shopify and custom stores: catalog structure, product pages and checkout built to sell. Get a free website review.
+- [EDI Integration for Shopify and Ecommerce](https://www.nativecode.ai/services/edi-integration): EDI integration between your store and suppliers: inventory sync, purchase orders, order routing, ship notices and invoices, built and monitored.
+- [Interactive Tools Development and Calculators](https://www.nativecode.ai/services/interactive-tools-apps): Interactive tools development: calculators, configurators and apps built to rank, earn links and convert. Builders of TDEE.co and BraSize.ai.
+- [Magento to Shopify Migration Services](https://www.nativecode.ai/services/magento-to-shopify-migration): Magento to Shopify migration for Magento 2 and Adobe Commerce: data, 301 redirects, extensions and ERP or EDI continuity. Free migration review.
+- [Marketplace Management: Amazon, Walmart, eBay](https://www.nativecode.ai/services/marketplace-management): Marketplace management for Amazon, Walmart and eBay: listings, catalog and inventory sync, EDI, pricing and marketplace ads. Free marketplace review.
+- [Shopify Development Company](https://www.nativecode.ai/services/shopify-development): Shopify development company for theme builds, redesigns, apps and integrations, with SEO built in from the first template. Free store review.
+- [Shopify Migration Services](https://www.nativecode.ai/services/shopify-migration): Shopify migration from Magento, BigCommerce, WooCommerce or Wix with SEO-safe redirects, clean data and EDI continuity. Free store review.
+- [Shopify Plus Agency for Growing Brands](https://www.nativecode.ai/services/shopify-plus-agency): Shopify Plus agency for B2B, international and multi-store brands: Checkout Extensibility, Functions, Flow, ERP and EDI integrations. Free store review.
+- [Squarespace to Shopify Migration](https://www.nativecode.ai/services/squarespace-to-shopify-migration): Squarespace to Shopify migration by NativeCode: products, variants, customers, blog and 301 redirects moved safely. Get a free migration review.
+- [Website Design Company and Web Design Agency](https://www.nativecode.ai/services/web-design): Website design company for Webflow, Shopify, WordPress and custom builds. Redesigns built to rank and convert. Get a free website review.
+- [Webflow Development Agency: SEO-Built Sites](https://www.nativecode.ai/services/webflow-development): Webflow development with search architecture from the first wireframe: CMS structure, components, JSON-LD schema and technical SEO. Free review.
+- [Wix to Shopify Migration Services](https://www.nativecode.ai/services/wix-to-shopify-migration): Wix to Shopify migration by NativeCode: products, customers, blog and 301 redirects moved with rankings protected. Get a free migration review.
+- [WooCommerce to Shopify Migration](https://www.nativecode.ai/services/woocommerce-to-shopify-migration): WooCommerce to Shopify migration: products, customers, orders and blog moved, plugins replaced with apps, every URL redirected. Free migration review.
+- [X12 EDI Integration for Ecommerce](https://www.nativecode.ai/services/x12-edi): X12 EDI integration and EDI for ecommerce: 850, 855, 856, 810 and 846 mapping, AS2 or SFTP setup, partner testing and monitoring. Free EDI review.
+
+## Paid media, email and growth
+
+- [Digital Marketing Services: Full List](https://www.nativecode.ai/digital-marketing-services): Every digital marketing service NativeCode offers: SEO and AI search, web design, Shopify and ecommerce, paid media, email, analytics and local SEO.
+- [Conversion Rate Optimization Services](https://www.nativecode.ai/services/conversion-rate-optimization): Conversion rate optimization for Shopify and Webflow: product and collection pages, A/B testing, checkout fixes and sizing tools. Free website review.
+- [Email Marketing Agency: Klaviyo and Mailchimp](https://www.nativecode.ai/services/email-marketing): Email marketing agency for Klaviyo, Mailchimp and Constant Contact: automations, segmentation and campaigns measured on revenue. Free email review.
+- [Facebook Advertising Agency for Meta Ads](https://www.nativecode.ai/services/facebook-advertising): Facebook advertising agency and Instagram marketing agency: Meta ads strategy, creative, Pixel and Conversions API. Free ads account review.
+- [GA4 Setup and Analytics Services](https://www.nativecode.ai/services/ga4-analytics): GA4 setup and analytics: audits, Google Tag Manager, conversion and ecommerce tracking, consent mode and Looker Studio dashboards. Free tracking review.
+- [Google Ads Management Agency](https://www.nativecode.ai/services/google-ads-management): Google Ads management with clean conversion tracking, tight search campaigns and weekly reporting. Microsoft Ads too. Free ads account review.
+- [Google Shopping Ads Management](https://www.nativecode.ai/services/google-shopping-ads): Google Shopping ads management: Merchant Center fixes, product feed optimization, Performance Max and Standard Shopping. Free ads account review.
+- [Partner Marketing and Growth Programs](https://www.nativecode.ai/services/growth-partner-marketing): Partner marketing programs built to compound: positioning, partner SEO, co-marketing assets and measurement tied to revenue. Free audit.
+- [Klaviyo Agency for Email and SMS](https://www.nativecode.ai/services/klaviyo-agency): Klaviyo agency for ecommerce brands: account setup, flows, segmentation, campaigns, SMS and deliverability. Atlanta-based, nationwide. Free review.
+- [LinkedIn Advertising Agency and Ads Management](https://www.nativecode.ai/services/linkedin-advertising): LinkedIn advertising agency for B2B targeting, Lead Gen Forms, CRM sync, Insight Tag tracking and reporting to pipeline. Get a free ads account review.
+- [PPC Management for Google, Meta and LinkedIn](https://www.nativecode.ai/services/ppc-management): PPC management on Google, Meta and LinkedIn Ads: planning, builds, tracking and weekly reporting tied to revenue. Atlanta-based. Free ads review.
+- [Server-Side Tracking and Conversions API Setup](https://www.nativecode.ai/services/server-side-tracking): Server-side tracking with server-side GTM, Meta Conversions API, TikTok Events API and enhanced conversions to recover lost signal. Free tracking review.
+- [TikTok Advertising Agency and Ads Management](https://www.nativecode.ai/services/tiktok-advertising): TikTok advertising agency for setup, Spark Ads, short-form creative, Pixel and Events API tracking, and testing. Get a free ads account review.
+- [Video Production and Ad Creative Studio](https://www.nativecode.ai/services/video-production): Video production and ad creative for Meta, TikTok, YouTube and the web, made in house by an Atlanta-based team and tested against live spend.
+
+## Industries
+
+- [Industries We Serve: SEO and AEO by Industry](https://www.nativecode.ai/industries-we-serve): Industries we serve: SEO and AI search programs for ecommerce, SaaS, healthcare, finance, legal, real estate, home services and more. Free audit.
+- [Ecommerce SEO and AEO Services](https://www.nativecode.ai/industries/ecommerce-seo): Ecommerce SEO for online stores: catalog architecture, collection and product pages, product schema and visibility in AI shopping answers. Free audit.
+- [Education SEO and AEO Services](https://www.nativecode.ai/industries/education-seo): Education SEO for schools, universities, bootcamps and course providers: program pages, enrollment funnels, schema and AI answer visibility.
+- [Financial Services SEO and AEO](https://www.nativecode.ai/industries/financial-services-seo): Financial services SEO for banks, lenders, fintech and advisors: compliant content workflows, calculators, product pages and AI visibility. Free audit.
+- [Healthcare SEO and AEO Services](https://www.nativecode.ai/industries/healthcare-seo): Healthcare SEO for providers, telehealth and wellness brands: medically reviewed content, provider and location pages and trust signals. Free audit.
+- [Home Services SEO and AEO](https://www.nativecode.ai/industries/home-services-seo): Home services SEO for HVAC, plumbing, roofing and electrical companies: service area pages, Google Business Profile and reviews. Free audit.
+- [Hospitality SEO for Hotels and Travel Brands](https://www.nativecode.ai/industries/hospitality-seo): Hospitality SEO for hotels, rentals, restaurants and travel brands: direct booking pages, destination content, local search and AI trip answers.
+- [Law Firm SEO and AEO Services](https://www.nativecode.ai/industries/law-firm-seo): Law firm SEO: practice area and location pages, attorney profiles, Google Business Profile and answers AI tools can quote. Free law firm SEO audit.
+- [Manufacturing SEO for B2B and Industrial](https://www.nativecode.ai/industries/manufacturing-seo): Manufacturing SEO for manufacturers, distributors and B2B suppliers: product and spec pages, application content, RFQ paths and AI answers.
+- [Nonprofit SEO and AEO Services](https://www.nativecode.ai/industries/nonprofit-seo): Nonprofit SEO for charities and foundations: program and impact pages, donation paths, Google Ad Grants and the trust signals donors look for.
+- [Professional Services SEO and AEO](https://www.nativecode.ai/industries/professional-services-seo): Professional services SEO for accounting, consulting, architecture and other firms: expertise content, team pages, local search and AI visibility.
+- [Real Estate SEO and AEO Services](https://www.nativecode.ai/industries/real-estate-seo): Real estate SEO for brokerages, agents, developers and property managers: neighborhood pages, listings, local search and AI answers. Free audit.
+- [SaaS SEO and AEO Services](https://www.nativecode.ai/industries/saas-seo): SaaS SEO for software companies: product-led content, comparison and integration pages, documentation and AI answer visibility. Free audit.
+
+## Case studies
+
+- [Case Studies: SEO, Web and Ecommerce](https://www.nativecode.ai/company/case-study): NativeCode case studies for Constant Contact, HauteFlair, Spooky Costumes and ThirdLust, plus six products we build and rank in house.
+- [Constant Contact Case Study: SEO and AEO](https://www.nativecode.ai/constant-contact-case-study): How NativeCode runs an SEO, AEO and GEO program with Constant Contact's growth marketing and SEO teams, built to rank and be cited by AI answers.
+- [HauteFlair Case Study: Ecommerce SEO](https://www.nativecode.ai/hauteflair-case-study): How NativeCode rebuilt site architecture, structured data and organic growth for HauteFlair, an online retailer with a large, fast-changing catalog.
+- [Product Page CRO Case Study: HauteFlair](https://www.nativecode.ai/hauteflair-product-page-cro): How NativeCode rebuilt HauteFlair bra product pages with a size calculator, fit guidance, FAQ blocks and product schema to lift conversion.
+- [Spooky Costumes Case Study: Shopify and EDI](https://www.nativecode.ai/spooky-costumes-case-study): How NativeCode rebuilt a Halloween costume store with 8,000+ products on Shopify and connected its suppliers with EDI for inventory and orders.
+- [ThirdLust Case Study: Shopify and EDI](https://www.nativecode.ai/thirdlust-case-study): A custom Shopify theme, catalog architecture, buying guides and supplier EDI for a sexual wellness retailer with 11,000+ products, built for discretion.
+
+## Insights
+
+- [SEO and AI Search Blog](https://www.nativecode.ai/blog): The NativeCode SEO and AI search blog: practical guides on technical SEO, answer engine optimization, structured data and AI visibility.
+- [AI Search vs Traditional SEO: Key Differences](https://www.nativecode.ai/post/ai-search-vs-traditional-seo-the-complete-structural-breakdown): How SEO shifts from rankings, keywords and links to retrieval, entities and citations in AI search, and what that changes in your site.
+- [The Evolution from SEO to AI Discovery Strategy](https://www.nativecode.ai/post/evolution-seo-to-ai-discovery-strategy): Search is moving past classic SEO into AI discovery. How brands stay visible in ChatGPT, Gemini and Perplexity as well as in Google results.
+- [Google Ads Conversion Tracking Setup Guide](https://www.nativecode.ai/post/google-ads-conversion-tracking-setup): How to set up Google Ads conversion tracking: what to count, the tag vs GA4 key events, enhanced conversions, and importing offline leads and sales.
+- [Growth Architecture for AI Search Visibility](https://www.nativecode.ai/post/growth-architecture-ai-search-visibility): Learn how growth architecture helps brands dominate search engines and AI discovery platforms through authority, structured content, and technical SEO.
+- [How AI Overviews Choose Which Brands to Cite](https://www.nativecode.ai/post/how-ai-overviews-choose-sources): AI Overviews select entities, not pages. How entity authority, structured content and knowledge graph signals decide which brands Google cites.
+- [How AI Search Is Changing SEO Rankings](https://www.nativecode.ai/post/how-ai-search-is-changing-what-ranking-really-means): How AI search changes what ranking means, where answer engine optimization fits, and what businesses should change to stay discoverable.
+- [How to Measure AI Visibility](https://www.nativecode.ai/post/how-to-measure-ai-visibility): There is no rank tracker for AI answers. Use a fixed prompt panel, a three-level scoring rubric and controls that make results trendable over time.
+- [How to Structure a Page for Answer Engines](https://www.nativecode.ai/post/how-to-structure-a-page-so-an-answer-engine-can-quote-it): AI systems retrieve chunks, not pages. Five structural moves that make a passage quotable, with before and after markup and a heading rule.
+- [Klaviyo Flows for Shopify: What to Build First](https://www.nativecode.ai/post/klaviyo-flows-shopify): The six Klaviyo flows every Shopify store needs, the exact trigger for each, the order to build them, and the filters that stop flows misfiring.
+- [llms.txt: What It Is and Do You Need One?](https://www.nativecode.ai/post/llms-txt-what-it-is-and-whether-you-need-one): No major AI provider has committed to reading llms.txt. What the file does, where it helps, who should ship it and how to test if anything reads it.
+- [Prompt Methodology for AI Visibility](https://www.nativecode.ai/post/prompt-methodology-for-ai-visibility-optimization): How prompt methodology helps brands appear in ChatGPT, Perplexity and AI search: entity recognition, retrieval and how AI tools pick brands.
+- [Robots.txt and AI Crawlers: 2026 Reference](https://www.nativecode.ai/post/robots-txt-and-the-ai-crawlers): AI crawlers fall into training, search and user-triggered families. A user-agent reference, four robots.txt templates and how to verify access.
+- [Scaling Ecommerce Categories Without Losing SEO](https://www.nativecode.ai/post/scaling-categories-without-killing-search-performance): How to add collections, filters and landing pages to an ecommerce catalog without crawl waste, cannibalization or lost rankings.
+- [Schema Markup for AI Citation: What Matters](https://www.nativecode.ai/post/schema-markup-for-ai-citation): Most schema types do nothing for AI citation. Four do real work: Organization, Article, FAQPage and HowTo. A priority table and working JSON-LD.
+- [What Is Answer Engine Optimization (AEO)?](https://www.nativecode.ai/post/what-answer-engine-optimization-actually-is): Answer engine optimization structures a page so AI systems can extract a self-contained, attributed answer. A working definition and checklist.
+- [What Is EDI? A Guide for Shopify Stores](https://www.nativecode.ai/post/what-is-edi-guide-for-shopify-stores): EDI explained for Shopify stores: the six documents that move an order, how files travel, where Shopify fits, and how to tell if you need it.
+- [Why Most Websites Stop Growing After Year One](https://www.nativecode.ai/post/why-most-websites-stop-growing-after-year-one): Why websites plateau after year one, and how site architecture, internal linking and content relationships restore long-term organic growth.
+- [Why Your FAQ Isn't Getting Quoted by AI](https://www.nativecode.ai/post/why-your-faq-isnt-getting-quoted): Six failure patterns that keep FAQ blocks out of AI answers, each with the fix and a test you can run. Write answers that stand on their own.
+- [Wikidata and Entity Grounding for AI Search](https://www.nativecode.ai/post/wikipedia-wikidata-and-entity-grounding): AI systems resolve who you are before they read your pages. How Wikidata, Wikipedia and third-party sources ground your brand as an entity.
+
+## Products and tools
+
+- [Digital Marketing RFP Template and Scorecard](https://www.nativecode.ai/digital-marketing-rfp-template): Download a free digital marketing RFP template in Word, with 27 questions to ask agencies and a weighted Excel scorecard to compare proposals.
+- [Brasize.ai Bra Size Calculator](https://www.nativecode.ai/products/brasize): Brasize.ai turns two measurements into a bra size across US, UK, EU, AU and FR, with sister sizes and fit diagnosis. Built and ranked by NativeCode.
+- [DueDateCalculator.ai Due Date Calculator](https://www.nativecode.ai/products/duedatecalculator): DueDateCalculator.ai estimates due date, gestational age and pregnancy week from LMP, conception or IVF transfer, on device. Built by NativeCode.
+- [PeriodCalculator.ai Ovulation Calculator](https://www.nativecode.ai/products/periodcalculator): PeriodCalculator.ai predicts the next three cycles, ovulation and fertile window in a private, cited calculator. Built and ranked by NativeCode.
+- [SizeGuide.ai: AI-Powered Apparel Size Guide](https://www.nativecode.ai/products/sizeguide): SizeGuide.ai turns body measurements into recommended apparel sizes across garments, brands and regions. The newest fit product built by NativeCode.
+- [TDEE.co TDEE, BMR and Macro Calculator](https://www.nativecode.ai/products/tdee): TDEE.co is a medically reviewed calculator for BMR, maintenance calories, goal targets and macros. Built, run and ranked in house by NativeCode.
+- [TimeCalculator.ai Time and Date Calculator](https://www.nativecode.ai/products/timecalculator): TimeCalculator.ai adds time, measures duration, totals work hours and calculates dates in one free tool. Built and ranked in house by NativeCode.
+
+## Optional
+
+- [Alpharetta SEO Company: Local SEO and AEO](https://www.nativecode.ai/locations/alpharetta-seo-company): Alpharetta SEO company services for North Fulton tech firms and local businesses: national B2B search, Google Maps and AI answers. Free SEO audit.
+- [Atlanta SEO Agency: Local SEO and AEO](https://www.nativecode.ai/locations/atlanta-seo-agency): Atlanta SEO agency for local and national search: Google Maps, location pages, reviews and AI answers for Atlanta businesses. Free SEO audit.
+- [Atlanta Web Design Company](https://www.nativecode.ai/locations/atlanta-web-design-company): Atlanta web design company building fast Webflow, Shopify, WordPress and custom sites that rank in Google and AI answers. Get a free website review.
+- [Decatur SEO Company: Local SEO and AEO](https://www.nativecode.ai/locations/decatur-seo-company): Decatur SEO company services for DeKalb County restaurants, shops, practices and studios: Google Maps, local search and AI answers. Free audit.
+- [Duluth SEO Company: Local SEO and AEO](https://www.nativecode.ai/locations/duluth-seo-company): Duluth SEO company services for Gwinnett County businesses, including bilingual search: Google Maps, local search and AI answers. Free SEO audit.
+- [Marietta SEO Company: Local SEO and AEO](https://www.nativecode.ai/locations/marietta-seo-company): Marietta SEO company services for Cobb County businesses: Google Business Profile, location pages, reviews and AI answers. Atlanta-based. Free audit.
+- [Roswell SEO Company: Local SEO and AEO](https://www.nativecode.ai/locations/roswell-seo-company): Roswell SEO company services for Canton Street restaurants, home services and North Fulton businesses: Google Maps, local search and AI answers.
+- [Sandy Springs SEO Company: Local SEO and AEO](https://www.nativecode.ai/locations/sandy-springs-seo-company): Sandy Springs SEO company services for Perimeter Center offices, medical practices and local services: search, Google Maps and AI answers.
+- [Local SEO by state and city](https://www.nativecode.ai/services/local-seo#states): Local SEO service pages for every US state and major city (122 pages)
+- [Careers: Remote Digital Marketing Jobs](https://www.nativecode.ai/company/career): Careers at NativeCode, an Atlanta-based digital marketing agency. Remote contract roles in client strategy, sales, paid media, email, SEO and web development.
+- [Business Development Manager, Digital Marketing (Fractional) | Careers at NativeCode](https://www.nativecode.ai/jobs/business-development-manager-digital-marketing): Find and win new clients for NativeCode's SEO, paid media and digital growth services, with a focus on B2B and SaaS companies.
+- [Client Strategy Lead, Digital Marketing (Fractional) | Careers at NativeCode](https://www.nativecode.ai/jobs/client-strategy-lead-paid-media-seo): Lead communication with NativeCode clients, present results and strategy across SEO, content marketing and paid media, and keep client relationships strong.
+- [Email Marketing and Klaviyo Specialist (Contract) | Careers at NativeCode](https://www.nativecode.ai/jobs/email-marketing-klaviyo-specialist): Build email and SMS flows, segments and campaigns in Klaviyo, Mailchimp and Constant Contact for NativeCode clients.
+- [Paid Media Specialist, Google, Meta and LinkedIn Ads (Contract) | Careers at NativeCode](https://www.nativecode.ai/jobs/paid-media-specialist-google-meta-linkedin-ads): Build, manage and optimize Google, Meta and LinkedIn Ads campaigns for NativeCode clients, with clean tracking and clear reporting.
+- [Technical SEO and AI Search Specialist (Contract) | Careers at NativeCode](https://www.nativecode.ai/jobs/technical-seo-ai-search-specialist): Own crawlability, indexation, site structure and structured data so client sites rank in Google and get cited in AI answers.
+- [Webflow and Shopify Developer (Contract) | Careers at NativeCode](https://www.nativecode.ai/jobs/webflow-shopify-developer): Build fast, well-structured Webflow and Shopify sites for NativeCode clients, with SEO and schema built in from the first template.
+
+<!-- Generated 2026-11-16T19:40:26.827Z by nativecode-geo/llms from https://www.nativecode.ai/sitemap.xml -->

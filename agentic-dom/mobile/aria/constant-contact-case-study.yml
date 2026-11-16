@@ -1,0 +1,236 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - button "Menu"
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - link "← All work":
+    - /url: /company/case-study
+  - paragraph: Case study · SaaS · Current client
+  - heading "An SEO, AEO and GEO program for Constant Contact." [level=1]
+  - paragraph: NativeCode, an Atlanta-based agency, runs an ongoing SEO, AEO and GEO program with Constant Contact's growth marketing, SEO and content teams. Every page is built to rank in Google, get cited by ChatGPT and Perplexity, and lead the reader to a clear next step.
+  - link "Get a free audit":
+    - /url: /#audit
+  - link "See all work":
+    - /url: /company/case-study
+  - paragraph: At a glance
+  - paragraph: Client
+  - paragraph: Constant Contact
+  - paragraph: Sector
+  - paragraph: Email and digital marketing platform
+  - paragraph: Engagement
+  - paragraph: Ongoing, with the growth marketing, SEO and content teams
+  - paragraph: Scope
+  - paragraph: SEO
+  - paragraph: AEO
+  - paragraph: GEO
+  - paragraph: Content strategy
+  - paragraph: Community content
+  - paragraph: Contents
+  - link "01 The brief":
+    - /url: "#situation"
+  - link "02 Program architecture":
+    - /url: "#architecture"
+  - link "03 Built to be quoted":
+    - /url: "#data"
+  - link "04 Growth programs":
+    - /url: "#growth"
+  - paragraph: "01"
+  - heading "What did Constant Contact need?" [level=2]
+  - paragraph: Constant Contact wanted search visibility that does more than drive traffic. Every page had to answer a real question, earn citations in AI answers from Google, ChatGPT and Perplexity, and point the reader to one destination, such as a partner signup or a connected integration.
+  - paragraph: "02"
+  - heading "How is the program structured?" [level=2]
+  - paragraph: The work runs in tracks, each built around one audience and one destination. Anchor guides hold the main question in a search group, and supporting pieces each answer one question completely and link back. The same audiences are covered on the blog and in the Constant Contact Community, written in the peer-to-peer voice of the boards.
+  - paragraph: Program model
+  - paragraph: Illustrative
+  - paragraph: Program hub
+  - paragraph: Partner tracks
+  - paragraph: Real Estate
+  - paragraph: Agency Partner Program
+  - paragraph: Blog content
+  - paragraph: Anchor guides
+  - paragraph: Question sets
+  - paragraph: Community
+  - paragraph: Peer-to-peer threads
+  - paragraph: Partner signup paths
+  - paragraph: Structured data layer · Article · FAQPage · BreadcrumbList · dated modified times
+  - paragraph: "03"
+  - heading "How is each page built to be quoted?" [level=2]
+  - paragraph: A page can rank and still never be cited. Every piece opens with a complete answer in forty to sixty words, uses the questions people actually type as headings, sets comparisons in tables, names products in full and dates its claims, so answer engines can lift it and verify it.
+  - paragraph: "04"
+  - heading "Growth programs" [level=2]
+  - paragraph: The engagement has grown into an organic discoverability program around the Canva and Constant Contact integration, covering search, AI answers, content and destination pages, with monthly reporting on rankings, share of answer and conversion.
+  - heading "Program results on request" [level=2]
+  - paragraph: Performance figures are shared in a walkthrough, with the client's approval.
+  - link "Request the walkthrough":
+    - /url: /company/contact
+  - paragraph: More work
+  - heading "Keep exploring" [level=2]
+  - link "NativeCode Labs Six products we build and run Calculators and tools that rank, built with the same methods we use for clients. See the products →":
+    - /url: /company/case-study
+    - paragraph: NativeCode Labs
+    - heading "Six products we build and run" [level=3]
+    - paragraph: Calculators and tools that rank, built with the same methods we use for clients.
+    - paragraph: See the products →
+  - link "Case study · Ecommerce HauteFlair Search architecture for an online retailer with a large catalog. Read the case study →":
+    - /url: /hauteflair-case-study
+    - paragraph: Case study · Ecommerce
+    - heading "HauteFlair" [level=3]
+    - paragraph: Search architecture for an online retailer with a large catalog.
+    - paragraph: Read the case study →
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

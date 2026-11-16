@@ -1,0 +1,411 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - button "Menu"
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - paragraph: Services
+  - heading "Digital marketing services, from search to sales." [level=1]
+  - paragraph: NativeCode offers digital marketing services across SEO and AI search, web design, Shopify and ecommerce, paid media, email and analytics. Every service is listed below with its own page. We are Atlanta-based and work with companies across the US.
+  - link "Start a project":
+    - /url: /company/contact
+  - link "Industries we serve":
+    - /url: /industries-we-serve
+  - paragraph: All services
+  - heading "What digital marketing services does NativeCode offer?" [level=2]
+  - paragraph: "NativeCode offers more than 50 services in six groups: SEO and AI search, websites, Shopify and ecommerce, paid media, email and data, and local SEO. Each one has its own page with scope, process and common questions."
+  - paragraph: Not sure which one you need? Ask for a free audit and we will point you to the right place to start.
+  - heading "SEO and AI search" [level=3]
+  - paragraph: Rank in Google and get named in AI answers.
+  - list:
+    - listitem:
+      - link "SEO services →":
+        - /url: /services/seo
+    - listitem:
+      - link "AI SEO →":
+        - /url: /services/ai-seo
+    - listitem:
+      - link "ChatGPT SEO →":
+        - /url: /services/chatgpt-seo
+    - listitem:
+      - link "Technical SEO →":
+        - /url: /services/technical-seo
+    - listitem:
+      - link "SEO audit →":
+        - /url: /services/seo-audit
+    - listitem:
+      - link "SEO architecture →":
+        - /url: /services/seo-architecture
+    - listitem:
+      - link "Topic clusters →":
+        - /url: /services/topic-clusters
+    - listitem:
+      - link "Schema markup →":
+        - /url: /services/schema-markup
+    - listitem:
+      - link "Site speed optimization →":
+        - /url: /services/site-speed-optimization
+    - listitem:
+      - link "Content marketing →":
+        - /url: /services/content-marketing
+    - listitem:
+      - link "Link building →":
+        - /url: /services/link-building
+    - listitem:
+      - link "Digital PR →":
+        - /url: /services/digital-pr
+    - listitem:
+      - link "Enterprise SEO →":
+        - /url: /services/enterprise-seo
+    - listitem:
+      - link "National SEO →":
+        - /url: /services/national-seo
+    - listitem:
+      - link "International SEO →":
+        - /url: /services/international-seo
+    - listitem:
+      - link "SEO consulting →":
+        - /url: /services/seo-consulting
+  - heading "Websites" [level=3]
+  - paragraph: Sites built to rank and convert, on the right platform.
+  - list:
+    - listitem:
+      - link "Web design →":
+        - /url: /services/web-design
+    - listitem:
+      - link "Webflow development →":
+        - /url: /services/webflow-development
+    - listitem:
+      - link "WordPress SEO and development →":
+        - /url: /services/wordpress-seo
+    - listitem:
+      - link "Custom web development →":
+        - /url: /services/custom-web-development
+    - listitem:
+      - link "Interactive tools and apps →":
+        - /url: /services/interactive-tools-apps
+    - listitem:
+      - link "Conversion rate optimization →":
+        - /url: /services/conversion-rate-optimization
+  - heading "Shopify and ecommerce" [level=3]
+  - paragraph: Stores built to sell, with SEO and operations planned in.
+  - list:
+    - listitem:
+      - link "Shopify development →":
+        - /url: /services/shopify-development
+    - listitem:
+      - link "Shopify Plus agency →":
+        - /url: /services/shopify-plus-agency
+    - listitem:
+      - link "Shopify SEO →":
+        - /url: /services/shopify-seo
+    - listitem:
+      - link "Ecommerce web design →":
+        - /url: /services/ecommerce-web-design
+    - listitem:
+      - link "Shopify migration →":
+        - /url: /services/shopify-migration
+    - listitem:
+      - link "WooCommerce to Shopify →":
+        - /url: /services/woocommerce-to-shopify-migration
+    - listitem:
+      - link "Magento to Shopify →":
+        - /url: /services/magento-to-shopify-migration
+    - listitem:
+      - link "BigCommerce to Shopify →":
+        - /url: /services/bigcommerce-to-shopify-migration
+    - listitem:
+      - link "Wix to Shopify →":
+        - /url: /services/wix-to-shopify-migration
+    - listitem:
+      - link "Squarespace to Shopify →":
+        - /url: /services/squarespace-to-shopify-migration
+    - listitem:
+      - link "Marketplace management →":
+        - /url: /services/marketplace-management
+    - listitem:
+      - link "EDI integration →":
+        - /url: /services/edi-integration
+    - listitem:
+      - link "X12 EDI →":
+        - /url: /services/x12-edi
+    - listitem:
+      - link "Dropship automation →":
+        - /url: /services/dropship-automation
+  - heading "Paid media" [level=3]
+  - paragraph: Ads tied to leads and revenue, with tracking in place first.
+  - list:
+    - listitem:
+      - link "Google Ads management →":
+        - /url: /services/google-ads-management
+    - listitem:
+      - link "PPC management →":
+        - /url: /services/ppc-management
+    - listitem:
+      - link "Google Shopping ads →":
+        - /url: /services/google-shopping-ads
+    - listitem:
+      - link "Facebook advertising →":
+        - /url: /services/facebook-advertising
+    - listitem:
+      - link "TikTok advertising →":
+        - /url: /services/tiktok-advertising
+    - listitem:
+      - link "LinkedIn advertising →":
+        - /url: /services/linkedin-advertising
+  - heading "Email, data and growth" [level=3]
+  - paragraph: Turn traffic into repeat revenue and measure what works.
+  - list:
+    - listitem:
+      - link "Email marketing →":
+        - /url: /services/email-marketing
+    - listitem:
+      - link "Klaviyo agency →":
+        - /url: /services/klaviyo-agency
+    - listitem:
+      - link "CRM integration →":
+        - /url: /services/crm-integration
+    - listitem:
+      - link "GA4 and analytics →":
+        - /url: /services/ga4-analytics
+    - listitem:
+      - link "Server-side tracking →":
+        - /url: /services/server-side-tracking
+    - listitem:
+      - link "Video production →":
+        - /url: /services/video-production
+    - listitem:
+      - link "Partner marketing →":
+        - /url: /services/growth-partner-marketing
+  - heading "Local SEO" [level=3]
+  - paragraph: Google Maps and local search, in Atlanta and across the US.
+  - list:
+    - listitem:
+      - link "Local SEO →":
+        - /url: /services/local-seo
+    - listitem:
+      - link "Multi-location SEO →":
+        - /url: /services/multi-location-seo
+    - listitem:
+      - link "Atlanta SEO agency →":
+        - /url: /locations/atlanta-seo-agency
+    - listitem:
+      - link "Atlanta web design →":
+        - /url: /locations/atlanta-web-design-company
+    - listitem:
+      - link "Alpharetta SEO →":
+        - /url: /locations/alpharetta-seo-company
+    - listitem:
+      - link "Marietta SEO →":
+        - /url: /locations/marietta-seo-company
+    - listitem:
+      - link "Sandy Springs SEO →":
+        - /url: /locations/sandy-springs-seo-company
+    - listitem:
+      - link "Roswell SEO →":
+        - /url: /locations/roswell-seo-company
+    - listitem:
+      - link "Duluth SEO →":
+        - /url: /locations/duluth-seo-company
+    - listitem:
+      - link "Decatur SEO →":
+        - /url: /locations/decatur-seo-company
+    - listitem:
+      - link "SEO in all 50 states →":
+        - /url: /services/local-seo#states
+  - paragraph: Selected work
+  - heading "Programs we have run." [level=2]
+  - paragraph: SEO, AI search, web and growth programs for organizations across the US. Each case study covers the approach and scope.
+  - paragraph: SaaS · AI search
+  - heading "Constant Contact" [level=3]
+  - paragraph: An SEO, AEO and GEO program that builds visibility in Google and AI answer engines.
+  - link "Case study →":
+    - /url: /constant-contact-case-study
+  - paragraph: Ecommerce
+  - heading "HauteFlair" [level=3]
+  - paragraph: Search architecture, structured data and organic growth for an online retailer with a large catalog.
+  - link "Case study →":
+    - /url: /hauteflair-case-study
+  - paragraph: Shopify · EDI
+  - heading "Spooky Costumes" [level=3]
+  - paragraph: Shopify rebuild and supplier EDI for a catalog of more than 8,000 products.
+  - link "Case study →":
+    - /url: /spooky-costumes-case-study
+  - paragraph: Shopify · EDI
+  - heading "ThirdLust" [level=3]
+  - paragraph: Shopify search and supplier EDI for a catalog of more than 11,000 products.
+  - link "Case study →":
+    - /url: /thirdlust-case-study
+  - paragraph: FAQ
+  - 'heading "Digital marketing services: common questions" [level=2]'
+  - heading "What digital marketing services does NativeCode offer?" [level=3]
+  - paragraph: NativeCode offers SEO and AI search, website design and development, Shopify and ecommerce builds, paid media on Google, Meta, TikTok and LinkedIn, email marketing, analytics and conversion work, and local SEO. Each service has its own page, listed above, with scope, process and common questions.
+  - heading "Do I need more than one service?" [level=3]
+  - paragraph: Often, but not always. Many projects pair two or three, such as a website rebuild with SEO, or paid ads with conversion tracking. We recommend a starting point after a free audit, so you only pay for the work that will move results first.
+  - heading "Do you work with businesses outside Atlanta?" [level=3]
+  - paragraph: Yes. NativeCode is Atlanta-based, with its office in Norcross, and works with clients across the US. Most programs run remotely on shared reports and regular calls.
+  - heading "How do I choose where to start?" [level=3]
+  - paragraph: Start with the free audit. We review your site, search visibility and tracking, then send a written plan that ranks the fixes by revenue impact. That plan shows which service to start with and what it involves.
+  - paragraph: Where to start
+  - heading "Not sure which service you need?" [level=2]
+  - paragraph: Tell us what you want to grow and we will point you to the right starting place, in writing.
+  - link "Start a project":
+    - /url: /company/contact
+  - link "Get a free audit":
+    - /url: /#audit
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

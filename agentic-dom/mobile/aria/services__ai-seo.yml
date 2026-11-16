@@ -1,0 +1,335 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - button "Menu"
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - link "← SEO services":
+    - /url: /services/seo
+  - paragraph: Services · AI search and AEO
+  - 'heading "AI SEO services: visibility where the answers happen." [level=1]'
+  - paragraph: AI SEO, also called AI search optimization, AEO or GEO, helps your site get read, trusted and cited by Google AI Overviews, ChatGPT and Perplexity. NativeCode is an Atlanta-based AI SEO agency that runs this work for brands nationwide, with entity work, structured data and answer-ready content.
+  - link "Start a project":
+    - /url: /company/contact
+  - link "See the Constant Contact case study":
+    - /url: /constant-contact-case-study
+  - paragraph: Free SEO audit
+  - heading "See how AI answers describe your brand" [level=2]
+  - list:
+    - listitem: The technical and content issues costing you traffic
+    - listitem: Every fix ranked by revenue impact
+    - listitem: Where AI answers name competitors instead of you
+  - form "Site Audit":
+    - text: Website
+    - textbox "Website":
+      - /placeholder: yourcompany.com
+    - text: Name
+    - textbox "Name":
+      - /placeholder: Your name
+    - text: Work email
+    - textbox "Work email":
+      - /placeholder: you@company.com
+    - text: Anything we should know? (optional)
+    - textbox "Anything we should know? (optional)":
+      - /placeholder: Goals, platforms or deadlines
+    - text: Leave this field empty
+    - textbox "Leave this field empty":
+      - /placeholder: Leave empty
+    - button "Get my free audit" [disabled]
+  - paragraph:
+    - text: No obligation and no spam. Prefer to talk? Call
+    - link "(800) 618-6053":
+      - /url: tel:+18006186053
+    - text: .
+  - region "Brands our team has worked with":
+    - paragraph: Brands our team has worked with
+    - link "Constant Contact ⓘ":
+      - /url: /constant-contact-case-study
+    - text: Cox Enterprises Mondelēz International Samsung Kohl’s Hanesbrands
+    - link "HauteFlair ⓘ":
+      - /url: /hauteflair-case-study
+  - paragraph: What’s included
+  - heading "How does AI search optimization work?" [level=2]
+  - paragraph: AI search optimization works as a system, not a trick on top of SEO. It builds entity clarity, machine-readable trust and quotable content once, and that work compounds across every engine.
+  - paragraph:
+    - text: Focused on getting cited in ChatGPT answers? See
+    - link "ChatGPT SEO":
+      - /url: /services/chatgpt-seo
+    - text: .
+  - paragraph: "01"
+  - heading "AI visibility audit" [level=3]
+  - paragraph: How answer engines describe your brand today, where you are cited, and where competitors are cited instead.
+  - paragraph: "02"
+  - heading "Entity optimization" [level=3]
+  - paragraph: We define and reinforce the entities behind your brand, products and topics, so language models know who you are and when to cite you.
+  - paragraph: "03"
+  - heading "Structured data systems" [level=3]
+  - paragraph: "JSON-LD across every template: Organization, Service, Product, FAQ and Breadcrumb graphs."
+  - paragraph: "04"
+  - heading "Answer-ready formats" [level=3]
+  - paragraph: Answer blocks, question-led structure and clean formatting that make your pages the easiest source to quote.
+  - paragraph: "05"
+  - heading "Authority programs" [level=3]
+  - paragraph: Earned coverage and references from the sources answer engines already trust.
+  - paragraph: "06"
+  - heading "Citation tracking" [level=3]
+  - paragraph: Ongoing tracking of mentions and citations across AI Overviews, ChatGPT and Perplexity.
+  - paragraph: How we run it
+  - heading "How does an AI search program run?" [level=2]
+  - paragraph: "An AI search program runs in three phases: audit, build, then compound. We measure how engines describe you today, fix the gaps, then track citations as the work builds."
+  - paragraph:
+    - text: AI search is part of our
+    - link "SEO services":
+      - /url: /services/seo
+    - text: and draws on
+    - link "technical SEO":
+      - /url: /services/technical-seo
+    - text: and
+    - link "content marketing":
+      - /url: /services/content-marketing
+    - text: .
+  - paragraph: "01"
+  - heading "Audit" [level=3]
+  - paragraph: Map how engines interpret your brand, entities and content today.
+  - paragraph: "02"
+  - heading "Structure" [level=3]
+  - paragraph: Build the entity model and schema graph across the site.
+  - paragraph: "03"
+  - heading "Format" [level=3]
+  - paragraph: Rework priority pages into answer-ready formats engines can quote.
+  - paragraph: "04"
+  - heading "Track" [level=3]
+  - paragraph: Monthly citation tracking, schema validation and the next round of priorities.
+  - paragraph: Engines
+  - paragraph: Google
+  - paragraph: AI Overviews
+  - link "ChatGPT":
+    - /url: /services/chatgpt-seo
+  - link "Perplexity":
+    - /url: /services/chatgpt-seo
+  - link "Schema.org":
+    - /url: /services/schema-markup
+  - link "JSON-LD":
+    - /url: /services/schema-markup
+  - paragraph: Proof
+  - heading "Trusted where search drives revenue." [level=2]
+  - paragraph: Search, AI visibility, conversion and operations work across SaaS and ecommerce. Each example links to the full write-up.
+  - link "AI search Constant Contact An SEO, AEO and GEO program that builds visibility in Google and AI answer engines. →":
+    - /url: /constant-contact-case-study
+    - paragraph: AI search
+    - heading "Constant Contact" [level=3]
+    - paragraph: An SEO, AEO and GEO program that builds visibility in Google and AI answer engines.
+    - paragraph: →
+  - link "Search architecture Online retailer with a large catalog Search architecture built so a large catalog of category and product pages can be found, crawled and ranked. →":
+    - /url: /hauteflair-case-study
+    - paragraph: Search architecture
+    - heading "Online retailer with a large catalog" [level=3]
+    - paragraph: Search architecture built so a large catalog of category and product pages can be found, crawled and ranked.
+    - paragraph: →
+  - link "Conversion Product page CRO Product page changes for an online retailer that raised its conversion rate. →":
+    - /url: /hauteflair-product-page-cro
+    - paragraph: Conversion
+    - heading "Product page CRO" [level=3]
+    - paragraph: Product page changes for an online retailer that raised its conversion rate.
+    - paragraph: →
+  - link "Operations Ecommerce operations Supplier EDI connections for inventory and order routing, built for three ecommerce brands. →":
+    - /url: /services/edi-integration
+    - paragraph: Operations
+    - heading "Ecommerce operations" [level=3]
+    - paragraph: Supplier EDI connections for inventory and order routing, built for three ecommerce brands.
+    - paragraph: →
+  - link "NativeCode Labs Six products we build and run Calculators and tools ranked with the same methods we use for clients. →":
+    - /url: /company/case-study
+    - paragraph: NativeCode Labs
+    - heading "Six products we build and run" [level=3]
+    - paragraph: Calculators and tools ranked with the same methods we use for clients.
+    - paragraph: →
+  - paragraph: Questions
+  - heading "AI search optimization questions" [level=2]
+  - heading "What is Answer Engine Optimization?" [level=3]
+  - paragraph: AEO structures your site and content so AI answer engines like Google AI Overviews, ChatGPT and Perplexity can read, trust and cite it. It covers entity optimization, structured data and answer-formatted content. The goal is to be the source an AI answer quotes, not only a link in a list of results.
+  - heading "How is AEO different from SEO?" [level=3]
+  - paragraph: SEO earns rankings in result lists. AEO earns citations inside answers. They share foundations like crawlability, structure and authority, but AEO adds entity clarity, machine-readable trust and quotable formatting. Most sites need both, and we run them as one program.
+  - heading "Can you prove this works?" [level=3]
+  - paragraph: Yes. Our method holds a verified unbranded AI Overview citation on a DA 34 domain, earned with architecture and content engineering rather than brand weight or link spend. Request the free AI search audit on this page to see how engines read your own site today.
+  - heading "Do you work alongside existing SEO teams?" [level=3]
+  - paragraph: Yes. We add AEO systems to existing SEO programs and work with in-house, product and engineering teams without disrupting what already ranks. Most engagements start with an audit your team can act on, followed by schema, entity and content work we ship together.
+  - heading "How do you measure AI visibility?" [level=3]
+  - paragraph: We track citations across Google AI Overviews, ChatGPT and Perplexity for a fixed set of prompts, plus entity and schema validation. Those sit alongside rankings, demand captured and revenue, so AI visibility is reported on the same terms as the rest of search.
+  - paragraph: Related services
+  - heading "Works best with" [level=2]
+  - link "SEO architecture The structure engines read first Taxonomy, URL rules, internal linking and indexation control. Learn more →":
+    - /url: /services/seo-architecture
+    - paragraph: SEO architecture
+    - heading "The structure engines read first" [level=3]
+    - paragraph: Taxonomy, URL rules, internal linking and indexation control.
+    - paragraph: Learn more →
+  - link "Topic clusters Content built to be quoted Pillar and supporting pages with schema and answer blocks in every article. Learn more →":
+    - /url: /services/topic-clusters
+    - paragraph: Topic clusters
+    - heading "Content built to be quoted" [level=3]
+    - paragraph: Pillar and supporting pages with schema and answer blocks in every article.
+    - paragraph: Learn more →
+  - paragraph: Free SEO audit
+  - heading "Find out what to fix first." [level=2]
+  - paragraph: Get a free SEO audit from a senior team, or call (800) 618-6053.
+  - link "Get my free SEO audit":
+    - /url: "#audit"
+  - link "Call (800) 618-6053":
+    - /url: tel:+18006186053
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

@@ -1,0 +1,353 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - navigation:
+    - button "Services"
+    - button "Industries & locations"
+    - button "Resources"
+    - button "Company"
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - link "← Local SEO services":
+    - /url: /services/local-seo
+  - paragraph: Locations · Atlanta, GA
+  - heading "Atlanta SEO agency for local search and AI answers." [level=1]
+  - paragraph: NativeCode is an Atlanta SEO agency that helps Atlanta businesses rank in Google Maps and search, show up in AI answers and turn that visibility into calls, bookings and sales. We are Atlanta-based, with our office in Norcross, and work with businesses from Midtown to Buckhead in person or remotely.
+  - link "Start a project":
+    - /url: /company/contact
+  - link "Local SEO and AEO":
+    - /url: /services/local-seo
+  - paragraph: Free SEO audit
+  - heading "Free SEO audit for Atlanta businesses" [level=2]
+  - list:
+    - listitem: The technical and content issues costing you traffic
+    - listitem: Every fix ranked by revenue impact
+    - listitem: Where AI answers name competitors instead of you
+  - form "Site Audit":
+    - text: Website
+    - textbox "Website":
+      - /placeholder: yourcompany.com
+    - text: Name
+    - textbox "Name":
+      - /placeholder: Your name
+    - text: Work email
+    - textbox "Work email":
+      - /placeholder: you@company.com
+    - text: Anything we should know? (optional)
+    - textbox "Anything we should know? (optional)":
+      - /placeholder: Goals, platforms or deadlines
+    - text: Leave this field empty
+    - textbox "Leave this field empty":
+      - /placeholder: Leave empty
+    - button "Get my free audit" [disabled]
+  - paragraph:
+    - text: No obligation and no spam. Prefer to talk? Call
+    - link "(800) 618-6053":
+      - /url: tel:+18006186053
+    - text: .
+  - region "Brands our team has worked with":
+    - paragraph: Brands our team has worked with
+    - link "Constant Contact ⓘ":
+      - /url: /constant-contact-case-study
+    - text: Cox Enterprises Mondelēz International Samsung Kohl’s Hanesbrands
+    - link "HauteFlair ⓘ":
+      - /url: /hauteflair-case-study
+  - paragraph: Searching in Atlanta
+  - heading "How do Atlanta customers search for local businesses?" [level=2]
+  - paragraph: Atlanta customers search neighborhood by neighborhood, so map results shift from one part of the city to the next and most categories have strong, established competitors.
+  - paragraph: "01"
+  - heading "Neighborhood searches" [level=3]
+  - paragraph: People search by area, from Midtown and Buckhead to Old Fourth Ward and West Midtown. Your pages and profile need to match how they search.
+  - paragraph: "02"
+  - heading "Inside and outside the Perimeter" [level=3]
+  - paragraph: Customers come from ITP and OTP alike. Service area pages help you reach the suburbs your map listing does not.
+  - paragraph: "03"
+  - heading "Close competition" [level=3]
+  - paragraph: With many strong competitors in most categories, profile quality, reviews and local links decide who takes the top three map spots.
+  - paragraph: Services in Atlanta
+  - heading "What does NativeCode do for Atlanta businesses?" [level=2]
+  - paragraph: NativeCode runs local search, websites, ads and email for Atlanta businesses as one team, because local search works best when the site and follow-up support it.
+  - heading "Local SEO and AEO" [level=3]
+  - paragraph: Map rankings, location pages, citations and reviews.
+  - link "Local SEO →":
+    - /url: /services/local-seo
+  - heading "AI search" [level=3]
+  - paragraph: Visibility in ChatGPT, Gemini, Perplexity and Google AI answers.
+  - link "AI search →":
+    - /url: /services/ai-seo
+  - heading "Websites" [level=3]
+  - paragraph: Fast Webflow sites built to rank and convert.
+  - link "Websites →":
+    - /url: /services/webflow-development
+  - heading "Ecommerce" [level=3]
+  - paragraph: Shopify stores for Atlanta brands selling online.
+  - link "Ecommerce →":
+    - /url: /services/shopify-seo
+  - heading "Paid media" [level=3]
+  - paragraph: Google Ads, Local Services Ads and Meta campaigns.
+  - link "Paid media →":
+    - /url: /services/ppc-management
+  - heading "Email marketing" [level=3]
+  - paragraph: Flows and campaigns that bring customers back.
+  - link "Email →":
+    - /url: /services/email-marketing
+  - paragraph: Selected work
+  - heading "Programs we have run." [level=2]
+  - paragraph: SEO, AI search, web and growth programs for organizations across the US. Each case study covers the approach and scope.
+  - paragraph: SaaS · AI search
+  - heading "Constant Contact" [level=3]
+  - paragraph: An SEO, AEO and GEO program that builds visibility in Google and AI answer engines.
+  - link "Case study →":
+    - /url: /constant-contact-case-study
+  - paragraph: Ecommerce
+  - heading "HauteFlair" [level=3]
+  - paragraph: Search architecture, structured data and organic growth for an online retailer with a large catalog.
+  - link "Case study →":
+    - /url: /hauteflair-case-study
+  - paragraph: Shopify · EDI
+  - heading "Spooky Costumes" [level=3]
+  - paragraph: Shopify rebuild and supplier EDI for a catalog of more than 8,000 products.
+  - link "Case study →":
+    - /url: /spooky-costumes-case-study
+  - paragraph: Shopify · EDI
+  - heading "ThirdLust" [level=3]
+  - paragraph: Shopify search and supplier EDI for a catalog of more than 11,000 products.
+  - link "Case study →":
+    - /url: /thirdlust-case-study
+  - paragraph: Proof
+  - heading "Trusted where search drives revenue." [level=2]
+  - paragraph: Search, AI visibility, conversion and operations work across SaaS and ecommerce. Each example links to the full write-up.
+  - link "AI search Constant Contact An SEO, AEO and GEO program that builds visibility in Google and AI answer engines. →":
+    - /url: /constant-contact-case-study
+    - paragraph: AI search
+    - heading "Constant Contact" [level=3]
+    - paragraph: An SEO, AEO and GEO program that builds visibility in Google and AI answer engines.
+    - paragraph: →
+  - link "Search architecture Online retailer with a large catalog Search architecture built so a large catalog of category and product pages can be found, crawled and ranked. →":
+    - /url: /hauteflair-case-study
+    - paragraph: Search architecture
+    - heading "Online retailer with a large catalog" [level=3]
+    - paragraph: Search architecture built so a large catalog of category and product pages can be found, crawled and ranked.
+    - paragraph: →
+  - link "Conversion Product page CRO Product page changes for an online retailer that raised its conversion rate. →":
+    - /url: /hauteflair-product-page-cro
+    - paragraph: Conversion
+    - heading "Product page CRO" [level=3]
+    - paragraph: Product page changes for an online retailer that raised its conversion rate.
+    - paragraph: →
+  - link "Operations Ecommerce operations Supplier EDI connections for inventory and order routing, built for three ecommerce brands. →":
+    - /url: /services/edi-integration
+    - paragraph: Operations
+    - heading "Ecommerce operations" [level=3]
+    - paragraph: Supplier EDI connections for inventory and order routing, built for three ecommerce brands.
+    - paragraph: →
+  - link "NativeCode Labs Six products we build and run Calculators and tools ranked with the same methods we use for clients. →":
+    - /url: /company/case-study
+    - paragraph: NativeCode Labs
+    - heading "Six products we build and run" [level=3]
+    - paragraph: Calculators and tools ranked with the same methods we use for clients.
+    - paragraph: →
+  - paragraph: FAQ
+  - heading "Atlanta SEO agency questions" [level=2]
+  - paragraph: Still have a question?
+  - paragraph: Ask the senior strategist who would run your program.
+  - link "Get my free audit":
+    - /url: "#audit"
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - heading "Is NativeCode based in Atlanta?" [level=3]
+  - paragraph: Yes. NativeCode is an Atlanta-based agency with its office in Norcross, in the Atlanta metro. We work with Atlanta businesses in person or remotely, and with clients across the US. Local clients can meet the team that does the work rather than an account manager passing messages along.
+  - heading "How do I rank in Google Maps in Atlanta?" [level=3]
+  - paragraph: Choose accurate categories, complete every profile field, earn steady reviews, keep your name, address and phone consistent and build a strong page for your location. Distance still matters, so win the area around your address first, then extend into nearby neighborhoods with service pages and reviews.
+  - heading "Can you help us rank across the metro?" [level=3]
+  - paragraph: Yes. Service area pages for the towns you serve, local links and reviews from customers in those areas help you reach beyond your own neighborhood. Each page needs real local detail, so we start with the areas where you already have customers and work outward.
+  - heading "What does local SEO cost in Atlanta?" [level=3]
+  - paragraph: It depends on the number of locations, the competition in your category and how much site and content work is needed. The best first step is the free SEO audit on this page, which shows where you stand today and what a program would need to cover.
+  - paragraph: Around the metro
+  - heading "Other areas we serve" [level=2]
+  - paragraph: We work with businesses across metro Atlanta.
+  - link "Local SEO across Georgia →":
+    - /url: /local-seo/georgia-seo-company
+  - heading "Marietta" [level=3]
+  - link "Marietta →":
+    - /url: /locations/marietta-seo-company
+  - heading "Alpharetta" [level=3]
+  - link "Alpharetta →":
+    - /url: /locations/alpharetta-seo-company
+  - heading "Sandy Springs" [level=3]
+  - link "Sandy Springs →":
+    - /url: /locations/sandy-springs-seo-company
+  - heading "Decatur" [level=3]
+  - link "Decatur →":
+    - /url: /locations/decatur-seo-company
+  - heading "Roswell" [level=3]
+  - link "Roswell →":
+    - /url: /locations/roswell-seo-company
+  - heading "Duluth" [level=3]
+  - link "Duluth →":
+    - /url: /locations/duluth-seo-company
+  - paragraph: Atlanta
+  - heading "Rank where Atlanta searches." [level=2]
+  - paragraph: Tell us your business and the areas you serve. We will show you where you appear in the map results today and what it takes to move up.
+  - link "Get my free SEO audit":
+    - /url: "#audit"
+  - link "Industries we serve":
+    - /url: /industries-we-serve
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

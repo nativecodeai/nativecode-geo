@@ -1,0 +1,570 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - button "Menu"
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - paragraph: Digital marketing agency · Atlanta
+  - heading "The digital marketing agency that turns search into revenue." [level=1]
+  - paragraph: NativeCode is an Atlanta-based digital marketing agency serving growing companies and enterprises nationwide. One senior team plans, builds and runs your SEO, AI search, website, email and paid ads on Google and Meta, then reports every channel against revenue.
+  - link "Get a free audit":
+    - /url: "#audit"
+  - link "Start a project":
+    - /url: /company/contact
+  - paragraph: Platforms
+  - paragraph: Shopify, Webflow, WordPress and custom builds
+  - paragraph: Experience
+  - paragraph: 15+ years in technical SEO
+  - paragraph: Team
+  - paragraph: Senior strategists do the work
+  - button "Turn film sound on": Sound on
+  - region "Brands our team has worked with":
+    - paragraph: Brands our team has worked with
+    - link "Constant Contact ⓘ":
+      - /url: /constant-contact-case-study
+    - text: Cox Enterprises Mondelēz International Samsung Kohl’s Hanesbrands
+    - link "HauteFlair ⓘ":
+      - /url: /hauteflair-case-study
+  - paragraph: Start here
+  - heading "What do you need to grow?" [level=2]
+  - paragraph: Pick the goal closest to yours. Every engagement starts with a free audit, so you see the plan before you spend anything.
+  - link "01 Get found on Google and in AI answers Technical SEO, content, AEO and GEO for sites that need more qualified traffic. Free SEO audit →":
+    - /url: "#audit"
+    - paragraph: "01"
+    - heading "Get found on Google and in AI answers" [level=3]
+    - paragraph: Technical SEO, content, AEO and GEO for sites that need more qualified traffic.
+    - paragraph: Free SEO audit →
+  - link "02 A website that turns visitors into leads Webflow and custom builds, redesigns and migrations that keep your rankings. Free website review →":
+    - /url: "#audit"
+    - paragraph: "02"
+    - heading "A website that turns visitors into leads" [level=3]
+    - paragraph: Webflow and custom builds, redesigns and migrations that keep your rankings.
+    - paragraph: Free website review →
+  - link "03 An online store that sells more Shopify builds, catalog architecture, product pages and supplier integrations. Free store review →":
+    - /url: "#audit"
+    - paragraph: "03"
+    - heading "An online store that sells more" [level=3]
+    - paragraph: Shopify builds, catalog architecture, product pages and supplier integrations.
+    - paragraph: Free store review →
+  - link "04 Ads that pay for themselves Google, Meta and Microsoft Ads managed against profit, not clicks. Free ads review →":
+    - /url: "#audit"
+    - paragraph: "04"
+    - heading "Ads that pay for themselves" [level=3]
+    - paragraph: Google, Meta and Microsoft Ads managed against profit, not clicks.
+    - paragraph: Free ads review →
+  - link "05 Email that brings customers back Flows and campaigns in Klaviyo, Mailchimp, Constant Contact and more. Free email review →":
+    - /url: "#audit"
+    - paragraph: "05"
+    - heading "Email that brings customers back" [level=3]
+    - paragraph: Flows and campaigns in Klaviyo, Mailchimp, Constant Contact and more.
+    - paragraph: Free email review →
+  - link "06 Not sure where to start Tell us where growth is stuck. We point you to the fix that pays first. Free growth audit →":
+    - /url: "#audit"
+    - paragraph: "06"
+    - heading "Not sure where to start" [level=3]
+    - paragraph: Tell us where growth is stuck. We point you to the fix that pays first.
+    - paragraph: Free growth audit →
+  - paragraph: Proof
+  - heading "Trusted where search drives revenue." [level=2]
+  - paragraph: Search, AI visibility, conversion and operations work across SaaS and ecommerce. Each example links to the full write-up.
+  - link "AI search Constant Contact An SEO, AEO and GEO program that builds visibility in Google and AI answer engines. →":
+    - /url: /constant-contact-case-study
+    - paragraph: AI search
+    - heading "Constant Contact" [level=3]
+    - paragraph: An SEO, AEO and GEO program that builds visibility in Google and AI answer engines.
+    - paragraph: →
+  - link "Search architecture Online retailer with a large catalog Search architecture built so a large catalog of category and product pages can be found, crawled and ranked. →":
+    - /url: /hauteflair-case-study
+    - paragraph: Search architecture
+    - heading "Online retailer with a large catalog" [level=3]
+    - paragraph: Search architecture built so a large catalog of category and product pages can be found, crawled and ranked.
+    - paragraph: →
+  - link "Conversion Product page CRO Product page changes for an online retailer that raised its conversion rate. →":
+    - /url: /hauteflair-product-page-cro
+    - paragraph: Conversion
+    - heading "Product page CRO" [level=3]
+    - paragraph: Product page changes for an online retailer that raised its conversion rate.
+    - paragraph: →
+  - link "Operations Ecommerce operations Supplier EDI connections for inventory and order routing, built for three ecommerce brands. →":
+    - /url: /services/edi-integration
+    - paragraph: Operations
+    - heading "Ecommerce operations" [level=3]
+    - paragraph: Supplier EDI connections for inventory and order routing, built for three ecommerce brands.
+    - paragraph: →
+  - link "NativeCode Labs Six products we build and run Calculators and tools ranked with the same methods we use for clients. →":
+    - /url: /company/case-study
+    - paragraph: NativeCode Labs
+    - heading "Six products we build and run" [level=3]
+    - paragraph: Calculators and tools ranked with the same methods we use for clients.
+    - paragraph: →
+  - paragraph: Free growth audit
+  - heading "See what is holding your growth back." [level=2]
+  - paragraph: Send your site. A senior strategist reviews it and sends back the issues, the fixes ranked by revenue impact, and what we would do first. You keep it whether or not you hire us.
+  - list:
+    - listitem: Search and AI answer visibility
+    - listitem: Site speed, structure and conversion
+    - listitem: Paid media, email and tracking gaps
+  - paragraph: Reviewed by the same senior strategists who run the work.
+  - paragraph: Free, no obligation
+  - heading "Get your free audit" [level=3]
+  - form "Home Audit":
+    - text: Website
+    - textbox "Website":
+      - /placeholder: yourcompany.com
+    - text: Name
+    - textbox "Name":
+      - /placeholder: Your name
+    - text: Work email
+    - textbox "Work email":
+      - /placeholder: you@company.com
+    - paragraph: What do you need help with? (optional, pick any)
+    - checkbox "SEO and AI search"
+    - text: SEO and AI search
+    - checkbox "Website"
+    - text: Website
+    - checkbox "Ecommerce"
+    - text: Ecommerce
+    - checkbox "Paid ads"
+    - text: Paid ads
+    - checkbox "Email"
+    - text: Email
+    - checkbox "Not sure yet"
+    - text: Not sure yet
+    - button "Get my free audit" [disabled]
+  - paragraph:
+    - text: No spam. Prefer to talk? Call
+    - link "(800) 618-6053":
+      - /url: tel:+18006186053
+    - text: .
+  - paragraph: Services
+  - heading "What does a full-service digital marketing agency cover?" [level=2]
+  - paragraph: Hire us for a single discipline or bring us the full program. Each service is led by a specialist and connected to the rest.
+  - link "01 SEO and AI search Technical SEO, site architecture and content that rank in Google and get cited in AI answers. Learn more →":
+    - /url: /services/seo-architecture
+    - paragraph: "01"
+    - heading "SEO and AI search" [level=3]
+    - paragraph: Technical SEO, site architecture and content that rank in Google and get cited in AI answers.
+    - paragraph: Learn more →
+  - link "02 Web design and development Fast, accessible websites on Webflow and custom stacks, designed to convert and built to scale. Learn more →":
+    - /url: /services/webflow-development
+    - paragraph: "02"
+    - heading "Web design and development" [level=3]
+    - paragraph: Fast, accessible websites on Webflow and custom stacks, designed to convert and built to scale.
+    - paragraph: Learn more →
+  - link "03 Ecommerce Shopify builds, catalog architecture and product pages that turn search demand into orders. Learn more →":
+    - /url: /services/shopify-seo
+    - paragraph: "03"
+    - heading "Ecommerce" [level=3]
+    - paragraph: Shopify builds, catalog architecture and product pages that turn search demand into orders.
+    - paragraph: Learn more →
+  - link "04 Google Ads Search, Shopping, Performance Max and YouTube campaigns managed against profit, not clicks. Learn more →":
+    - /url: /services/ppc-management
+    - paragraph: "04"
+    - heading "Google Ads" [level=3]
+    - paragraph: Search, Shopping, Performance Max and YouTube campaigns managed against profit, not clicks.
+    - paragraph: Learn more →
+  - link "05 Meta Ads Facebook and Instagram campaigns with full-funnel structure, Conversions API and weekly creative testing. Learn more →":
+    - /url: /services/ppc-management
+    - paragraph: "05"
+    - heading "Meta Ads" [level=3]
+    - paragraph: Facebook and Instagram campaigns with full-funnel structure, Conversions API and weekly creative testing.
+    - paragraph: Learn more →
+  - link "06 Email and lifecycle Email and SMS sequences, segmentation and campaigns in Klaviyo, Mailchimp, Constant Contact and other platforms. Learn more →":
+    - /url: /services/email-marketing
+    - paragraph: "06"
+    - heading "Email and lifecycle" [level=3]
+    - paragraph: Email and SMS sequences, segmentation and campaigns in Klaviyo, Mailchimp, Constant Contact and other platforms.
+    - paragraph: Learn more →
+  - link "07 Creative and video Ad creative, product imagery and short-form video produced in house and tested against live spend. Learn more →":
+    - /url: /services/video-production
+    - paragraph: "07"
+    - heading "Creative and video" [level=3]
+    - paragraph: Ad creative, product imagery and short-form video produced in house and tested against live spend.
+    - paragraph: Learn more →
+  - link "08 Analytics and CRO GA4, attribution, dashboards and testing programs that show what works and lift conversion. Learn more →":
+    - /url: /services/conversion-rate-optimization
+    - paragraph: "08"
+    - heading "Analytics and CRO" [level=3]
+    - paragraph: GA4, attribution, dashboards and testing programs that show what works and lift conversion.
+    - paragraph: Learn more →
+  - 'link "09 · New EDI and ecommerce operations EDI connections between your store and your suppliers: inventory sync, purchase orders and order routing, ship notices and tracking, and invoices, with monitoring when something fails. Learn more →"':
+    - /url: /services/edi-integration
+    - paragraph: 09 · New
+    - heading "EDI and ecommerce operations" [level=3]
+    - paragraph: "EDI connections between your store and your suppliers: inventory sync, purchase orders and order routing, ship notices and tracking, and invoices, with monitoring when something fails."
+    - paragraph: Learn more →
+  - link "10 · New Custom web development Bring the idea. We make it real. Web apps, internal tools, calculators, portals and AI features, designed, built and launched by one senior team. Learn more →":
+    - /url: /services/custom-web-development
+    - paragraph: 10 · New
+    - heading "Custom web development" [level=3]
+    - paragraph: Bring the idea. We make it real. Web apps, internal tools, calculators, portals and AI features, designed, built and launched by one senior team.
+    - paragraph: Learn more →
+  - paragraph: Platforms we run
+  - link "Google Ads":
+    - /url: /services/google-ads-management
+  - link "Meta":
+    - /url: /services/facebook-advertising
+  - link "Shopify":
+    - /url: /services/shopify-development
+  - link "Webflow":
+    - /url: /services/webflow-development
+  - link "Klaviyo":
+    - /url: /services/klaviyo-agency
+  - link "Mailchimp":
+    - /url: /services/email-marketing
+  - link "Constant Contact":
+    - /url: /services/email-marketing
+  - link "GA4":
+    - /url: /services/ga4-analytics
+  - link "Search Console":
+    - /url: /services/technical-seo
+  - link "TikTok":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn":
+    - /url: /services/linkedin-advertising
+  - link "Microsoft Advertising":
+    - /url: /services/ppc-management
+  - link "Amazon":
+    - /url: /services/marketplace-management
+  - link "eBay":
+    - /url: /services/marketplace-management
+  - link "Walmart":
+    - /url: /services/marketplace-management
+  - paragraph: How we engage
+  - heading "How can you work with us?" [level=2]
+  - paragraph: Choose the model that fits your organization. Each one starts with an audit of your current channels and data.
+  - paragraph: Ongoing
+  - paragraph: "01"
+  - heading "Growth program" [level=3]
+  - paragraph: A multi-channel program run by a dedicated team, planned quarterly and reported monthly.
+  - paragraph: Best for teams that want one partner across every channel.
+  - paragraph: Search, paid, email and creative together
+  - paragraph: Dedicated lead and channel specialists
+  - paragraph: Monthly reporting and quarterly reviews
+  - link "Plan a growth program →":
+    - /url: /company/contact
+  - paragraph: Fixed scope
+  - paragraph: "02"
+  - heading "Projects" [level=3]
+  - paragraph: Defined work with a clear start, end and deliverable, priced up front.
+  - paragraph: Best for a launch, rebuild or migration with a fixed date.
+  - paragraph: Website builds and replatforming
+  - paragraph: Migrations and technical SEO audits
+  - paragraph: Campaign and lifecycle launches
+  - link "Scope a project →":
+    - /url: /company/contact
+  - paragraph: Senior guidance
+  - paragraph: "03"
+  - heading "Advisory" [level=3]
+  - paragraph: Strategy and oversight for in-house teams that run the work themselves.
+  - paragraph: Best for in-house teams that need senior direction.
+  - paragraph: Strategy and channel roadmaps
+  - paragraph: Team training and work reviews
+  - paragraph: Agency and vendor oversight
+  - link "Talk to an advisor →":
+    - /url: /company/contact
+  - heading "How a program runs" [level=3]
+  - paragraph: A clear rhythm, so you always know what is happening and what comes next.
+  - paragraph: Weeks 1 to 2
+  - heading "Discover" [level=4]
+  - paragraph: Audit every channel, set baselines and agree the numbers that matter.
+  - paragraph: Weeks 3 to 4
+  - heading "Plan" [level=4]
+  - paragraph: One roadmap across search, web, media, email and creative, with owners and dates.
+  - paragraph: Weeks 5 to 10
+  - heading "Build and launch" [level=4]
+  - paragraph: Sites, campaigns, flows and creative go live with tracking verified.
+  - paragraph: Ongoing
+  - heading "Optimize" [level=4]
+  - paragraph: Weekly testing, monthly reporting and a quarterly review with leadership.
+  - paragraph: FAQ
+  - heading "Questions before you start." [level=2]
+  - paragraph: Straight answers on the free audit, who does the work and how projects are priced.
+  - heading "Is the audit really free?" [level=3]
+  - paragraph: Yes. The audit is free and carries no obligation. A senior strategist reviews your site, search visibility, AI answer presence and tracking, then sends back the issues, the fixes ranked by revenue impact and what we would do first. You keep the findings whether or not you hire us.
+  - heading "Who does the work?" [level=3]
+  - paragraph: Senior strategists and specialists do the work. The people you meet on the first call are the people who plan, build and report on your program across SEO, AI search, web, paid media and email. There are no junior handoffs and no account-manager layer between you and the team.
+  - heading "Do you work outside Atlanta?" [level=3]
+  - paragraph: Yes. NativeCode is based in Atlanta, with an office in Norcross, and works with businesses across the United States. Most work runs remotely inside your own tools and accounts, with video calls for planning and reviews. Clients in metro Atlanta can also meet in person when that helps.
+  - heading "Can you work with our in-house team?" [level=3]
+  - paragraph: Yes. We can run the whole program, build alongside your marketing, product and engineering teams, or advise and review work your team runs. We work inside your Google Ads, GA4, Search Console, Shopify, Webflow and email platform accounts, so the work and the data stay with you.
+  - heading "How is pricing set?" [level=3]
+  - paragraph: Every engagement is scoped after the free audit. You get a written scope, timeline and price before any work starts, based on the channels involved, the size of your site and how much your own team handles. Growth programs, projects and advisory work are each scoped separately.
+  - paragraph: Why NativeCode
+  - heading "Why work with NativeCode?" [level=2]
+  - paragraph: You get one senior team that owns your search, website and growth channels, and answers for the revenue they produce.
+  - paragraph: "01"
+  - heading "Senior people only" [level=3]
+  - paragraph: The strategist you meet is the one doing the work. No junior handoffs and no messages relayed through an account manager.
+  - link "About NativeCode →":
+    - /url: /company/about
+  - paragraph: "02"
+  - heading "Search is our core" [level=3]
+  - paragraph: We started in technical SEO and now build for AI answers in Google AI Overviews, ChatGPT and Perplexity.
+  - link "AI SEO services →":
+    - /url: /services/ai-seo
+  - paragraph: "03"
+  - heading "One plan, every channel" [level=3]
+  - paragraph: Search, web, paid, email and creative run from one plan and are reported against pipeline and revenue every month.
+  - link "How we engage →":
+    - /url: "#approach"
+  - paragraph: "04"
+  - heading "Enterprise-ready" [level=3]
+  - paragraph: Documented security practices, clear governance and change control for complex organizations.
+  - link "Security and trust →":
+    - /url: /security
+  - paragraph: Find your fit
+  - heading "Start with your industry or your market." [level=2]
+  - paragraph: Pick your industry, your Atlanta-area city, or the reach you need, from national to international.
+  - paragraph: By industry
+  - heading "Twelve industries" [level=3]
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Legal":
+    - /url: /industries/law-firm-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "Hospitality":
+    - /url: /industries/hospitality-seo
+  - link "Education":
+    - /url: /industries/education-seo
+  - link "Manufacturing":
+    - /url: /industries/manufacturing-seo
+  - link "Professional services":
+    - /url: /industries/professional-services-seo
+  - link "Nonprofits":
+    - /url: /industries/nonprofit-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: In Atlanta
+  - heading "Local SEO and AEO" [level=3]
+  - link "Atlanta":
+    - /url: /locations/atlanta-seo-agency
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Local SEO and AEO →":
+    - /url: /services/local-seo
+  - paragraph: Beyond Atlanta
+  - heading "More locations, more markets" [level=3]
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "International SEO":
+    - /url: /services/international-seo
+  - link "Multi-location SEO":
+    - /url: /services/multi-location-seo
+  - link "AI search":
+    - /url: /services/ai-seo
+  - link "SEO services":
+    - /url: /services/seo
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "National SEO and AEO →":
+    - /url: /services/national-seo
+  - paragraph: Creative studio
+  - heading "Ads, films and content, made in house." [level=2]
+  - paragraph: Our studio produces ad creative, product films and social content, then tests every version against live spend.
+  - paragraph: Spec film · Product
+  - paragraph: Spec film · Apparel
+  - paragraph: Formats
+  - link "Reels and TikTok":
+    - /url: /services/tiktok-advertising
+  - link "Meta feed and carousel":
+    - /url: /services/facebook-advertising
+  - link "YouTube":
+    - /url: /services/google-ads-management
+  - link "Display":
+    - /url: /services/google-ads-management
+  - link "Product photography":
+    - /url: /services/video-production
+  - link "UGC-style video":
+    - /url: /services/video-production
+  - link "Creative and video services →":
+    - /url: /services/video-production
+  - heading "Find out what to fix first." [level=2]
+  - paragraph: A free growth audit from a senior strategist. No obligation.
+  - link "Get my free audit":
+    - /url: "#audit"
+  - link "Call (800) 618-6053":
+    - /url: tel:+18006186053
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"
+- link "Get a free audit":
+  - /url: "#audit"
+- link "Call":
+  - /url: tel:+18006186053

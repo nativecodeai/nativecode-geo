@@ -1,0 +1,427 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - navigation:
+    - button "Services"
+    - button "Industries & locations"
+    - button "Resources"
+    - button "Company"
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - link "← All services":
+    - /url: /#services
+  - paragraph: Services · SEO
+  - heading "SEO services that turn search into revenue." [level=1]
+  - paragraph: "NativeCode provides SEO services for large organizations: technical SEO, content and AI search optimization that grow qualified traffic and leads. We are an Atlanta-based SEO agency serving brands nationwide, run by a senior team with 15+ years in technical SEO."
+  - list:
+    - listitem: Constant Contact's SEO partner
+    - listitem: 15+ years in technical SEO
+    - listitem: Senior team, no handoffs
+  - paragraph: Free SEO audit
+  - heading "See what is holding your rankings back" [level=2]
+  - list:
+    - listitem: The technical and content issues costing you traffic
+    - listitem: Every fix ranked by revenue impact
+    - listitem: Where AI answers name competitors instead of you
+  - form "Site Audit":
+    - text: Website
+    - textbox "Website":
+      - /placeholder: yourcompany.com
+    - text: Name
+    - textbox "Name":
+      - /placeholder: Your name
+    - text: Work email
+    - textbox "Work email":
+      - /placeholder: you@company.com
+    - text: Anything we should know? (optional)
+    - textbox "Anything we should know? (optional)":
+      - /placeholder: Goals, platforms or deadlines
+    - text: Leave this field empty
+    - textbox "Leave this field empty":
+      - /placeholder: Leave empty
+    - button "Get my free audit" [disabled]
+  - paragraph:
+    - text: No obligation and no spam. Prefer to talk? Call
+    - link "(800) 618-6053":
+      - /url: tel:+18006186053
+    - text: .
+  - region "Brands our team has worked with":
+    - paragraph: Brands our team has worked with
+    - link "Constant Contact ⓘ":
+      - /url: /constant-contact-case-study
+    - text: Cox Enterprises Mondelēz International Samsung Kohl’s Hanesbrands
+    - link "HauteFlair ⓘ":
+      - /url: /hauteflair-case-study
+  - paragraph: What's included
+  - heading "What do our SEO services include?" [level=2]
+  - paragraph: Our SEO services cover the technical base, the content and the authority a site needs to rank, plus the entity work that gets a brand cited in AI answers.
+  - paragraph: "01"
+  - heading "Technical SEO" [level=3]
+  - paragraph: Crawl, indexation, speed, schema and site structure, fixed at the source on your platform.
+  - link "Technical SEO services →":
+    - /url: /services/technical-seo
+  - paragraph: "02"
+  - heading "SEO architecture" [level=3]
+  - paragraph: Site structure, taxonomy and internal linking planned so every important page can rank.
+  - link "SEO architecture →":
+    - /url: /services/seo-architecture
+  - paragraph: "03"
+  - heading "Content and topic clusters" [level=3]
+  - paragraph: Pages and articles built around what buyers search before they choose a vendor.
+  - link "Content marketing →":
+    - /url: /services/content-marketing
+  - paragraph: "04"
+  - heading "AI search and AEO" [level=3]
+  - paragraph: Entity, schema and answer work so Google AI Overviews, ChatGPT and Perplexity cite you.
+  - link "AI search and AEO →":
+    - /url: /services/ai-seo
+  - paragraph: "05"
+  - heading "Link building and digital PR" [level=3]
+  - paragraph: Earned editorial links that build authority. No paid link networks.
+  - link "Link building →":
+    - /url: /services/link-building
+  - paragraph: "06"
+  - heading "Local, national and international SEO" [level=3]
+  - paragraph: "Programs sized to where you sell: one city, every state or new countries."
+  - link "National SEO →":
+    - /url: /services/national-seo
+  - paragraph: How we run it
+  - heading "How does an SEO engagement work?" [level=2]
+  - paragraph: Every engagement follows the same four steps. You see the plan and the scope before any work starts.
+  - list:
+    - listitem:
+      - paragraph: Step 1
+      - heading "Audit" [level=3]
+      - paragraph: We review your site, rankings and AI answer visibility and send back the issues ranked by revenue impact.
+    - listitem:
+      - paragraph: Step 2
+      - heading "Plan" [level=3]
+      - paragraph: "You get a written roadmap: what to fix, what to build and in what order."
+    - listitem:
+      - paragraph: Step 3
+      - heading "Build" [level=3]
+      - paragraph: We implement on your platform or write specs your developers can ship.
+    - listitem:
+      - paragraph: Step 4
+      - heading "Report" [level=3]
+      - paragraph: Monthly reporting on leads, traffic and rankings in GA4 and Search Console, with the next priorities.
+  - text: Platforms
+  - link "Google Search Console":
+    - /url: /services/technical-seo
+  - link "GA4":
+    - /url: /services/ga4-analytics
+  - link "Shopify":
+    - /url: /services/shopify-development
+  - link "Webflow":
+    - /url: /services/webflow-development
+  - link "WordPress":
+    - /url: /services/wordpress-seo
+  - link "Google AI Overviews":
+    - /url: /services/ai-seo
+  - link "ChatGPT":
+    - /url: /services/chatgpt-seo
+  - link "Perplexity":
+    - /url: /services/chatgpt-seo
+  - paragraph: SEO services
+  - heading "Which SEO service do you need?" [level=2]
+  - paragraph: Start with the problem you have. Each page explains the work, the process and what you get.
+  - heading "Technical SEO" [level=3]
+  - paragraph: Crawl, indexation, speed and schema.
+  - link "Technical SEO →":
+    - /url: /services/technical-seo
+  - heading "SEO audit" [level=3]
+  - paragraph: A full review of technical, content and AI visibility.
+  - link "SEO audit →":
+    - /url: /services/seo-audit
+  - heading "SEO consulting" [level=3]
+  - paragraph: Senior guidance for in-house teams.
+  - link "SEO consulting →":
+    - /url: /services/seo-consulting
+  - heading "Enterprise SEO" [level=3]
+  - paragraph: Large sites, many teams and markets.
+  - link "Enterprise SEO →":
+    - /url: /services/enterprise-seo
+  - heading "Local SEO" [level=3]
+  - paragraph: Maps, profiles and location pages.
+  - link "Local SEO →":
+    - /url: /services/local-seo
+  - heading "National SEO" [level=3]
+  - paragraph: Ranking across the United States.
+  - link "National SEO →":
+    - /url: /services/national-seo
+  - heading "Multi-location SEO" [level=3]
+  - paragraph: Every location, one program.
+  - link "Multi-location SEO →":
+    - /url: /services/multi-location-seo
+  - heading "International SEO" [level=3]
+  - paragraph: Hreflang and new markets.
+  - link "International SEO →":
+    - /url: /services/international-seo
+  - heading "Shopify SEO" [level=3]
+  - paragraph: Collections, filters and product schema.
+  - link "Shopify SEO →":
+    - /url: /services/shopify-seo
+  - heading "WordPress SEO" [level=3]
+  - paragraph: Speed, plugins and structure.
+  - link "WordPress SEO →":
+    - /url: /services/wordpress-seo
+  - heading "Content marketing" [level=3]
+  - paragraph: SEO content that ranks and gets cited.
+  - link "Content marketing →":
+    - /url: /services/content-marketing
+  - heading "AI search and AEO" [level=3]
+  - paragraph: Citations in AI answers.
+  - link "AI search and AEO →":
+    - /url: /services/ai-seo
+  - text: Industries
+  - link "Ecommerce SEO":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS SEO":
+    - /url: /industries/saas-seo
+  - link "Healthcare SEO":
+    - /url: /industries/healthcare-seo
+  - link "Financial services SEO":
+    - /url: /industries/financial-services-seo
+  - link "Legal SEO":
+    - /url: /industries/law-firm-seo
+  - link "Real estate SEO":
+    - /url: /industries/real-estate-seo
+  - link "Home services SEO":
+    - /url: /industries/home-services-seo
+  - link "Hospitality SEO":
+    - /url: /industries/hospitality-seo
+  - link "Education SEO":
+    - /url: /industries/education-seo
+  - link "Manufacturing SEO":
+    - /url: /industries/manufacturing-seo
+  - link "Professional services SEO":
+    - /url: /industries/professional-services-seo
+  - link "Nonprofit SEO":
+    - /url: /industries/nonprofit-seo
+  - paragraph: Proof
+  - heading "Trusted where search drives revenue." [level=2]
+  - paragraph: Search, AI visibility, conversion and operations work across SaaS and ecommerce. Each example links to the full write-up.
+  - link "AI search Constant Contact An SEO, AEO and GEO program that builds visibility in Google and AI answer engines. →":
+    - /url: /constant-contact-case-study
+    - paragraph: AI search
+    - heading "Constant Contact" [level=3]
+    - paragraph: An SEO, AEO and GEO program that builds visibility in Google and AI answer engines.
+    - paragraph: →
+  - link "Search architecture Online retailer with a large catalog Search architecture built so a large catalog of category and product pages can be found, crawled and ranked. →":
+    - /url: /hauteflair-case-study
+    - paragraph: Search architecture
+    - heading "Online retailer with a large catalog" [level=3]
+    - paragraph: Search architecture built so a large catalog of category and product pages can be found, crawled and ranked.
+    - paragraph: →
+  - link "Conversion Product page CRO Product page changes for an online retailer that raised its conversion rate. →":
+    - /url: /hauteflair-product-page-cro
+    - paragraph: Conversion
+    - heading "Product page CRO" [level=3]
+    - paragraph: Product page changes for an online retailer that raised its conversion rate.
+    - paragraph: →
+  - link "Operations Ecommerce operations Supplier EDI connections for inventory and order routing, built for three ecommerce brands. →":
+    - /url: /services/edi-integration
+    - paragraph: Operations
+    - heading "Ecommerce operations" [level=3]
+    - paragraph: Supplier EDI connections for inventory and order routing, built for three ecommerce brands.
+    - paragraph: →
+  - link "NativeCode Labs Six products we build and run Calculators and tools ranked with the same methods we use for clients. →":
+    - /url: /company/case-study
+    - paragraph: NativeCode Labs
+    - heading "Six products we build and run" [level=3]
+    - paragraph: Calculators and tools ranked with the same methods we use for clients.
+    - paragraph: →
+  - paragraph: FAQ
+  - heading "Questions about SEO services" [level=2]
+  - paragraph: Still have a question?
+  - paragraph: Ask the senior strategist who would run your program.
+  - link "Get my free audit":
+    - /url: "#audit"
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - heading "How long does SEO take to work?" [level=3]
+  - paragraph: Most sites see technical fixes picked up within weeks of release, while content and authority work builds over several months. The timeline depends on your starting point, your competition and how quickly changes ship. We report monthly so you can see what is moving and what is next.
+  - heading "What is the difference between SEO and AEO?" [level=3]
+  - paragraph: SEO earns rankings in classic search results. AEO, or answer engine optimization, earns mentions and citations in AI answers such as Google AI Overviews, ChatGPT and Perplexity. Both depend on clear structure, schema and trusted content, so we run them as one program rather than two.
+  - heading "Do you work with in-house teams and developers?" [level=3]
+  - paragraph: Yes. We work alongside in-house marketing, content and engineering teams every week. We can implement changes ourselves on Shopify, Webflow and WordPress, or write clear specs and tickets your developers can build from. Before each release we check the work on staging so nothing ships that could hurt rankings.
+  - heading "How do you report on SEO results?" [level=3]
+  - paragraph: "We report monthly on the numbers that matter to the business: organic leads and revenue, traffic to key pages, rankings for target searches and AI answer visibility. Reports come from GA4 and Search Console, with a short list of what we will do next."
+  - heading "Are you an Atlanta SEO company or a national agency?" [level=3]
+  - paragraph: Both. NativeCode is based in the Atlanta metro area, with an office in Norcross, and serves clients across the United States. Most engagements run remotely with scheduled calls and shared reporting. Atlanta clients can also meet in person. Local businesses can start with our local SEO service.
+  - paragraph: Works best with
+  - heading "Related services" [level=2]
+  - paragraph: These services connect to this one. Most clients combine two or more.
+  - heading "SEO audit" [level=3]
+  - paragraph: Start with a full review of what is holding rankings back.
+  - link "SEO audit →":
+    - /url: /services/seo-audit
+  - heading "AI search and AEO" [level=3]
+  - paragraph: Get cited in Google AI Overviews, ChatGPT and Perplexity.
+  - link "AI search and AEO →":
+    - /url: /services/ai-seo
+  - paragraph: Free SEO audit
+  - heading "Find out what to fix first." [level=2]
+  - paragraph: Get a free SEO audit from a senior team, or call (800) 618-6053.
+  - link "Get my free SEO audit":
+    - /url: "#audit"
+  - link "Call (800) 618-6053":
+    - /url: tel:+18006186053
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"

@@ -1,0 +1,311 @@
+- banner:
+  - link "NativeCode":
+    - /url: /
+  - navigation:
+    - button "Services"
+    - button "Industries & locations"
+    - button "Resources"
+    - button "Company"
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free AI audit":
+    - /url: /#audit
+- main:
+  - paragraph: Insights
+  - heading "Notes on search, AI answers and growth." [level=1]
+  - paragraph: "The NativeCode SEO and AI search blog shares practical guidance from our client work: technical SEO, answer engine optimization, structured data, Shopify and ecommerce architecture, and the systems behind durable growth. NativeCode is an Atlanta-based digital marketing agency working with brands nationwide."
+  - link "Start a project":
+    - /url: /company/contact
+  - link "See services":
+    - /url: /#services
+  - link "All":
+    - /url: /blog
+  - list:
+    - listitem:
+      - link "Email and Lifecycle":
+        - /url: /blog-categories/email-marketing
+    - listitem:
+      - link "Paid Media":
+        - /url: /blog-categories/paid-media
+    - listitem:
+      - link "Ecommerce Operations":
+        - /url: /blog-categories/ecommerce-operations
+    - listitem:
+      - link "Ecommerce Growth":
+        - /url: /blog-categories/ecommerce-growth
+    - listitem:
+      - link "AI Search & AEO":
+        - /url: /blog-categories/ai-search-aeo
+    - listitem:
+      - link "SEO Foundations":
+        - /url: /blog-categories/seo-foundations
+  - list:
+    - listitem:
+      - 'link "Email and Lifecycle The Klaviyo Flows Every Shopify Store Needs, in the Order to Build Them Welcome, abandoned checkout, abandoned cart, browse abandonment, post-purchase and win-back: the Klaviyo trigger behind each flow, how many messages to start with, the order to build them, and the filters that keep them on target. November 3, 2026"':
+        - /url: /post/klaviyo-flows-shopify
+        - text: Email and Lifecycle
+        - heading "The Klaviyo Flows Every Shopify Store Needs, in the Order to Build Them" [level=2]
+        - text: "Welcome, abandoned checkout, abandoned cart, browse abandonment, post-purchase and win-back: the Klaviyo trigger behind each flow, how many messages to start with, the order to build them, and the filters that keep them on target. November 3, 2026"
+    - listitem:
+      - 'link "Paid Media Google Ads Conversion Tracking Setup: GA4, Enhanced Conversions and Offline Leads What to count as a conversion, why the Google Ads tag should drive bidding instead of imported GA4 key events, how enhanced conversions work after the 2026 changes, and how to send qualified leads and sales back to Google Ads. November 3, 2026"':
+        - /url: /post/google-ads-conversion-tracking-setup
+        - text: Paid Media
+        - 'heading "Google Ads Conversion Tracking Setup: GA4, Enhanced Conversions and Offline Leads" [level=2]'
+        - text: What to count as a conversion, why the Google Ads tag should drive bidding instead of imported GA4 key events, how enhanced conversions work after the 2026 changes, and how to send qualified leads and sales back to Google Ads. November 3, 2026
+    - listitem:
+      - link "Ecommerce Operations What Is EDI? A Plain-English Guide for Shopify Stores EDI lets your store and your suppliers exchange inventory, purchase orders, ship notices and invoices without manual entry. The documents that matter, how an order flows, how files travel, and how to tell when a Shopify store needs it. October 31, 2026":
+        - /url: /post/what-is-edi-guide-for-shopify-stores
+        - text: Ecommerce Operations
+        - heading "What Is EDI? A Plain-English Guide for Shopify Stores" [level=2]
+        - text: EDI lets your store and your suppliers exchange inventory, purchase orders, ship notices and invoices without manual entry. The documents that matter, how an order flows, how files travel, and how to tell when a Shopify store needs it. October 31, 2026
+    - listitem:
+      - link "AI Search & AEO How to Measure AI Visibility Without a Rank Tracker There is no rank tracker for AI answers, but frequency across a controlled sample is measurable. Building a fixed prompt panel, a three-level scoring rubric that separates entity problems from extraction problems, the controls that make it valid, and the metrics that mislead. September 1, 2026":
+        - /url: /post/how-to-measure-ai-visibility
+        - text: AI Search & AEO
+        - heading "How to Measure AI Visibility Without a Rank Tracker" [level=2]
+        - text: There is no rank tracker for AI answers, but frequency across a controlled sample is measurable. Building a fixed prompt panel, a three-level scoring rubric that separates entity problems from extraction problems, the controls that make it valid, and the metrics that mislead. September 1, 2026
+    - listitem:
+      - link "AI Search & AEO Wikipedia, Wikidata, and Entity Grounding AI systems resolve who you are before evaluating any page you publish. The four corroboration layers, why Wikidata is accessible and Wikipedia usually is not, the two failure modes to avoid, and what to do when a Wikipedia article is out of reach. September 1, 2026":
+        - /url: /post/wikipedia-wikidata-and-entity-grounding
+        - text: AI Search & AEO
+        - heading "Wikipedia, Wikidata, and Entity Grounding" [level=2]
+        - text: AI systems resolve who you are before evaluating any page you publish. The four corroboration layers, why Wikidata is accessible and Wikipedia usually is not, the two failure modes to avoid, and what to do when a Wikipedia article is out of reach. September 1, 2026
+    - listitem:
+      - 'link "AI Search & AEO llms.txt: What It Is, What It Isn''t, and Whether You Need One llms.txt is a community proposal, not a standard, and no major AI provider has committed to reading it. What the adoption data actually shows, the one layer where the file genuinely works, who should ship it, and how to test whether anything reads yours. September 1, 2026"':
+        - /url: /post/llms-txt-what-it-is-and-whether-you-need-one
+        - text: AI Search & AEO
+        - 'heading "llms.txt: What It Is, What It Isn''t, and Whether You Need One" [level=2]'
+        - text: llms.txt is a community proposal, not a standard, and no major AI provider has committed to reading it. What the adoption data actually shows, the one layer where the file genuinely works, who should ship it, and how to test whether anything reads yours. September 1, 2026
+    - listitem:
+      - link "AI Search & AEO Robots.txt and the AI Crawlers AI crawlers fall into three families (training, search and user-triggered), and blocking one does not do the job of another. A full user-agent reference table, four robots.txt configurations, the limits of the file, and how to verify what is actually crawling you. September 1, 2026":
+        - /url: /post/robots-txt-and-the-ai-crawlers
+        - text: AI Search & AEO
+        - heading "Robots.txt and the AI Crawlers" [level=2]
+        - text: AI crawlers fall into three families (training, search and user-triggered), and blocking one does not do the job of another. A full user-agent reference table, four robots.txt configurations, the limits of the file, and how to verify what is actually crawling you. September 1, 2026
+    - listitem:
+      - 'link "AI Search & AEO Schema Markup for AI Citation: Which Types Actually Matter Most schema types do nothing for AI citation. Four do specific jobs: entity grounding, attribution, and extraction boundaries. A priority table, working JSON-LD for each, the three failure modes, and a validation workflow that catches markup drift. September 1, 2026"':
+        - /url: /post/schema-markup-for-ai-citation
+        - text: AI Search & AEO
+        - 'heading "Schema Markup for AI Citation: Which Types Actually Matter" [level=2]'
+        - text: "Most schema types do nothing for AI citation. Four do specific jobs: entity grounding, attribution, and extraction boundaries. A priority table, working JSON-LD for each, the three failure modes, and a validation workflow that catches markup drift. September 1, 2026"
+    - listitem:
+      - link "AI Search & AEO Why Your FAQ Isn't Getting Quoted FAQ blocks are the most citation-ready format on the web and the most consistently wasted. Six failure patterns that keep FAQ answers out of AI results, with before-and-after rewrites, the fifteen-second extraction test, and matching FAQPage markup. September 1, 2026":
+        - /url: /post/why-your-faq-isnt-getting-quoted
+        - text: AI Search & AEO
+        - heading "Why Your FAQ Isn't Getting Quoted" [level=2]
+        - text: FAQ blocks are the most citation-ready format on the web and the most consistently wasted. Six failure patterns that keep FAQ answers out of AI results, with before-and-after rewrites, the fifteen-second extraction test, and matching FAQPage markup. September 1, 2026
+    - listitem:
+      - link "AI Search & AEO How to Structure a Page So an Answer Engine Can Quote It AI systems retrieve chunks, not pages, and your headings decide where those chunks begin and end. This guide covers the five structural moves that make a passage quotable, with before-and-after examples, a heading audit, and the limits of what structure can fix. September 1, 2026":
+        - /url: /post/how-to-structure-a-page-so-an-answer-engine-can-quote-it
+        - text: AI Search & AEO
+        - heading "How to Structure a Page So an Answer Engine Can Quote It" [level=2]
+        - text: AI systems retrieve chunks, not pages, and your headings decide where those chunks begin and end. This guide covers the five structural moves that make a passage quotable, with before-and-after examples, a heading audit, and the limits of what structure can fix. September 1, 2026
+    - listitem:
+      - link "AI Search & AEO What Answer Engine Optimization Actually Is Answer Engine Optimization is the practice of structuring a page so an AI system can extract a self-contained, attributed answer from it. This guide defines AEO precisely, maps the four gates between a page and a citation, and gives a 12-point checklist you can run today. September 1, 2026":
+        - /url: /post/what-answer-engine-optimization-actually-is
+        - text: AI Search & AEO
+        - heading "What Answer Engine Optimization Actually Is" [level=2]
+        - text: Answer Engine Optimization is the practice of structuring a page so an AI system can extract a self-contained, attributed answer from it. This guide defines AEO precisely, maps the four gates between a page and a citation, and gives a 12-point checklist you can run today. September 1, 2026
+    - listitem:
+      - 'link "AI Search & AEO Prompt Methodology for AI Visibility Optimization: Complete Guide AI discovery is now driven by prompts, not keywords, and AI systems decide which brands to recommend. Prompt methodology ensures your brand is clearly recognized, retrievable, and aligned with user intent. Companies that optimize for AI visibility will gain a major competitive advantage in discovery. February 26, 2026"':
+        - /url: /post/prompt-methodology-for-ai-visibility-optimization
+        - text: AI Search & AEO
+        - 'heading "Prompt Methodology for AI Visibility Optimization: Complete Guide" [level=2]'
+        - text: AI discovery is now driven by prompts, not keywords, and AI systems decide which brands to recommend. Prompt methodology ensures your brand is clearly recognized, retrievable, and aligned with user intent. Companies that optimize for AI visibility will gain a major competitive advantage in discovery. February 26, 2026
+    - listitem:
+      - 'link "AI Search & AEO How AI Overviews Choose Sources: Signal Breakdown for AI Search Visibility AI Overviews don''t rank pages, they select entities. Brands earn citation visibility through authority, credibility, structured content, semantic depth and knowledge graph alignment. Optimize for these signals and you won''t just rank. You''ll become part of the answer. February 21, 2026"':
+        - /url: /post/how-ai-overviews-choose-sources
+        - text: AI Search & AEO
+        - 'heading "How AI Overviews Choose Sources: Signal Breakdown for AI Search Visibility" [level=2]'
+        - text: AI Overviews don't rank pages, they select entities. Brands earn citation visibility through authority, credibility, structured content, semantic depth and knowledge graph alignment. Optimize for these signals and you won't just rank. You'll become part of the answer. February 21, 2026
+    - listitem:
+      - 'link "AI Search & AEO AI Search vs Traditional SEO: The Complete Structural Breakdown Search is shifting from ranking pages to retrieving trusted sources. This in-depth breakdown explores how AI search differs from traditional SEO, covering retrieval vs ranking, entities vs keywords, and why citation visibility is redefining digital authority. February 20, 2026"':
+        - /url: /post/ai-search-vs-traditional-seo-the-complete-structural-breakdown
+        - text: AI Search & AEO
+        - 'heading "AI Search vs Traditional SEO: The Complete Structural Breakdown" [level=2]'
+        - text: Search is shifting from ranking pages to retrieving trusted sources. This in-depth breakdown explores how AI search differs from traditional SEO, covering retrieval vs ranking, entities vs keywords, and why citation visibility is redefining digital authority. February 20, 2026
+    - listitem:
+      - link "AI Search & AEO The Evolution from SEO to AI Discovery Strategy Traditional SEO focused on keywords and rankings. AI Discovery Strategy prioritizes entity authority, structured data, and visibility across search engines and AI platforms, ensuring brands are cited, recommended, and represented in modern decision environments. February 8, 2026":
+        - /url: /post/evolution-seo-to-ai-discovery-strategy
+        - text: AI Search & AEO
+        - heading "The Evolution from SEO to AI Discovery Strategy" [level=2]
+        - text: Traditional SEO focused on keywords and rankings. AI Discovery Strategy prioritizes entity authority, structured data, and visibility across search engines and AI platforms, ensuring brands are cited, recommended, and represented in modern decision environments. February 8, 2026
+    - listitem:
+      - 'link "AI Search & AEO The New Era of Digital Discovery: Growth Architecture and AI Search Visibility Explained Artificial intelligence is transforming how users discover brands online. This guide explains how growth architecture helps businesses build authority across search engines and AI-driven discovery platforms. February 7, 2026"':
+        - /url: /post/growth-architecture-ai-search-visibility
+        - text: AI Search & AEO
+        - 'heading "The New Era of Digital Discovery: Growth Architecture and AI Search Visibility Explained" [level=2]'
+        - text: Artificial intelligence is transforming how users discover brands online. This guide explains how growth architecture helps businesses build authority across search engines and AI-driven discovery platforms. February 7, 2026
+    - listitem:
+      - link "Ecommerce Growth Scaling Categories Without Killing Search Performance Scaling ecommerce collections can increase revenue but often harms SEO when expansion lacks structured taxonomy and search governance. Learn how to grow catalogs safely using search architecture, crawl optimization, and AI discovery strategies. February 2, 2026":
+        - /url: /post/scaling-categories-without-killing-search-performance
+        - text: Ecommerce Growth
+        - heading "Scaling Categories Without Killing Search Performance" [level=2]
+        - text: Scaling ecommerce collections can increase revenue but often harms SEO when expansion lacks structured taxonomy and search governance. Learn how to grow catalogs safely using search architecture, crawl optimization, and AI discovery strategies. February 2, 2026
+    - listitem:
+      - link "AI Search & AEO How AI Search Is Changing What “Ranking” Really Means Artificial intelligence is transforming how search engines evaluate and surface digital content. This guide explains how AI-driven discovery is shifting SEO from page rankings to authority, entity trust, and structured knowledge ecosystems. February 2, 2026":
+        - /url: /post/how-ai-search-is-changing-what-ranking-really-means
+        - text: AI Search & AEO
+        - heading "How AI Search Is Changing What “Ranking” Really Means" [level=2]
+        - text: Artificial intelligence is transforming how search engines evaluate and surface digital content. This guide explains how AI-driven discovery is shifting SEO from page rankings to authority, entity trust, and structured knowledge ecosystems. February 2, 2026
+    - listitem:
+      - link "SEO Foundations Why Most Websites Stop Growing After Year One Many websites see strong early organic growth but plateau as structural SEO limitations emerge. This guide explains how scalable architecture and entity-driven content sustain long-term search and AI discovery growth. February 2, 2026":
+        - /url: /post/why-most-websites-stop-growing-after-year-one
+        - text: SEO Foundations
+        - heading "Why Most Websites Stop Growing After Year One" [level=2]
+        - text: Many websites see strong early organic growth but plateau as structural SEO limitations emerge. This guide explains how scalable architecture and entity-driven content sustain long-term search and AI discovery growth. February 2, 2026
+- contentinfo:
+  - link "NativeCode.":
+    - /url: /
+  - paragraph: "Full-service digital marketing agency: SEO and AI search, websites, paid media and growth. Atlanta-based, serving companies nationwide."
+  - paragraph: Office
+  - paragraph: 6350 McDonough Drive, Ste F Norcross, GA 30093
+  - link "(800) 618-6053":
+    - /url: tel:+18006186053
+  - link "hello@nativecode.ai":
+    - /url: mailto:hello@nativecode.ai
+  - link "Get a free audit":
+    - /url: /#audit
+  - paragraph: SEO and AI search
+  - link "SEO services":
+    - /url: /services/seo
+  - link "AI SEO":
+    - /url: /services/ai-seo
+  - link "Technical SEO":
+    - /url: /services/technical-seo
+  - link "Schema markup":
+    - /url: /services/schema-markup
+  - link "Local SEO":
+    - /url: /services/local-seo
+  - link "National SEO":
+    - /url: /services/national-seo
+  - link "Enterprise SEO":
+    - /url: /services/enterprise-seo
+  - link "SEO consulting":
+    - /url: /services/seo-consulting
+  - link "Link building":
+    - /url: /services/link-building
+  - link "Content marketing":
+    - /url: /services/content-marketing
+  - link "SEO audit":
+    - /url: /services/seo-audit
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Web and ecommerce
+  - link "Web design":
+    - /url: /services/web-design
+  - link "Webflow development":
+    - /url: /services/webflow-development
+  - link "Shopify development":
+    - /url: /services/shopify-development
+  - link "Shopify Plus agency":
+    - /url: /services/shopify-plus-agency
+  - link "Ecommerce web design":
+    - /url: /services/ecommerce-web-design
+  - link "Shopify SEO":
+    - /url: /services/shopify-seo
+  - link "Shopify migration":
+    - /url: /services/shopify-migration
+  - link "WordPress SEO":
+    - /url: /services/wordpress-seo
+  - link "Custom development":
+    - /url: /services/custom-web-development
+  - link "EDI integration":
+    - /url: /services/edi-integration
+  - link "Marketplace management":
+    - /url: /services/marketplace-management
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Growth
+  - link "Google Ads management":
+    - /url: /services/google-ads-management
+  - link "Google Shopping ads":
+    - /url: /services/google-shopping-ads
+  - link "Facebook advertising":
+    - /url: /services/facebook-advertising
+  - link "TikTok advertising":
+    - /url: /services/tiktok-advertising
+  - link "LinkedIn advertising":
+    - /url: /services/linkedin-advertising
+  - link "PPC management":
+    - /url: /services/ppc-management
+  - link "Email marketing":
+    - /url: /services/email-marketing
+  - link "Klaviyo agency":
+    - /url: /services/klaviyo-agency
+  - link "Conversion optimization":
+    - /url: /services/conversion-rate-optimization
+  - link "GA4 and analytics":
+    - /url: /services/ga4-analytics
+  - link "Video production":
+    - /url: /services/video-production
+  - link "Interactive tools":
+    - /url: /services/interactive-tools-apps
+  - link "Partner marketing":
+    - /url: /services/growth-partner-marketing
+  - link "All services →":
+    - /url: /digital-marketing-services
+  - paragraph: Industries
+  - link "Ecommerce":
+    - /url: /industries/ecommerce-seo
+  - link "SaaS":
+    - /url: /industries/saas-seo
+  - link "Healthcare":
+    - /url: /industries/healthcare-seo
+  - link "Law firms":
+    - /url: /industries/law-firm-seo
+  - link "Financial services":
+    - /url: /industries/financial-services-seo
+  - link "Real estate":
+    - /url: /industries/real-estate-seo
+  - link "Home services":
+    - /url: /industries/home-services-seo
+  - link "All industries →":
+    - /url: /industries-we-serve
+  - paragraph: Locations
+  - link "Atlanta SEO":
+    - /url: /locations/atlanta-seo-agency
+  - link "Atlanta web design":
+    - /url: /locations/atlanta-web-design-company
+  - link "Alpharetta":
+    - /url: /locations/alpharetta-seo-company
+  - link "Marietta":
+    - /url: /locations/marietta-seo-company
+  - link "Sandy Springs":
+    - /url: /locations/sandy-springs-seo-company
+  - link "Roswell":
+    - /url: /locations/roswell-seo-company
+  - link "Duluth":
+    - /url: /locations/duluth-seo-company
+  - link "Decatur":
+    - /url: /locations/decatur-seo-company
+  - link "All 50 states →":
+    - /url: /services/local-seo#states
+  - paragraph: Company
+  - link "About":
+    - /url: /company/about
+  - link "Work":
+    - /url: /company/case-study
+  - link "Insights":
+    - /url: /blog
+  - link "Careers":
+    - /url: /company/career
+  - link "Contact":
+    - /url: /company/contact
+  - link "Free SEO audit tool":
+    - /url: https://app.nativecode.ai
+  - link "AI search checklist":
+    - /url: /ai-search-optimization-checklist
+  - link "RFP template":
+    - /url: /digital-marketing-rfp-template
+  - link "GEO toolkit (open source)":
+    - /url: https://nativecodeai.github.io/nativecode-geo/
+  - paragraph: © 2026 NativeCode. Atlanta-based, serving nationwide.
+  - link "Security":
+    - /url: /security
+  - link "Privacy":
+    - /url: /utility/privacy-policy
+  - link "Terms":
+    - /url: /utility/terms-and-condition
+  - link "Back to top ↑":
+    - /url: "#site-map"
